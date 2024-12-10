@@ -1,0 +1,814 @@
+,code,name,name_jp,type,type_jp,address,postal_code,phone,state,state_jp,latitude,longitude,found,faculty_count,department_count,has_grad,has_remote,review_rating,review_count,difficulty_SD,difficulty_rank
+0,F101110100010,Hokkaido University,北海道大学,National,国立,北海道札幌市北区北8条西5丁目,060－0808,011－716－2111,Hokkai Do,北海道,43.070446,141.347153,1876-08,33,78,True,False,4.16,1389.0,60.4,A
+1,F101110100029,Hokkaido University of Education,北海道教育大学,National,国立,北海道札幌市北区あいの里5条3－1－3,002－8501,011－778－0206,Hokkai Do,北海道,43.170498,141.393753,1943-04,3,8,True,False,3.79,544.0,47.1,D
+2,F101110100038,Muroran Institute of Technology,室蘭工業大学,National,国立,北海道室蘭市水元町27－1,050－8585,0143－46－5000,Hokkai Do,北海道,42.378716,141.034042,1897-05,3,10,True,False,3.66,126.0,39.0,F
+3,F101110100047,Otaru University of Commerce,小樽商科大学,National,国立,北海道小樽市緑3－5－21,047－8501,0134－27－5206,Hokkai Do,北海道,43.190952,140.97937,1910-03,2,6,True,False,3.8,257.0,50.0,C
+4,F101110100056,Obihiro University of Agriculture And Veterinary Medicine,帯広畜産大学,National,国立,北海道帯広市稲田町西2線11,080－8555,0155－49－5216,Hokkai Do,北海道,42.872356,143.177979,1941-04,3,5,True,False,4.2,87.0,54.5,B
+5,F101110100074,Asahikawa Medical University,旭川医科大学,National,国立,北海道旭川市緑が丘東2条1－1－1,078－8510,0166－65－2111,Hokkai Do,北海道,43.730633,142.381897,1973-09,2,4,True,False,3.93,76.0,56.8,B
+6,F101110100065,Kitami Institute of Technology,北見工業大学,National,国立,北海道北見市公園町165,090－8507,0157－26－9113,Hokkai Do,北海道,43.822479,143.905716,1960-04,2,6,True,False,3.66,106.0,39.5,E
+7,F102110100572,Hirosaki University,弘前大学,National,国立,青森県弘前市文京町1,036－8560,0172－36－2111,Aomori Ken,青森県,40.587959,140.472061,1920-11,13,29,True,False,3.84,546.0,48.0,D
+8,F103110100731,Iwate University,岩手大学,National,国立,岩手県盛岡市上田3－18－8,020－8550,019－621－6006,Iwate Ken,岩手県,39.712715,141.137711,1902-03,9,24,True,False,3.89,435.0,46.0,D
+9,F104110100856,Tohoku University,東北大学,National,国立,宮城県仙台市青葉区片平2－1－1,980－8577,022－717－7800,Miyagi Ken,宮城県,38.252632,140.873932,1886-04,25,78,True,False,4.18,1213.0,60.3,A
+10,F104110100865,Miyagi University of Education,宮城教育大学,National,国立,宮城県仙台市青葉区荒巻字青葉149,980－0845,022－214－3417,Miyagi Ken,宮城県,38.258968,140.830948,1965-04,2,4,True,False,3.95,182.0,45.4,D
+11,F105110101051,Akita University,秋田大学,National,国立,秋田県秋田市手形学園町1－1,010－8502,018－889－2207,Akita Ken,秋田県,39.726997,140.134094,1910-03,8,25,True,False,3.8,367.0,47.1,D
+12,F106110101176,Yamagata University,山形大学,National,国立,山形県山形市小白川町1－4－12,990－8560,023－628－4006,Yamagata Ken,山形県,38.246128,140.349655,1910-03,15,41,True,False,3.76,553.0,47.2,D
+13,F107110101273,Fukushima University,福島大学,National,国立,福島県福島市金谷川1,960－1296,024－548－5151,Fukushima Ken,福島県,37.682877,140.454041,1921-12,7,13,True,False,3.72,367.0,40.6,E
+14,F108110101414,Ibaraki University,茨城大学,National,国立,茨城県水戸市文京2－1－1,310－8512,029－228－8111,Ibaraki Ken,茨城県,36.401237,140.442764,1920-04,11,39,True,False,3.81,548.0,48.7,D
+15,F108110101423,University of Tsukuba,筑波大学,National,国立,茨城県つくば市天王台1－1－1,305－8577,029－853－2111,Ibaraki Ken,茨城県,36.108723,140.100632,1973-10,20,97,True,False,4.17,1121.0,60.4,A
+16,F108110101432,Tsukuba University of Technology,筑波技術大学,National,国立,茨城県つくば市天久保4－3－15,305－8520,029－852－2931,Ibaraki Ken,茨城県,36.10537,140.110474,1987-10,3,7,True,False,4.12,22.0,35.7,F
+17,F109110101556,Utsunomiya University,宇都宮大学,National,国立,栃木県宇都宮市峰町350,321－8505,028－649－8172,Tochigi Ken,栃木県,36.550312,139.914886,1922-10,9,18,True,False,3.95,313.0,50.9,C
+18,F110110101713,Gunma University,群馬大学,National,国立,群馬県前橋市荒牧町4－2,371－8510,027－220－7111,Gunma Ken,群馬県,36.430313,139.045197,1915-12,11,20,True,False,3.88,431.0,52.5,C
+19,F111110101945,Saitama University,埼玉大学,National,国立,埼玉県さいたま市桜区下大久保255,338－8570,048－858－3005,Saitama Ken,埼玉県,35.862579,139.608246,1921-11,10,43,True,False,3.88,784.0,53.0,C
+20,F112110102337,Chiba University,千葉大学,National,国立,千葉県千葉市稲毛区弥生町1－33,263－8522,043－251－1111,Chiba Ken,千葉県,35.625977,140.103653,1921-12,17,38,True,False,4.07,1088.0,58.1,B
+21,F113110102700,The University of Tokyo,東京大学,National,国立,東京都文京区本郷7－3－1,113－8654,03－3812－2111,Tokyo To,東京都,35.714146,139.763214,1877-04,25,132,True,False,4.34,2206.0,70.5,S
+22,F113110102719,Tokyo Medical And Dental University,東京医科歯科大学,National,国立,東京都文京区湯島1－5－45,113－8510,03－3813－6111,Tokyo To,東京都,35.701828,139.765274,1928-10,4,12,True,False,4.23,158.0,60.6,A
+23,F113110102728,Tokyo University of Foreign Studies,東京外国語大学,National,国立,東京都府中市朝日町3－11－1,183－8534,042－330－5111,Tokyo To,東京都,35.672707,139.521042,1899-04,4,6,True,False,4.19,404.0,63.7,A
+24,F113110102764,Tokyo Gakugei University,東京学芸大学,National,国立,東京都小金井市貫井北町4－1－1,184－8501,042－329－7111,Tokyo To,東京都,35.706203,139.49176,1943-04,4,10,True,False,4.08,584.0,54.5,B
+25,F113110102773,Tokyo University of Agriculture And Technology,東京農工大学,National,国立,東京都府中市晴見町3－8－1,183－8538,042－367－5504,Tokyo To,東京都,35.683945,139.478668,1914-04,6,43,True,False,4.0,374.0,56.8,B
+26,F113110102737,Tokyo University of The Arts,東京芸術大学,National,国立,東京都台東区上野公園12－8,110－8714,050－5525－2013,Tokyo To,東京都,35.719269,139.772217,1887-10,7,38,True,False,4.25,176.0,54.2,B
+27,F113110102746,Tokyo Institute of Technology,東京工業大学,National,国立,東京都目黒区大岡山2－12－1,152－8550,03－3726－1111,Tokyo To,東京都,35.606895,139.684875,1881-05,12,12,True,False,4.25,433.0,65.0,S
+28,F113110102817,Tokyo University of Marine Science And Technology,東京海洋大学,National,国立,東京都港区港南4－5－7,108－8477,03－5463－0400,Tokyo To,東京都,35.626247,139.746521,1875-11,6,20,True,False,4.16,187.0,53.1,C
+29,F113110102755,Ochanomizu University,お茶の水女子大学,National,国立,東京都文京区大塚2－1－1,112－8610,03－5978－5106,Tokyo To,東京都,35.71973,139.733475,1874-03,4,20,True,False,4.3,396.0,60.6,A
+30,F113110102782,The University of Electro - Communications,電気通信大学,National,国立,東京都調布市調布ヶ丘1－5－1,182－8585,042－443－5000,Tokyo To,東京都,35.657433,139.544327,1942-04,2,9,True,False,3.92,169.0,57.0,B
+31,F113110102791,Hitotsubashi University,一橋大学,National,国立,東京都国立市中2－1,186－8601,042－580－8000,Tokyo To,東京都,35.694389,139.443649,1920-04,10,15,True,False,4.26,432.0,67.9,S
+32,F114110104592,Yokohama National University,横浜国立大学,National,国立,神奈川県横浜市保土ケ谷区常盤台79－1,240－8501,045－339－3014,Kanagawa Ken,神奈川県,35.476898,139.591476,1920-01,13,42,True,False,3.9,683.0,60.8,A
+33,F115110105046,Niigata University,新潟大学,National,国立,新潟県新潟市西区五十嵐二の町8050,950－2181,025－223－6161,Niigata Ken,新潟県,37.867237,138.943573,1919-04,17,48,True,False,3.86,887.0,49.7,C
+34,F115110105055,Nagaoka University of Technology,長岡技術科学大学,National,国立,新潟県長岡市上富岡町1603－1,940－2188,0258－46－6000,Niigata Ken,新潟県,37.424774,138.778793,1976-10,2,11,True,False,3.95,65.0,43.0,E
+35,F115110105064,Joetsu University of Education,上越教育大学,National,国立,新潟県上越市山屋敷町1番地,943－8512,025－522－2411,Niigata Ken,新潟県,37.134945,138.22644,1978-10,2,3,True,False,4.09,73.0,51.0,C
+36,F116110105312,University of Toyama,富山大学,National,国立,富山県富山市五福3190,930－8555,076－445－6011,Toyama Ken,富山県,36.699642,137.187057,1920-12,21,56,True,False,3.81,624.0,50.8,C
+37,F117110105393,Kanazawa University,金沢大学,National,国立,石川県金沢市角間町,920－1192,076－264－5111,Ishikawa Ken,石川県,36.545948,136.709442,1894-09,12,48,True,False,3.76,734.0,53.3,C
+38,F118110105597,University of Fukui,福井大学,National,国立,福井県福井市文京3丁目9番1号,910－8507,0776－23－0500,Fukui Ken,福井県,36.074238,136.212402,1923-12,10,25,True,False,3.83,258.0,50.6,C
+39,F119110105676,University of Yamanashi,山梨大学,National,国立,山梨県甲府市武田4－4－37,400－8510,055－220－8004,Yamanashi Ken,山梨県,35.678509,138.57341,1924-09,7,23,True,False,3.82,252.0,48.4,D
+40,F120110105771,Shinshu University,信州大学,National,国立,長野県松本市旭3－1－1,390－8621,0263－35－4600,Nagano Ken,長野県,36.249428,137.978943,1910-03,13,29,True,False,3.93,767.0,51.5,C
+41,F121110105976,Gifu University,岐阜大学,National,国立,岐阜県岐阜市柳戸1－1,501－1193,058－230－1111,Gifu Ken,岐阜県,35.46553,136.737625,1923-12,14,38,True,False,3.93,596.0,53.0,C
+42,F122110106224,National University Corporation Shizuoka University,静岡大学,National,国立,静岡県静岡市駿河区大谷836,422－8529,054－237－1111,Shizuoka Ken,静岡県,34.966625,138.431412,1922-08,11,35,True,False,3.94,703.0,51.3,C
+43,F122110106233,Hamamatsu University School of Medicine,浜松医科大学,National,国立,静岡県浜松市東区半田山1－20－1,431－3192,053－435－2111,Shizuoka Ken,静岡県,34.76965,137.74408,1974-06,2,5,True,False,3.89,66.0,64.4,S
+44,F123110106429,Nagoya University,名古屋大学,National,国立,愛知県名古屋市千種区不老町,464－8601,052－789－2012,Aichi Ken,愛知県,35.155655,136.964676,1908-04,22,77,True,False,4.22,1281.0,59.6,A
+45,F123110106447,Aichi University of Education,愛知教育大学,National,国立,愛知県刈谷市井ケ谷町広沢1,448－8542,0566－26－2111,Aichi Ken,愛知県,35.051189,137.049667,1943-04,3,6,True,False,3.87,541.0,51.0,C
+46,F123110106438,Nagoya Institute of Technology,名古屋工業大学,National,国立,愛知県名古屋市昭和区御器所町,466－8555,052－732－2111,Aichi Ken,愛知県,35.156868,136.925232,1905-03,2,11,True,False,4.01,294.0,57.3,B
+47,F123110106456,Toyohashi University of Technology,豊橋技術科学大学,National,国立,愛知県豊橋市天伯町雲雀ケ丘1－1,441－8580,0532－47－0111,Aichi Ken,愛知県,34.70142,137.408173,1976-10,2,10,True,False,3.87,63.0,53.0,C
+48,F124110107141,Mie University,三重大学,National,国立,三重県津市栗真町屋町1577,514－8507,059－232－1211,Mie Ken,三重県,34.745785,136.523224,1921-12,11,35,True,False,3.94,616.0,52.0,C
+49,F125110107284,Shiga University,滋賀大学,National,国立,滋賀県彦根市馬場1－1－1,522－8522,0749－27－1005,Shiga Ken,滋賀県,35.278313,136.247208,1922-10,7,16,True,False,3.83,343.0,51.7,C
+50,F125110107293,Shiga University of Medical Science,滋賀医科大学,National,国立,滋賀県大津市瀬田月輪町,520－2192,077－548－2111,Shiga Ken,滋賀県,34.974438,135.946915,1974-10,2,4,True,False,3.88,61.0,60.3,A
+51,F126110107407,Kyoto University,京都大学,National,国立,京都府京都市左京区吉田本町,606－8501,075－753－7531,Kyoto Fu,京都府,35.026962,135.781967,1886-04,28,94,True,False,4.2,1434.0,65.6,S
+52,F126110107416,Kyoto University of Education,京都教育大学,National,国立,京都府京都市伏見区深草藤森町1,612－8522,075－644－8106,Kyoto Fu,京都府,34.951603,135.773636,1943-04,4,6,True,False,3.99,178.0,51.6,C
+53,F126110107425,Kyoto Institute of Technology,京都工芸繊維大学,National,国立,京都府京都市左京区松ケ崎橋上町,606－8585,075－724－7014,Kyoto Fu,京都府,35.049767,135.78334,1899-06,2,24,True,False,4.04,215.0,56.4,B
+54,F127110107852,Osaka University,大阪大学,National,国立,大阪府吹田市山田丘1－1,565－0871,06－6877－5111,Osaka Fu,大阪府,34.819496,135.521164,1917-04,26,75,True,False,4.12,1840.0,61.3,A
+55,F127110107861,Osaka Kyoiku University,大阪教育大学,National,国立,大阪府柏原市旭ケ丘4－698－1,582－8582,072－976－3211,Osaka Fu,大阪府,34.552101,135.64679,1943-04,6,17,True,False,3.99,566.0,52.2,C
+56,F128110108663,Hyogo University of Teacher Education,兵庫教育大学,National,国立,兵庫県加東市下久米942－1,673－1494,0795－44－2010,Hyogo Ken,兵庫県,34.912304,135.016373,1978-10,3,7,True,False,3.83,84.0,53.5,C
+57,F128110108654,Kobe University,神戸大学,National,国立,兵庫県神戸市灘区六甲台町1－1,657－8501,078－881－1212,Hyogo Ken,兵庫県,34.726303,135.23613,1902-03,28,69,True,False,3.99,1344.0,60.8,A
+58,F129110109206,Nara University of Education,奈良教育大学,National,国立,奈良県奈良市高畑町,630－8528,0742－27－9105,Nara Ken,奈良県,34.675354,135.847336,1943-04,2,3,True,False,3.91,147.0,51.7,C
+59,F129110109215,Nara Women’s University,奈良女子大学,National,国立,奈良県奈良市北魚屋東町,630－8506,0742－20－3204,Nara Ken,奈良県,34.688999,135.830185,1908-04,5,25,True,False,4.06,347.0,55.2,B
+60,F130110109356,Wakayama University,和歌山大学,National,国立,和歌山県和歌山市栄谷930,640－8510,073－457－7007,Wakayama Ken,和歌山県,34.266689,135.151962,1922-10,8,10,True,False,3.86,386.0,50.3,C
+61,F131110109417,Tottori University,鳥取大学,National,国立,鳥取県鳥取市湖山町南4－101,680－8550,0857－31－5007,Tottori Ken,鳥取県,35.515392,134.17305,1920-11,9,20,True,False,3.83,393.0,50.6,C
+62,F132110109461,Shimane University,島根大学,National,国立,島根県松江市西川津町1060,690－8504,0852－32－6100,Shimane Ken,島根県,35.486992,133.068192,1920-11,12,31,True,False,3.84,339.0,48.1,D
+63,F133110109503,Okayama University,岡山大学,National,国立,岡山県岡山市北区津島中1－1－1,700－8530,086－252－1111,Okayama Ken,岡山県,34.686493,133.917404,1900-03,21,67,True,False,4.02,1084.0,53.4,C
+64,F134110109780,Hiroshima University,広島大学,National,国立,広島県東広島市鏡山1－3－2,739－8511,082－422－7111,Hiroshima Ken,広島県,34.400768,132.713654,1902-04,17,39,True,False,4.04,1136.0,54.2,B
+65,F135110110054,Yamaguchi University,山口大学,National,国立,山口県山口市吉田1677－1,753－8511,083－933－5000,Yamaguchi Ken,山口県,34.147755,131.467514,1905-04,18,47,True,False,3.83,717.0,49.7,C
+66,F136110110231,Tokushima University,徳島大学,National,国立,徳島県徳島市新蔵町2－24,770－8501,088－656－7000,Tokushima Ken,徳島県,34.069912,134.55983,1922-10,12,23,True,False,3.81,388.0,49.7,C
+67,F136110110240,Naruto University of Education,鳴門教育大学,National,国立,徳島県鳴門市鳴門町高島字中島748,772－8502,088－687－6000,Tokushima Ken,徳島県,34.203056,134.605515,1981-10,2,3,True,False,4.16,35.0,50.2,C
+68,F137110110310,Kagawa University,香川大学,National,国立,香川県高松市幸町1－1,760－8521,087－832－1000,Kagawa Ken,香川県,34.343601,134.038727,1923-12,12,22,True,False,3.89,432.0,50.9,C
+69,F138110110382,Ehime University,愛媛大学,National,国立,愛媛県松山市道後樋又10－13,790－8577,089－927－9000,Ehime Ken,愛媛県,33.852291,132.773804,1919-04,13,30,True,False,3.93,673.0,48.7,D
+70,F139110110504,Kochi University,高知大学,National,国立,高知県高知市曙町2－5－1,780－8520,088－844－0111,Kochi Ken,高知県,33.550621,133.488892,1922-08,10,31,True,False,3.98,360.0,48.7,D
+71,F140110110583,University of Teacher Education Fukuoka,福岡教育大学,National,国立,福岡県宗像市赤間文教町1－1,811－4192,0940－35－1200,Fukuoka Ken,福岡県,33.812565,130.593628,1943-04,3,6,True,False,3.86,297.0,50.4,C
+72,F140110110592,Kyushu University,九州大学,National,国立,福岡県福岡市西区元岡744,819－0395,092－802－2125,Fukuoka Ken,福岡県,33.597153,130.223312,1910-12,30,105,True,False,4.04,1057.0,59.1,A
+73,F140110110574,Kyushu Institute of Technology,九州工業大学,National,国立,福岡県北九州市戸畑区仙水町1－1,804－8550,093－884－3000,Fukuoka Ken,福岡県,33.891369,130.838516,1907-07,5,16,True,False,3.83,277.0,52.5,C
+74,F141110111135,Saga University,佐賀大学,National,国立,佐賀県佐賀市本庄町1,840－8502,0952－28－8113,Saga Ken,佐賀県,33.224899,130.288223,1920-04,13,17,True,False,3.82,419.0,50.4,C
+75,F142110111189,Nagasaki University,長崎大学,National,国立,長崎県長崎市文教町1－14,852－8521,095－819－2016,Nagasaki Ken,長崎県,32.785553,129.862564,1905-03,17,31,True,False,3.88,554.0,50.1,C
+76,F143110111295,Kumamoto University,熊本大学,National,国立,熊本県熊本市中央区黒髪2－39－1,860－8555,096－344－2111,Kumamoto Ken,熊本県,32.81321,130.727722,1887-05,15,45,True,False,3.93,618.0,52.0,C
+77,F144110111418,Oita University,大分大学,National,国立,大分県大分市大字旦野原700,870－1192,097－569－3311,Oita Ken,大分県,33.174316,131.612869,1921-12,12,27,True,False,3.89,429.0,50.3,C
+78,F145110111523,University of Miyazaki,宮崎大学,National,国立,宮崎県宮崎市学園木花台西1－1,889－2192,0985－58－7111,Miyazaki Ken,宮崎県,31.828053,131.414993,1943-04,13,31,True,False,3.92,354.0,50.4,C
+79,F146110111620,Kagoshima University,鹿児島大学,National,国立,鹿児島県鹿児島市郡元1－21－24,890－8580,099－285－7111,Kagoshima Ken,鹿児島県,31.572577,130.546463,1901-03,20,69,True,False,4.02,706.0,48.3,D
+80,F146110111639,National Institute of Fitness And Sports In Kanoya,鹿屋体育大学,National,国立,鹿児島県鹿屋市白水町1,891－2393,0994－46－4111,Kagoshima Ken,鹿児島県,31.395185,130.78717,1981-10,2,6,True,False,4.05,55.0,49.0,D
+81,F147110111736,University of The Ryukyus,琉球大学,National,国立,沖縄県中頭郡西原町字千原1,903－0213,098-895-8012,Okinawa Ken,沖縄県,26.24585,127.758453,1950-05,15,37,True,False,3.91,499.0,46.1,D
+82,F113110102808,National Graduate Institute For Policy Studies,政策研究大学院大学,National,国立,東京都港区六本木7－22－1,106－8677,03－6439－6000,Tokyo To,東京都,35.664024,139.726776,1997-10,1,1,True,False,5.0,1.0,,
+83,F114110104609,"The Graduate University for Advanced Studies, SOKENDAI",総合研究大学院大学,National,国立,神奈川県三浦郡葉山町（湘南国際村）,240－0193,046－858－1500,Kanagawa Ken,神奈川県,35.272079,139.586166,1988-10,6,20,True,False,4.58,9.0,,
+84,F117110105400,Japan Advanced Institute of Science And Technology,北陸先端科学技術大学院大学,National,国立,石川県能美市旭台1－1,923－1292,0761－51－1111,Ishikawa Ken,石川県,36.442867,136.59256,1990-10,1,2,True,False,3.58,3.0,,
+85,F129110109224,Nara Institute of Science And Technology,奈良先端科学技術大学院大学,National,国立,奈良県生駒市高山町8916－5,630－0192,0743－72－5111,Nara Ken,奈良県,34.735664,135.731369,1991-10,1,1,True,False,4.12,35.0,,
+86,F101210100081,Sapporo Medical University,札幌医科大学,Public,公立,北海道札幌市中央区南1条西17丁目,060－8556,011－611－2111,Hokkai Do,北海道,43.056129,141.331436,1945-04,5,12,True,False,4.09,134.0,55.4,B
+87,F101210100090,Future University Hakodate,公立はこだて未来大学,Public,公立,北海道函館市亀田中野町116－2,041－8655,0138－34－6448,Hokkai Do,北海道,41.841949,140.766815,1999-12,2,3,True,False,4.01,54.0,43.5,E
+88,F101210100107,Kushiro Public University of Economics,釧路公立大学,Public,公立,北海道釧路市芦野4－1－1,085－8585,0154－37－3211,Hokkai Do,北海道,43.018459,144.393768,1987-12,1,2,False,False,3.47,109.0,40.0,E
+89,F101210100116,Nayoro City University,名寄市立大学,Public,公立,北海道名寄市西4条北8丁目1,096－8641,01654－2－4194,Hokkai Do,北海道,44.364567,142.458801,2005-12,1,4,False,False,4.05,59.0,49.5,C
+90,F101210100125,SAPPORO CITY UNIVERSITY,札幌市立大学,Public,公立,北海道札幌市南区芸術の森1丁目,005－0864,011－592－2300,Hokkai Do,北海道,42.944695,141.341125,2005-12,5,5,True,False,3.94,106.0,50.5,C
+91,F101210100134,Chitose Institute of Science And Technology,公立千歳科学技術大学,Public,公立,北海道千歳市美々758－65,066－8655,0123－27－6001,Hokkai Do,北海道,42.787975,141.699905,1997-12,2,4,True,False,3.89,35.0,46.5,D
+92,F102210100589,Aomori Public University,青森公立大学,Public,公立,青森県青森市大字合子沢字山崎153－4,030－0196,017－764－1555,Aomori Ken,青森県,40.754196,140.769241,1992-12,2,4,True,False,3.8,138.0,43.6,E
+93,F102210100598,Aomori University of Health And Welfare,青森県立保健大学,Public,公立,青森県青森市大字浜館字間瀬58－1,030－8505,017－765－2000,Aomori Ken,青森県,40.814526,140.792755,1998-12,2,5,True,False,4.26,112.0,48.5,D
+94,F103210100748,Iwate Prefectural University,岩手県立大学,Public,公立,岩手県滝沢市巣子152－52,020－0693,019－694－2000,Iwate Ken,岩手県,39.799114,141.131531,1998-04,8,9,True,False,3.95,179.0,49.3,C
+95,F104210100872,Miyagi Akita Prefectural University,宮城大学,Public,公立,宮城県黒川郡大和町学苑1－1,981－3298,022－377－8205,Miyagi Ken,宮城県,38.3489,140.840469,1996-12,6,9,True,False,3.8,211.0,44.5,D
+96,F105210101068,Akita Prefectural University,秋田県立大学,Public,公立,秋田県秋田市下新城中野字街道端西241－438,010－0195,018－872－1500,Akita Ken,秋田県,39.804924,140.047287,1998-12,4,13,True,False,3.93,121.0,40.9,E
+97,F105210101077,Akita International University,国際教養大学,Public,公立,秋田県秋田市雄和椿川字奥椿岱,010－1292,018－886－5900,Akita Ken,秋田県,39.62706,140.181107,2004-04,2,4,True,False,4.18,100.0,69.7,S
+98,F105210101086,Akita University of Art,秋田公立美術大学,Public,公立,秋田県秋田市新屋大川町12－3,010－1632,018－888－8100,Akita Ken,秋田県,39.685692,140.090866,2012-11,2,2,True,False,3.75,27.0,46.5,D
+99,F106210101183,Yamagata Prefectural University of Health Sciences,山形県立保健医療大学,Public,公立,山形県山形市上柳260,990－2212,023－686－6611,Yamagata Ken,山形県,38.296722,140.346436,1999-12,2,4,True,False,4.03,44.0,,
+100,F106210101192,Yamagata Prefectural Yonezawa University of Nutrition Sciences,山形県立米沢栄養大学,Public,公立,山形県米沢市通町6－15－1,992－0025,0238－22－7330,Yamagata Ken,山形県,37.891335,140.124496,2013-10,2,2,True,False,3.9,10.0,46.0,D
+101,F107210101280,Fukushima Medical University,福島県立医科大学,Public,公立,福島県福島市光が丘1,960－1295,024－547－1111,Fukushima Ken,福島県,37.689926,140.471603,1947-06,5,10,True,False,3.96,68.0,53.8,C
+102,F107210101299,The University of Aizu,会津大学,Public,公立,福島県会津若松市一箕町大字鶴賀字上居合90,965－8580,0242－37－2500,Fukushima Ken,福島県,37.523617,139.937897,1992-12,2,3,True,False,4.06,68.0,44.0,E
+103,F108210101449,Ibaraki Prefectural University of Health Sciences,茨城県立医療大学,Public,公立,茨城県稲敷郡阿見町阿見4669－2,300－0394,029－888－4000,Ibaraki Ken,茨城県,36.026962,140.210724,1994-12,3,9,True,False,4.09,71.0,51.1,C
+104,F110210101720,Takasaki City University of Economics,高崎経済大学,Public,公立,群馬県高崎市上並榎町1300,370－0801,027－343－5417,Gunma Ken,群馬県,36.34544,138.977264,1952-04,4,10,True,False,3.67,369.0,54.0,C
+105,F110210101739,Maebashi Institute of Technology,前橋工科大学,Public,公立,群馬県前橋市上佐鳥町460－1,371－0816,027－265－0111,Gunma Ken,群馬県,36.363926,139.080566,1952-04,2,14,True,False,3.69,45.0,43.8,E
+106,F110210101748,Gunma Prefectural Women’s University,群馬県立女子大学,Public,公立,群馬県佐波郡玉村町上之手1395－1,370－1193,0270－65－8511,Gunma Ken,群馬県,36.29763,139.112442,1980-01,4,11,True,False,4.17,119.0,51.7,C
+107,F110210101757,Gunma Prefectural College of Health Sciences,群馬県立県民健康科学大学,Public,公立,群馬県前橋市上沖町323－1,371－0052,027－235－1211,Gunma Ken,群馬県,36.403595,139.095078,2004-11,4,4,True,False,4.23,44.0,51.5,C
+108,F111210101952,Saitama Prefectural University,埼玉県立大学,Public,公立,埼玉県越谷市三野宮820,343－8540,048－971－0500,Saitama Ken,埼玉県,35.929996,139.756241,1999-04,2,6,True,False,4.13,174.0,50.3,C
+109,F112210102353,Chiba Prefectural University of Health Sciences,千葉県立保健医療大学,Public,公立,千葉県千葉市美浜区若葉2－10－1,261－0014,043－296－2000,Chiba Ken,千葉県,35.651989,140.052032,2008-10,1,4,False,False,3.66,80.0,,
+110,F113210102824,Tokyo Metropolitan University,東京都立大学,Public,公立,東京都八王子市南大沢1－1,192－0397,042－677－1111,Tokyo To,東京都,35.616882,139.376968,2004-09,18,43,True,False,4.06,646.0,56.7,B
+111,F113210102833,Advanced Institute of Industrial Technology,東京都立産業技術大学院大学,Public,公立,東京都品川区東大井1－10－40,140－0011,03－3472－7831,Tokyo To,東京都,35.605923,139.747803,2005-12,1,1,True,False,3.65,9.0,,
+112,F114210104616,Yokohama City University,横浜市立大学,Public,公立,神奈川県横浜市金沢区瀬戸22－2,236－0027,045－787－2311,Kanagawa Ken,神奈川県,35.333984,139.617783,1928-03,11,15,True,False,3.87,398.0,59.2,A
+113,F114210104625,Kanagawa University of Human Services,神奈川県立保健福祉大学,Public,公立,神奈川県横須賀市平成町1－10－1,238－8522,046－828－2500,Kanagawa Ken,神奈川県,35.273666,139.68071,2002-12,3,6,True,False,4.14,135.0,50.6,C
+114,F115210105071,Niigata College of Nursing,新潟県立看護大学,Public,公立,新潟県上越市新南町240,943－0147,025－526－2811,Niigata Ken,新潟県,37.10453,138.269821,2001-12,2,2,True,False,4.05,33.0,50.5,C
+115,F115210105080,University of Niigata Prefecture,新潟県立大学,Public,公立,新潟県新潟市東区海老ケ瀬471,950－8680,025－270－1300,Niigata Ken,新潟県,37.923443,139.127274,2009-04,4,5,True,False,4.04,128.0,49.9,C
+116,F115210105099,Nagaoka Institute of Design,長岡造形大学,Public,公立,新潟県長岡市千秋4－197,940－2088,0258－21－3311,Niigata Ken,新潟県,37.467224,138.830521,1994-04,2,5,True,False,4.1,62.0,50.2,C
+117,F115210111849,SANJO CITY UNIVERSITY,三条市立大学,Public,公立,新潟県三条市上須頃1341番地（3街区）,955-0091,0256-47-5511,Niigata Ken,新潟県,37.643047,138.932938,2021-04,1,1,False,False,,,42.5,E
+118,F116210105329,Toyama Prefectural University,富山県立大学,Public,公立,富山県射水市黒河5180,939－0398,0766－56－7500,Toyama Ken,富山県,36.707066,137.097382,1989-12,3,15,True,False,3.72,73.0,43.9,E
+119,F117210105417,Komatsu University,公立小松大学,Public,公立,石川県小松市四丁町ヌ1番地3,923－8511,0761－41－6700,Ishikawa Ken,石川県,36.354458,136.416809,2018-04,4,7,True,False,3.55,11.0,49.5,C
+120,F117210105426,Ishikawa Prefectural University,石川県立大学,Public,公立,石川県野々市市末松1－308,921－8836,076－227－7220,Ishikawa Ken,石川県,36.506672,136.597122,2004-11,2,9,True,False,3.78,41.0,49.0,D
+121,F117210105435,Kanazawa College of Art,金沢美術工芸大学,Public,公立,石川県金沢市小立野5－11－1,920－8656,076－262－3531,Ishikawa Ken,石川県,36.555538,136.677475,1946-07,2,9,True,False,4.0,42.0,51.3,C
+122,F117210105444,Ishikawa Prefectural Nursing University,石川県立看護大学,Public,公立,石川県かほく市学園台1－1,929－1210,076－281－8300,Ishikawa Ken,石川県,36.780563,136.73378,1999-12,2,2,True,False,3.82,27.0,50.0,C
+123,F118210105602,Fukui Prefectural University,福井県立大学,Public,公立,福井県永平寺町松岡兼定島4－1－1,910－1195,0776－61－6000,Fukui Ken,福井県,36.109333,136.277328,1991-12,7,15,True,False,3.66,120.0,47.6,D
+124,F118210105611,Tsuruga Nursing University,敦賀市立看護大学,Public,公立,福井県敦賀市木崎78－2－1,914－0814,0770－20－5500,Fukui Ken,福井県,35.641552,136.043198,2014-04,3,3,True,False,3.89,15.0,50.5,C
+125,F119210105683,Tsuru University,都留文科大学,Public,公立,山梨県都留市田原三丁目８番１号,402－8555,0554－43－4341,Yamanashi Ken,山梨県,35.539513,138.897522,1955-04,4,12,True,False,3.83,284.0,55.1,B
+126,F119210105692,Yamanashi Prefectural University,山梨県立大学,Public,公立,山梨県甲府市飯田5－11－1,400－0035,055－224－5261,Yamanashi Ken,山梨県,35.663467,138.55629,2004-11,4,6,True,False,3.8,92.0,50.9,C
+127,F120210105788,Suwa University of Science,公立諏訪東京理科大学,Public,公立,長野県茅野市豊平5000－1 ,391－0292,,Nagano Ken,長野県,36.009003,138.184799,2001-12,2,3,True,False,3.85,26.0,46.8,D
+128,F120210105797,The University of Nagano,長野県立大学,Public,公立,長野県長野市三輪8-49-7,380－8525,026－217－2240,Nagano Ken,長野県,36.665031,138.200287,2018-04,4,5,True,False,3.82,17.0,49.4,C
+129,F120210105804,Nagano College of Nursing,長野県看護大学,Public,公立,長野県駒ヶ根市赤穂1694,399－4117,0265－81－5100,Nagano Ken,長野県,35.745735,137.933121,1994-12,2,2,True,False,3.87,25.0,49.0,D
+130,F120210105813,Nagano University,長野大学,Public,公立,長野県上田市下之郷658－1,386－1298,0268－39－0001,Nagano Ken,長野県,36.372154,138.223236,1966-01,4,5,True,False,3.57,119.0,50.2,C
+131,F121210105983,Gifu Pharmaceutical University,岐阜薬科大学,Public,公立,岐阜県岐阜市大学西1－25－4,501－1196,058－230－8100,Gifu Ken,岐阜県,35.467346,136.733551,1931-09,2,4,True,False,3.83,51.0,58.0,B
+132,F121210105992,Gifu College of Nursing,岐阜県立看護大学,Public,公立,岐阜県羽島市江吉良町3047－1,501－6295,058－397－2300,Gifu Ken,岐阜県,35.306019,136.685806,1999-12,2,2,True,False,3.79,46.0,52.0,C
+133,F121210106009,Institute of Advanced Media Arts and Sciences,情報科学芸術大学院大学,Public,公立,岐阜県大垣市加賀野4－1－7,503－0006,0584－75－6600,Gifu Ken,岐阜県,35.368057,136.638962,2000-12,1,1,True,False,4.0,1.0,,
+134,F122210106240,Shizuoka Professional University of Agriculture,静岡県立農林環境専門職大学,Public,公立,静岡県磐田市富丘678-1,438-8577 ,0538-31-7901,Shizuoka Ken,静岡県,34.729942,137.843948,2020-04,1,1,False,False,3.0,1.0,50.0,C
+135,F122210106259,University of Shizuoka,静岡県立大学,Public,公立,静岡県静岡市駿河区谷田52－1,422－8526,054－264－5102,Shizuoka Ken,静岡県,34.995667,138.444092,1986-12,9,18,True,False,3.96,312.0,50.7,C
+136,F122210106268,Shizuoka University of Art And Culture,静岡文化芸術大学,Public,公立,静岡県浜松市中区中央2－1－1,430－8533,053－457－6111,Shizuoka Ken,静岡県,34.713261,137.737991,1999-12,4,6,True,False,4.15,145.0,52.1,C
+137,F122210111877,Shizuoka Graduate University of Public Health,静岡社会健康医学大学院大学,Public,公立,静岡県静岡市葵区北安東4-27-2,420－0881,054-295-5400,Shizuoka Ken,静岡県,35.003246,138.386093,2021-04,1,1,True,False,,,,
+138,F123210106463,Nagoya City University,名古屋市立大学,Public,公立,愛知県名古屋市瑞穂区瑞穂町字川澄1,467－8601,052－853－8005,Aichi Ken,愛知県,35.139385,136.935196,1948-04,14,28,True,False,3.9,471.0,56.7,B
+139,F123210106472,Aichi University of The Arts,愛知県立芸術大学,Public,公立,愛知県長久手市岩作三ケ峯1－114,480－1194,0561－76－2492,Aichi Ken,愛知県,35.165203,137.05867,1966-01,4,5,True,False,3.93,81.0,48.2,D
+140,F123210106481,Aichi Prefectural University,愛知県立大学,Public,公立,愛知県長久手市茨ケ廻間1522－3,480－1198,0561－76－8811,Aichi Ken,愛知県,35.181957,137.087143,2008-10,9,18,True,False,3.99,470.0,52.5,C
+141,F124210107158,Mie Prefectural College of Nursing,三重県立看護大学,Public,公立,三重県津市夢が丘1－1－1,514－0116,059－233－5600,Mie Ken,三重県,34.759846,136.488571,1996-12,2,2,True,False,3.92,37.0,50.0,C
+142,F125210107308,The University of Shiga Prefecture,滋賀県立大学,Public,公立,滋賀県彦根市八坂町2500,522－8533,0749－28－8200,Shiga Ken,滋賀県,35.259586,136.218903,1994-12,8,22,True,False,3.96,204.0,50.0,C
+143,F126210107432,Kyoto City University of Arts,京都市立芸術大学,Public,公立,京都府京都市西京区大枝沓掛町13－6,610－1197,075－334－2200,Kyoto Fu,京都府,34.974239,135.664642,1909-03,4,18,True,False,4.04,78.0,53.4,C
+144,F126210107441,Kyoto Prefectural University,京都府立大学,Public,公立,京都府京都市左京区下鴨半木町1－5,606－8522,075－703－5144,Kyoto Fu,京都府,35.050365,135.75975,1895-04,6,19,True,False,4.03,251.0,56.6,B
+145,F126210107450,Kyoto Prefectural University of Medicine,京都府立医科大学,Public,公立,京都府京都市上京区河原町通広小路上る梶井町465,602－8566,075－251－5111,Kyoto Fu,京都府,35.029552,135.756714,1872-11,3,5,True,False,4.0,88.0,60.0,A
+146,F126210107469,The University of Fukuchiyama,福知山公立大学,Public,公立,京都府福知山市字堀3370,620－0886,0773－24－7100,Kyoto Fu,京都府,35.284485,135.127457,1999-12,2,3,False,False,3.46,18.0,48.8,D
+147,F127210111989,Osaka Metropolitan University,大阪公立大学,Public,公立,大阪府大阪市阿倍野区旭町1-2-7,545-0051,,Osaka Fu,大阪府,34.646618,135.510162,2022-04,27,76,True,False,4.03,73.0,,
+148,F127210107878,Osaka City University,大阪市立大学,Public,公立,大阪府大阪市住吉区杉本3－3－138,558－8585,06－6605－2011,Osaka Fu,大阪府,34.591904,135.505142,1928-03,19,50,True,False,3.95,621.0,,
+149,F127210107887,Osaka Prefecture University,大阪府立大学,Public,公立,大阪府堺市中区学園町1番1号,599－8531,072－254－9104,Osaka Fu,大阪府,34.547966,135.505569,1949-04,11,32,True,False,3.89,536.0,,
+150,F128210108670,Kobe City University of Foreign Studies,神戸市外国語大学,Public,公立,兵庫県神戸市西区学園東町9－1,651－2187,078－794－8121,Hyogo Ken,兵庫県,34.679649,135.059891,1946-03,3,13,True,False,4.03,233.0,59.0,B
+151,F128210108689,Kobe City College of Nursing,神戸市看護大学,Public,公立,兵庫県神戸市西区学園西町3－4,651－2103,078－794－8080,Hyogo Ken,兵庫県,34.687214,135.053818,1995-12,2,2,True,False,4.15,42.0,50.0,C
+152,F128210108698,University of Hyogo,兵庫県立大学,Public,公立,兵庫県神戸市西区学園西町8－2－1,651－2197,078－794－6580,Hyogo Ken,兵庫県,34.678242,135.051086,2003-07,23,33,True,False,3.72,445.0,51.1,C
+153,F128210111906,Professional College of Arts and Tourism,芸術文化観光専門職大学,Public,公立,兵庫県豊岡市山王町7-52,668－0044,0796-34-8123,Hyogo Ken,兵庫県,35.539219,134.816208,2021-04,1,1,False,False,3.0,2.0,48.0,D
+154,F129210109231,Nara Medical University,奈良県立医科大学,Public,公立,奈良県橿原市四条町840,634－8521,0744－22－3051,Nara Ken,奈良県,34.503887,135.792542,1948-04,3,4,True,False,3.63,100.0,59.5,A
+155,F129210109240,Nara Prefectural University,奈良県立大学,Public,公立,奈良県奈良市船橋町10,630－8258,0742－22－4978,Nara Ken,奈良県,34.687683,135.82103,1989-12,1,1,False,False,3.54,85.0,51.0,C
+156,F130210109363,Wakayama Medical University,和歌山県立医科大学,Public,公立,和歌山県和歌山市紀三井寺811－1,641－8509,073－447－2300,Wakayama Ken,和歌山県,34.187664,135.181717,1948-02,6,9,True,False,3.98,67.0,57.2,B
+157,F131210109424,Tottori University of Environmental Studies,公立鳥取環境大学,Public,公立,鳥取県鳥取市若葉台北1－1－1,689－1111,0857－38－6700,Tottori Ken,鳥取県,35.450813,134.25531,2000-12,3,4,True,False,3.86,73.0,45.3,D
+158,F132210109478,The University of Shimane,島根県立大学,Public,公立,島根県浜田市野原町2433－2,697－0016,0855－24－2200,Shimane Ken,島根県,34.885452,132.077423,1999-12,8,12,True,False,3.8,97.0,52.3,C
+159,F133210109510,Okayama Prefectural University,岡山県立大学,Public,公立,岡山県総社市窪木111,719－1197,0866－94－2111,Okayama Ken,岡山県,34.692059,133.780289,1992-12,6,20,True,False,3.96,164.0,49.4,C
+160,F133210109529,Niimi University,新見公立大学,Public,公立,岡山県新見市西方1263－2,718－8585,0867－72－0634,Okayama Ken,岡山県,34.998795,133.439957,2009-10,3,5,True,False,4.28,30.0,50.0,C
+161,F134210109797,Prefectural University of Hiroshima,県立広島大学,Public,公立,広島県広島市南区宇品東1－1－71,734－8558,082－251－5178,Hiroshima Ken,広島県,34.367306,132.469666,2004-07,9,21,True,False,4.0,261.0,48.7,D
+162,F134210109804,Onomichi City University,尾道市立大学,Public,公立,広島県尾道市久山田町1600－2,722－8506,0848－22－8311,Hiroshima Ken,広島県,34.426105,133.162537,2000-12,5,6,True,False,3.76,92.0,50.1,C
+163,F134210109813,Hiroshima City University,広島市立大学,Public,公立,広島県広島市安佐南区大塚東3－4－1,731－3194,082－830－1500,Hiroshima Ken,広島県,34.438053,132.415192,1993-12,7,16,True,False,3.87,145.0,51.3,C
+164,F134210109822,Fukuyama City University,福山市立大学,Public,公立,広島県福山市港町二丁目19番1号,721－0964,084－999－1111,Hiroshima Ken,広島県,34.481747,133.381149,2010-10,4,4,True,False,3.66,78.0,50.2,C
+165,F134210111926,Eikei University of Hiroshima,叡啓大学,Public,公立,広島県広島市中区幟町1-5,730－0016,082-225-6201,Hiroshima Ken,広島県,34.396297,132.468719,2021-04,1,1,False,False,4.0,1.0,48.0,D
+166,F135210110061,Shimonoseki City University,下関市立大学,Public,公立,山口県下関市大学町2－1－1,751－8510,083－252－0288,Yamaguchi Ken,山口県,33.987431,130.933365,1956-04,3,5,True,False,3.62,187.0,47.1,D
+167,F135210110070,Yamaguchi Prefectural University,山口県立大学,Public,公立,山口県山口市桜畠3－2－1,753－8502,083－928－0211,Yamaguchi Ken,山口県,34.194012,131.498642,1941-02,6,8,True,False,3.99,174.0,50.4,C
+168,F135210110089,Sanyo-Onoda City University,山陽小野田市立山口東京理科大学,Public,公立,山口県山陽小野田市大学通1－1－1,756－0884,0836－88－3500,Yamaguchi Ken,山口県,33.957043,131.187805,1994-12,3,5,True,False,3.71,56.0,48.2,D
+169,F137210110327,Kagawa Prefectural University of Health Sciences,香川県立保健医療大学,Public,公立,香川県高松市牟礼町原281－1,761－0123,087－870－1212,Kagawa Ken,香川県,34.321964,134.158371,2003-11,3,5,True,False,4.15,24.0,50.3,C
+170,F138210110399,Ehime Prefectural University of Health Sciences,愛媛県立医療技術大学,Public,公立,愛媛県伊予郡砥部町高尾田543,791－2101,089－958－2111,Ehime Ken,愛媛県,33.780685,132.798233,2003-11,3,5,True,False,4.18,44.0,50.0,C
+171,F139210110511,University of Kochi,高知県立大学,Public,公立,高知県高知市池2751－1,781－8515,088－847－8700,Kochi Ken,高知県,33.53101,133.580902,1944-12,6,7,True,False,4.01,137.0,51.4,C
+172,F139210110520,Kochi University of Technology,高知工科大学,Public,公立,高知県香美市土佐山田町宮ノ口185,782－8502,0887－53－1111,Kochi Ken,高知県,33.620975,133.719894,1996-12,5,5,True,False,4.02,118.0,45.9,D
+173,F140210110607,The University of Kitakyushu,北九州市立大学,Public,公立,福岡県北九州市小倉南区北方4－2－1,802－8577,093－964－4004,Fukuoka Ken,福岡県,33.843643,130.878265,1946-07,10,25,True,False,3.83,538.0,48.9,D
+174,F140210110616,Kyushu Dental University,九州歯科大学,Public,公立,福岡県北九州市小倉北区真鶴2－6－1,803－8580,093－582－1131,Fukuoka Ken,福岡県,33.871742,130.853775,1921-07,2,4,True,False,3.82,41.0,48.0,D
+175,F140210110625,Fukuoka Women's University,福岡女子大学,Public,公立,福岡県福岡市東区香住ケ丘1－1－1,813－8529,092－661－2411,Fukuoka Ken,福岡県,33.665958,130.438522,1922-06,3,6,True,False,4.09,151.0,51.2,C
+176,F140210110634,Fukuoka Prefectural University,福岡県立大学,Public,公立,福岡県田川市伊田4395,825－8585,0947－42－2118,Fukuoka Ken,福岡県,33.649834,130.814484,1991-12,4,8,True,False,3.88,178.0,50.4,C
+177,F142210111196,University of Nagasaki,長崎県立大学,Public,公立,長崎県佐世保市川下町123,858－8580,0956－47－2191,Nagasaki Ken,長崎県,33.186432,129.665451,2007-12,6,13,True,False,3.74,241.0,46.4,D
+178,F143210111300,Prefectural University of Kumamoto,熊本県立大学,Public,公立,熊本県熊本市東区月出3－1－100,862－8502,096－383－2929,Kumamoto Ken,熊本県,32.806938,130.764236,1947-03,6,8,True,False,3.8,189.0,49.1,C
+179,F144210111425,Oita University of Nursing And Health Sciences,大分県立看護科学大学,Public,公立,大分県大分市大字廻栖野2944－9,870－1201,097－586－4300,Oita Ken,大分県,33.154671,131.557205,1997-12,2,3,True,False,3.73,38.0,,
+180,F145210111530,Miyazaki Municipal University,宮崎公立大学,Public,公立,宮崎県宮崎市船塚1－1－2,880－8520,0985－20－2000,Miyazaki Ken,宮崎県,31.925987,131.417236,1992-12,1,1,False,False,3.9,89.0,47.0,D
+181,F145210111549,Miyazaki Prefectural Nursing University,宮崎県立看護大学,Public,公立,宮崎県宮崎市まなび野3－5－1,880－0929,0985－59－7700,Miyazaki Ken,宮崎県,31.857765,131.41423,1996-12,3,3,True,False,4.21,29.0,50.5,C
+182,F147210111743,Meio University,名桜大学,Public,公立,沖縄県名護市字為又1220－1,905－8585,0980－51－1100,Okinawa Ken,沖縄県,26.6168,127.969719,1993-12,5,7,True,False,3.87,129.0,42.3,E
+183,F147210111752,Okinawa Prefectural University of Arts,沖縄県立芸術大学,Public,公立,沖縄県那覇市首里当蔵町1－4,903－8602,098－882－5000,Okinawa Ken,沖縄県,26.219156,127.718552,1986-04,5,10,True,False,3.92,23.0,46.5,D
+184,F147210111761,Okinawa Prefectural College of Nursing,沖縄県立看護大学,Public,公立,沖縄県那覇市与儀1－24－1,902－8513,098－833－8800,Okinawa Ken,沖縄県,26.206566,127.694443,1998-10,3,3,True,False,4.08,19.0,46.5,D
+185,F135310110103,Shunan University,周南公立大学,Public,公立,山口県周南市学園台843－4－2,745－8566,0834－28－0411,Yamaguchi Ken,山口県,34.047821,131.84494,1971-03,2,3,False,False,3.4,35.0,46.3,D
+186,F114210111993,Kawasaki City College of Nursing,川崎市立看護大学,Public,公立,神奈川県川崎市幸区小倉4－30－1,212－0054,044－587－3500,Kanagawa Ken,神奈川県,35.536179,139.669891,2022-04,1,1,False,False,3.0,1.0,50.0,C
+187,F101310100141,Sapporo University,札幌大学,Private,私立,北海道札幌市豊平区西岡3条7－3－1,062－8520,011－852－1181,Hokkai Do,北海道,43.010437,141.387207,1967-02,2,2,True,False,3.79,146.0,36.3,F
+188,F101310100150,Sapporo Gakuin University,札幌学院大学,Private,私立,北海道江別市文京台11,069－8555,011－386－8111,Hokkai Do,北海道,43.067093,141.492981,1946-06,9,11,True,False,3.85,158.0,37.8,F
+189,F101310100169,Hakodate University,函館大学,Private,私立,北海道函館市高丘町51番1号,042－0955,0138－57－1181,Hokkai Do,北海道,41.78883,140.806671,1965-04,1,1,False,False,3.55,27.0,35.5,F
+190,F101310100178,Fuji Women’s University,藤女子大学,Private,私立,北海道札幌市北区北16条西2－1－1,001－0016,011－736－0311,Hokkai Do,北海道,43.079823,141.350479,1961-03,3,9,True,False,3.98,288.0,35.6,F
+191,F101310100187,Hokusei Gakuen University,北星学園大学,Private,私立,北海道札幌市厚別区大谷地西2-3-1,004－8631,011－891－2731,Hokkai Do,北海道,43.023792,141.448715,1962-01,6,12,True,False,3.9,396.0,44.5,D
+192,F101310100196,Hokkai - Gakuen University,北海学園大学,Private,私立,北海道札幌市豊平区旭町4－1－40,062－8605,011－841－1161,Hokkai Do,北海道,43.046837,141.369034,1952-03,14,20,True,False,3.81,637.0,42.3,E
+193,F101310100203,Hokkaido University of Science,北海道科学大学,Private,私立,北海道札幌市手稲区前田七条15－4－1,006－8585,011－681－2161,Hokkai Do,北海道,43.134399,141.246552,1967-01,8,25,True,False,3.77,198.0,41.3,E
+194,F101310100212,Rakuno Gakuen University,酪農学園大学,Private,私立,北海道江別市文京台緑町582,069－8501,011－386－1111,Hokkai Do,北海道,43.071857,141.508728,1960-01,4,11,True,False,3.77,223.0,43.0,E
+195,F101310100221,AsahikawaUniversity,旭川大学,Private,私立,北海道旭川市永山3条23－1－9,079－8501,0166－48－3121,Hokkai Do,北海道,43.817345,142.445099,1968-02,3,4,True,False,3.74,68.0,,
+196,F101310100230,Health Sciences University of Hokkaido,北海道医療大学,Private,私立,北海道石狩郡当別町字金沢1757,061－0293,0133－23－1211,Hokkai Do,北海道,43.246895,141.561859,1974-02,11,15,True,False,3.89,213.0,41.2,E
+197,F101310100249,Hokkai School of Commerce,北海商科大学,Private,私立,北海道札幌市豊平区豊平6条6－10,062－8607,011－841－1161,Hokkai Do,北海道,43.047962,141.370026,1977-01,2,3,True,False,3.61,35.0,35.3,F
+198,F101310100258,Seisa Dohto University,星槎道都大学,Private,私立,北海道北広島市中の沢149,061－1196,011－372－3111,Hokkai Do,北海道,42.980564,141.538483,1978-02,3,4,False,False,3.87,25.0,36.6,F
+199,F101310100267,Hokkaido Information University,北海道情報大学,Private,私立,北海道江別市西野幌59－2,069－8585,011－385－4411,Hokkai Do,北海道,43.078266,141.537704,1988-12,5,7,True,True,3.83,90.0,39.2,E
+200,F101310100276,Sapporo International University,札幌国際大学,Private,私立,北海道札幌市清田区清田4条1－4－1,004－8602,011－881－8844,Hokkai Do,北海道,43.002434,141.424561,1992-12,6,10,True,False,3.85,109.0,35.5,F
+201,F101310100285,Hokusho University,北翔大学,Private,私立,北海道江別市文京台23番地,069－8511,011－386－8011,Hokkai Do,北海道,43.063904,141.489609,1996-12,5,9,True,False,3.96,129.0,37.0,F
+202,F101310100294,Hokuyo University,北洋大学,Private,私立,北海道苫小牧市錦西町３丁目２番１号,059－1266,0144－61－3111,Hokkai Do,北海道,42.600338,141.464294,1997-12,1,1,False,False,3.97,13.0,35.5,F
+203,F101310100301,Japanese Red Cross Hokkaido College of Nursing,日本赤十字北海道看護大学,Private,私立,北海道北見市曙町664－1,090－0011,0157－66－3311,Hokkai Do,北海道,43.830696,143.908508,1998-12,2,3,True,False,3.94,60.0,36.0,F
+204,F101310100310,Hokkaido Bunkyo University,北海道文教大学,Private,私立,北海道恵庭市黄金中央5－196－1,061－1449,0123－34－0019,Hokkai Do,北海道,42.890831,141.591461,1998-12,8,13,True,False,3.62,180.0,36.3,F
+205,F101310100329,Tenshi College,天使大学,Private,私立,北海道札幌市東区北13条東3－1－30,065－0013,011－741－1051,Hokkai Do,北海道,43.077644,141.357895,1999-12,3,5,True,False,4.02,84.0,47.0,D
+206,F101310100338,Ikueikan University,育英館大学,Private,私立,北海道稚内市若葉台1丁目2290番地28号,097－0013,0162－32－7511,Hokkai Do,北海道,45.383553,141.718567,1999-12,2,2,False,False,4.43,14.0,35.0,F
+207,F101310100347,Sapporo Otani University,札幌大谷大学,Private,私立,北海道札幌市東区北16条東9－1－1,065－8567,011－742－1651,Hokkai Do,北海道,43.082176,141.36557,2006-04,2,3,False,False,3.94,79.0,36.4,F
+208,F101310100356,Sapporo University of Health Sciences,札幌保健医療大学,Private,私立,北海道札幌市東区中沼西4条2－1－15,007－0894,011－792－3350,Hokkai Do,北海道,43.132084,141.41246,2012-11,1,2,False,False,3.63,20.0,38.8,F
+209,F101310100365,Japan HealthCare University,日本医療大学,Private,私立,北海道札幌市豊平区月寒東3条11丁目1番50号,062-0053,011-351-6100,Hokkai Do,北海道,43.028351,141.409714,2014-04,3,8,False,False,3.54,17.0,39.0,F
+210,F101310100374,Hokkaido Chitose College of Rehabilitation,北海道千歳リハビリテーション大学,Private,私立,北海道千歳市里美2－10,066－0055,0123－28－5331,Hokkai Do,北海道,42.785515,141.598404,2017-04,1,1,False,False,3.69,13.0,35.5,F
+211,F102310100603,Aomori University,青森大学,Private,私立,青森県青森市幸畑2－3－1,030－0943,017－738－2001,Aomori Ken,青森県,40.783684,140.78096,1968-03,4,4,False,False,3.5,80.0,36.5,F
+212,F102310100612,Shibata Gakuen University,柴田学園大学,Private,私立,青森県弘前市清原1－1－16,036－8530,0172－33－2289,Aomori Ken,青森県,40.581272,140.485275,1969-02,1,2,False,False,3.92,96.0,35.3,F
+213,F102310100621,Hirosaki Gakuin University,弘前学院大学,Private,私立,青森県弘前市稔町13－1,036－8577,0172－34－5211,Aomori Ken,青森県,40.581535,140.465637,1971-01,5,6,True,False,3.41,54.0,35.5,F
+214,F102310100630,Hachinohe Institute of Technology,八戸工業大学,Private,私立,青森県八戸市大字妙字大開88－1,031－8501,0178－25－3111,Aomori Ken,青森県,40.479317,141.562363,1972-01,3,10,True,False,3.61,59.0,35.5,F
+215,F102310100649,Hachinohe Gakuin University,八戸学院大学,Private,私立,青森県八戸市大字美保野13－98,031－8588,0178－25－2711,Aomori Ken,青森県,40.486752,141.571655,1981-01,2,3,False,False,3.69,33.0,35.5,F
+216,F102310100658,Aomori Chuo Gakuin University,青森中央学院大学,Private,私立,青森県青森市大字横内字神田12,030－0132,017－728－0131,Aomori Ken,青森県,40.783215,140.76239,1997-12,4,4,True,False,3.66,57.0,36.0,F
+217,F102310100667,Hirosaki University of Health and Welfare,弘前医療福祉大学,Private,私立,青森県弘前市小比内3－18－1,036－8102,0172－27－1001,Aomori Ken,青森県,40.588799,140.500473,2008-10,1,2,False,False,3.71,35.0,38.0,F
+218,F103310100755,Iwate Medical University,岩手医科大学,Private,私立,岩手県紫波郡矢巾町医大通1－1－1,028－3694,019－651－5111,Iwate Ken,岩手県,39.613033,141.161285,1928-02,7,13,True,False,3.57,78.0,46.3,D
+219,F103310100764,Fuji University,富士大学,Private,私立,岩手県花巻市下根子450－3,025－8501,0198－23－6221,Iwate Ken,岩手県,39.361206,141.102646,1965-01,2,3,True,False,3.63,33.0,35.5,F
+220,F103310100773,The University of Morioka,盛岡大学,Private,私立,岩手県滝沢市砂込808,020－0694,019－688－5555,Iwate Ken,岩手県,39.816113,141.137207,1981-01,2,5,False,False,3.78,152.0,35.1,F
+221,F103310100782,Iwate University of Health and Medical Sciences,岩手保健医療大学,Private,私立,岩手県盛岡市盛岡駅西通1－6－30,020－0045,019－606－7030,Iwate Ken,岩手県,39.703228,141.131851,2016-08,2,2,True,False,3.33,10.0,38.0,F
+222,F104310100889,Sendai University,仙台大学,Private,私立,宮城県柴田郡柴田町船岡南2－2－18,989－1693,0224－55－1121,Miyagi Ken,宮城県,38.051693,140.771561,1967-01,2,7,True,False,3.63,104.0,35.7,F
+223,F104310100898,Tohoku Gakuin University,東北学院大学,Private,私立,宮城県仙台市青葉区土樋1－3－1,980－8511,022－264－6421,Miyagi Ken,宮城県,38.249531,140.877304,1946-03,12,29,True,False,3.75,781.0,45.5,D
+224,F104310100905,Tohoku Institute of Technology,東北工業大学,Private,私立,宮城県仙台市太白区八木山香澄町35－1,982－8577,022－305－3311,Miyagi Ken,宮城県,38.245861,140.852432,1964-01,5,15,True,False,3.62,140.0,38.0,F
+225,F104310100914,Tohoku Fukushi University,東北福祉大学,Private,私立,宮城県仙台市青葉区国見1－8－1,981－8522,022－233－3111,Miyagi Ken,宮城県,38.280109,140.847824,1962-01,8,15,True,True,3.78,493.0,44.0,E
+226,F104310100923,Tohoku Medical And Pharmaceutical University,東北医科薬科大学,Private,私立,宮城県仙台市青葉区小松島4－4－1,981－8558,022－234－4181,Miyagi Ken,宮城県,38.285049,140.885559,1939-04,3,5,True,False,3.74,140.0,51.9,C
+227,F104310100932,Tohoku Seikatsu Bunka University,東北生活文化大学,Private,私立,宮城県仙台市泉区虹の丘1－18－2,981－8585,022－272－7511,Miyagi Ken,宮城県,38.302814,140.87027,1958-01,2,2,False,False,3.64,44.0,36.5,F
+228,F104310100941,Miyagi Gakuin Women’s University,宮城学院女子大学,Private,私立,宮城県仙台市青葉区桜ケ丘9－1－1,981－8557,022－279－1311,Miyagi Ken,宮城県,38.307381,140.853912,1946-06,6,14,True,False,3.9,296.0,37.5,F
+229,F104310100950,Ishinomaki Senshu University,石巻専修大学,Private,私立,宮城県石巻市南境新水戸1,986－8580,0225－22－7711,Miyagi Ken,宮城県,38.454735,141.295639,1988-12,5,13,True,False,3.65,62.0,35.3,F
+230,F104310100969,Sendai Shirayuri Women’s College,仙台白百合女子大学,Private,私立,宮城県仙台市泉区本田町6－1,981－3107,022－372－3254,Miyagi Ken,宮城県,38.3214,140.902542,1995-12,1,4,False,False,3.58,73.0,36.0,F
+231,F104310100978,Tohoku Bunka Gakuen University,東北文化学園大学,Private,私立,宮城県仙台市青葉区国見6－45－1,981－8551,022－233－3310,Miyagi Ken,宮城県,38.277546,140.834534,1998-12,7,11,True,False,3.69,84.0,35.9,F
+232,F104310100987,Shokei Gakuin University,尚絅学院大学,Private,私立,宮城県名取市ゆりが丘4－10－1,981－1295,022－381－3300,Miyagi Ken,宮城県,38.196583,140.830078,2002-12,4,8,True,False,3.82,108.0,36.3,F
+233,F105310101093,North Asia University,ノースアジア大学,Private,私立,秋田県秋田市下北手桜守沢46－1,010－8515,018－836－1312,Akita Ken,秋田県,39.716419,140.157944,1964-01,3,4,False,False,3.26,39.0,35.5,F
+234,F105310101100,Akita University of Nursing And Welfare,秋田看護福祉大学,Private,私立,秋田県大館市清水2－3－4,017－0046,0186－45－1717,Akita Ken,秋田県,40.281265,140.554398,2004-11,1,2,False,False,4.15,32.0,35.5,F
+235,F105310101119,Japanese Red Cross Akita College of Nursing,日本赤十字秋田看護大学,Private,私立,秋田県秋田市上北手猿田字苗代沢17－3,010－1493,018－829－4000,Akita Ken,秋田県,39.685078,140.155457,2008-10,2,3,True,False,3.84,25.0,36.5,F
+236,F106310101207,Tohoku University of Art & Design,東北芸術工科大学,Private,私立,山形県山形市上桜田3－4－5,990－9530,023－627－2000,Yamagata Ken,山形県,38.218594,140.344955,1992-04,3,13,True,False,4.12,131.0,49.7,C
+237,F106310101216,Tohoku University of Community Service And Science,東北公益文科大学,Private,私立,山形県酒田市飯森山3－5－1,998－8580,0234－41－1111,Yamagata Ken,山形県,38.892662,139.817368,2000-12,2,3,True,False,3.48,39.0,35.5,F
+238,F106310101225,Tohoku Bunkyo College,東北文教大学,Private,私立,山形県山形市片谷地515,990－2316,023－688－2298,Yamagata Ken,山形県,38.209637,140.303146,2010-10,2,3,False,False,3.82,35.0,38.0,F
+239,F107310101304,Koriyama Women’s University,郡山女子大学,Private,私立,福島県郡山市開成3－25－2,963－8503,024－932－4848,Fukushima Ken,福島県,37.396683,140.352661,1966-01,2,3,True,False,3.76,59.0,35.7,F
+240,F107310101313,Ohu University,奥羽大学,Private,私立,福島県郡山市富田町字三角堂31－1,963－8611,024－932－8931,Fukushima Ken,福島県,37.41716,140.37413,1972-02,3,3,True,False,3.55,38.0,35.0,F
+241,F107310101322,Iryo Sosei University,医療創生大学,Private,私立,福島県いわき市中央台飯野5－5－1,970－8551,0246－29－5111,Fukushima Ken,福島県,37.018524,140.918915,1986-04,8,9,True,False,3.46,65.0,35.6,F
+242,F107310101331,Higashi Nippon International University,東日本国際大学,Private,私立,福島県いわき市平鎌田字寿金沢37,970－8023,0246－35－0001,Fukushima Ken,福島県,37.057358,140.907944,1994-12,3,3,False,False,3.85,28.0,36.0,F
+243,F107310101340,Fukushima College,福島学院大学,Private,私立,福島県福島市宮代乳児池1－1,960－0181,024－553－3221,Fukushima Ken,福島県,37.799988,140.487549,2002-12,2,3,True,False,3.86,35.0,35.0,F
+244,F108310101456,Ibaraki Christian University,茨城キリスト教大学,Private,私立,茨城県日立市大みか町6－11－1,319－1295,0294－52－3215,Ibaraki Ken,茨城県,36.514248,140.617523,1967-04,7,11,True,False,3.87,171.0,41.4,E
+245,F108310101465,Ryutsu Keizai University,流通経済大学,Private,私立,茨城県龍ケ崎市平畑120,301－8555,0297－64－0001,Ibaraki Ken,茨城県,35.920582,140.168472,1965-01,12,17,True,False,3.71,203.0,38.9,F
+246,F108310101474,Tokiwa University,常磐大学,Private,私立,茨城県水戸市見和1－430－1,310－8585,029－232－2511,Ibaraki Ken,茨城県,36.382111,140.438705,1983-01,5,11,True,False,3.75,135.0,38.8,F
+247,F108310101483,Tsukuba International University,つくば国際大学,Private,私立,茨城県土浦市真鍋6－20－1,300－0051,029－826－6000,Ibaraki Ken,茨城県,36.107651,140.198837,1993-12,1,6,False,False,3.68,79.0,36.7,F
+248,F108310101492,Tsukuba Gakuin University,筑波学院大学,Private,私立,茨城県つくば市吾妻3－1,305－0031,029－858－4811,Ibaraki Ken,茨城県,36.087753,140.107864,1995-12,1,1,False,False,3.53,22.0,,
+249,F108310101508,Nihon Wellness Sports University,日本ウェルネススポーツ大学,Private,私立,茨城県利根町布川1377,300－1622,0297－68－6787,Ibaraki Ken,茨城県,35.859886,140.145737,2012-04,3,3,False,True,3.58,6.0,35.0,F
+250,F109310101561,Ashikaga University,足利大学,Private,私立,栃木県足利市大前町268－1,326－8558,0284－62－0605,Tochigi Ken,栃木県,36.35326,139.396027,1967-01,3,4,True,False,3.66,42.0,36.4,F
+251,F109310101570,Hakuoh University,白鴎大学,Private,私立,栃木県小山市駅東通り2－2－2,323－8586,0285－22－1111,Tochigi Ken,栃木県,36.313366,139.807495,1985-12,5,5,True,False,3.9,363.0,40.6,E
+252,F109310101589,Sakushin Gakuin University,作新学院大学,Private,私立,栃木県宇都宮市竹下町908,321－3295,028－667－7111,Tochigi Ken,栃木県,36.544083,139.973999,1989-04,4,7,True,False,3.83,45.0,36.5,F
+253,F109310101598,International University of Health And Welfare,国際医療福祉大学,Private,私立,栃木県大田原市北金丸2600－1,324－8501,0287－24－3000,Tochigi Ken,栃木県,36.87048,140.069229,1994-12,16,20,True,False,3.92,408.0,44.2,D
+254,F109310101605,Utsunomiya Kyowa University,宇都宮共和大学,Private,私立,栃木県宇都宮市大通り1－3－18,320－0811,028－650－6611,Tochigi Ken,栃木県,36.560459,139.890869,1999-04,2,2,False,False,3.87,21.0,35.5,F
+255,F109310101614,Bunsei University of Art,文星芸術大学,Private,私立,栃木県宇都宮市上戸祭4－8－15,320－0058,028－625－6888,Tochigi Ken,栃木県,36.598911,139.859558,1998-12,2,2,True,False,3.8,12.0,36.0,F
+256,F109310101623,Jichi Medical University,自治医科大学,Private,私立,栃木県下野市薬師寺3311－1,329－0498,0285－44－2111,Tochigi Ken,栃木県,36.4034,139.858521,1972-02,4,7,True,False,4.1,64.0,58.0,B
+257,F109310101632,Dokkyo Medical University,獨協医科大学,Private,私立,栃木県下都賀郡壬生町大字北小林880,321－0293,0282－86－1111,Tochigi Ken,栃木県,36.472305,139.825363,1972-07,5,9,True,False,3.95,63.0,57.0,B
+258,F110310101764,Ikuei University,育英大学,Private,私立,群馬県高崎市京目町1656番地1,370－0011,027－352－1981,Gunma Ken,群馬県,36.349194,139.050339,2017-08,1,1,False,False,3.81,5.0,36.5,F
+259,F110310101773,Kiryu University,桐生大学,Private,私立,群馬県みどり市笠懸町阿左美606－7,379－2392,0277－76－2400,Gunma Ken,群馬県,36.378597,139.295685,2007-12,2,3,False,False,3.43,35.0,38.8,F
+260,F110310101782,Gunma Paz University,群馬パース大学,Private,私立,群馬県高崎市問屋町1－7－1,370－0006,027－365－3366,Gunma Ken,群馬県,36.349514,139.008804,2004-11,5,8,True,False,3.79,49.0,43.2,E
+261,F110310101791,Gunma University of Health And Welfare,群馬医療福祉大学,Private,私立,群馬県前橋市川曲町191－1,371－0823,027－253－0294,Gunma Ken,群馬県,36.355843,139.047913,2001-12,5,5,True,False,3.49,73.0,41.5,E
+262,F110310101808,Takasaki University of Health And Welfare,高崎健康福祉大学,Private,私立,群馬県高崎市中大類町37－1,370－0033,027－352－1290,Gunma Ken,群馬県,36.324902,139.054886,2000-12,9,15,True,False,3.76,139.0,43.1,E
+263,F110310101817,Takasaki University of Commerce,高崎商科大学,Private,私立,群馬県高崎市根小屋町741,370－1214,027－347－3399,Gunma Ken,群馬県,36.28566,139.034241,2001-04,2,3,True,False,3.85,41.0,40.0,E
+264,F110310101826,Jobu University,上武大学,Private,私立,群馬県伊勢崎市戸谷塚町634－1,372－8588,0270－32－1010,Gunma Ken,群馬県,36.279305,139.176224,1968-03,3,4,True,False,3.6,54.0,36.7,F
+265,F110310101835,Kanto Gakuen University,関東学園大学,Private,私立,群馬県太田市藤阿久町200番地,373－8515,0276－32－7800,Gunma Ken,群馬県,36.286465,139.356094,1976-01,1,2,False,False,3.72,63.0,36.0,F
+266,F110310101844,KYOAI GAKUEN UNIVERSITY,共愛学園前橋国際大学,Private,私立,群馬県前橋市小屋原町1154－4,379－2192,027－266－7575,Gunma Ken,群馬県,36.35886,139.144562,1998-12,1,1,False,False,3.96,92.0,39.8,E
+267,F111310101969,Nihon Institute of Medical Science,日本医療科学大学,Private,私立,埼玉県入間郡毛呂山町下川原1276,350－0435,049－294－9000,Saitama Ken,埼玉県,35.931942,139.343781,2006-11,1,5,False,False,3.16,64.0,39.2,E
+268,F111310101978,Nihon Pharmaceutical University,日本薬科大学,Private,私立,埼玉県北足立郡伊奈町小室10281,362－0806,048－721－1155,Saitama Ken,埼玉県,35.991798,139.617203,2003-11,2,3,True,False,3.44,84.0,36.7,F
+269,F111310101987,Musashino Gakuin University,武蔵野学院大学,Private,私立,埼玉県狭山市広瀬台3－26－1,350－1328,04－2954－6131,Saitama Ken,埼玉県,35.866592,139.387009,2003-11,2,3,True,False,3.71,17.0,35.5,F
+270,F111310101996,Urawa University,浦和大学,Private,私立,埼玉県さいたま市緑区大字大崎3551,336－0974,048－878－3741,Saitama Ken,埼玉県,35.890373,139.712662,2002-12,2,4,False,False,4.04,54.0,35.5,F
+271,F111310102003,Institute of Technologists,ものつくり大学,Private,私立,埼玉県行田市前谷333,361－0038,048－564－3200,Saitama Ken,埼玉県,36.115143,139.456436,2001-04,2,3,True,False,3.83,51.0,35.5,F
+272,F111310102012,Kyoei University,共栄大学,Private,私立,埼玉県春日部市内牧4158,344－0051,048－755－2932,Saitama Ken,埼玉県,35.995708,139.722092,2000-12,3,3,False,False,3.53,51.0,39.0,F
+273,F111310102021,Saitama Gakuen University,埼玉学園大学,Private,私立,埼玉県川口市大字木曽呂1510,333－0831,048－294－1110,Saitama Ken,埼玉県,35.857311,139.713959,2000-12,5,7,True,False,3.65,85.0,38.8,F
+274,F111310102030,Shobi University,尚美学園大学,Private,私立,埼玉県川越市豊田町1－1－1,350－1110,049－246－2700,Saitama Ken,埼玉県,35.906914,139.460602,1999-12,5,10,True,False,3.65,131.0,35.0,F
+275,F111310102049,University of Human Arts And Sciences,人間総合科学大学,Private,私立,埼玉県さいたま市岩槻区馬込1288,339－8539,048－749－6111,Saitama Ken,埼玉県,35.970203,139.658371,1999-12,4,6,True,True,3.61,62.0,36.1,F
+276,F111310102058,Bunri University of Hospitality,西武文理大学,Private,私立,埼玉県狭山市柏原新田311－1,350－1336,04－2954－7575,Saitama Ken,埼玉県,35.891426,139.418518,1998-12,2,3,False,False,3.49,78.0,35.5,F
+277,F111310102067,Jumonji University,十文字学園女子大学,Private,私立,埼玉県新座市菅沢2－1－28,352－8510,048－477－0555,Saitama Ken,埼玉県,35.799313,139.552094,1996-04,5,14,True,False,3.81,229.0,37.4,F
+278,F111310102076,Heisei International University,平成国際大学,Private,私立,埼玉県加須市水深大立野2000,347－8504,0480－66－2100,Saitama Ken,埼玉県,36.096184,139.637634,1995-12,3,4,True,False,3.74,32.0,35.5,F
+279,F111310102085,Tokyo International University,東京国際大学,Private,私立,埼玉県川越市的場北1－13－1,350－1197,049－232－1111,Saitama Ken,埼玉県,35.927303,139.437866,1965-01,11,15,True,False,3.96,424.0,36.7,F
+280,F111310102094,Josai University,城西大学,Private,私立,埼玉県坂戸市けやき台1－1,350－0295,049－286－2233,Saitama Ken,埼玉県,35.933132,139.34201,1965-01,10,17,True,False,3.52,275.0,37.4,F
+281,F111310102101,Toho College of Music,東邦音楽大学,Private,私立,埼玉県川越市今泉84,350－0015,049－235－2157,Saitama Ken,埼玉県,35.896595,139.523529,1965-01,2,2,True,False,4.02,31.0,,
+282,F111310102110,Dokkyo University,獨協大学,Private,私立,埼玉県草加市学園町1－1,340－0042,048－946－1641,Saitama Ken,埼玉県,35.83942,139.794189,1964-04,7,16,True,False,3.95,682.0,50.4,C
+283,F111310102129,Nippon Institute of Technology,日本工業大学,Private,私立,埼玉県南埼玉郡宮代町学園台4－1－1,345－8501,0480－34－4111,Saitama Ken,埼玉県,36.026604,139.713486,1967-03,6,13,True,False,3.66,117.0,36.9,F
+284,F111310102138,Meikai University,明海大学,Private,私立,埼玉県坂戸市けやき台1－1,350－0283,049－285－5511,Saitama Ken,埼玉県,35.933132,139.34201,1970-03,11,13,True,False,3.77,234.0,39.5,E
+285,F111310102147,Saitama Medical University,埼玉医科大学,Private,私立,埼玉県入間郡毛呂山町毛呂本郷38,350－0495,049－276－1111,Saitama Ken,埼玉県,35.936001,139.304062,1972-02,4,10,True,False,3.8,79.0,46.7,D
+286,F111310102156,Saitama Institute of Technology,埼玉工業大学,Private,私立,埼玉県深谷市普済寺1690,369－0293,048－585－2521,Saitama Ken,埼玉県,36.19603,139.238739,1976-01,4,10,True,False,3.59,79.0,35.5,F
+287,F111310102165,Surugadai University,駿河台大学,Private,私立,埼玉県飯能市大字阿須字一の木698,357－8555,042－972－1111,Saitama Ken,埼玉県,35.835243,139.334778,1986-12,8,11,True,False,3.75,154.0,42.1,E
+288,F111310102174,Seigakuin University,聖学院大学,Private,私立,埼玉県上尾市戸崎1－1,362－8585,048－781－0925,Saitama Ken,埼玉県,35.937756,139.595535,1988-04,6,8,True,False,3.7,71.0,35.5,F
+289,F111310102183,Kagawa Nutrition University,女子栄養大学,Private,私立,埼玉県坂戸市千代田3－9－21,350－0288,049－282－3601,Saitama Ken,埼玉県,35.952763,139.410965,1961-03,2,5,True,False,4.12,223.0,43.3,E
+290,F111310102192,Tohto University,東都大学,Private,私立,埼玉県深谷市上柴町西4－2－11,366－0052,048－574－2500,Saitama Ken,埼玉県,36.18111,139.298462,2008-10,4,4,False,False,3.46,40.0,36.0,F
+291,F111310102209,Japan University of Health Sciences,日本保健医療大学,Private,私立,埼玉県幸手市幸手1961－2,340－0113,0480－40－4848,Saitama Ken,埼玉県,36.071983,139.73082,2009-10,1,2,False,False,3.33,24.0,35.5,F
+292,F112310102360,Chiba Institute of Science,千葉科学大学,Private,私立,千葉県銚子市潮見町3,288－0025,0479－30－4500,Chiba Ken,千葉県,35.701206,140.846268,2003-11,7,12,True,False,3.31,73.0,37.4,F
+293,F112310102379,Aikoku Gakuen University,愛国学園大学,Private,私立,千葉県四街道市四街道1532,284－0005,043－424－4433,Chiba Ken,千葉県,35.666553,140.157578,1997-12,1,1,False,False,3.68,11.0,38.0,F
+294,F112310102388,Kaichi International University,開智国際大学,Private,私立,千葉県柏市柏1225－6,277－0005,04－7167－8655,Chiba Ken,千葉県,35.862244,139.987976,1999-12,3,3,False,False,4.07,23.0,35.7,F
+295,F112310102397,Seiwa University,清和大学,Private,私立,千葉県木更津市東太田3－4－5,292－8555,0438－30－5555,Chiba Ken,千葉県,35.376106,139.958008,1993-12,1,1,False,False,3.19,27.0,37.5,F
+296,F112310102404,Josai International University,城西国際大学,Private,私立,千葉県東金市求名1,283－8555,0475－55－8800,Chiba Ken,千葉県,35.580254,140.395966,1991-12,14,20,True,False,3.61,247.0,38.9,F
+297,F112310102413,Shukutoku University,淑徳大学,Private,私立,千葉県千葉市中央区大巌寺町200,260－8701,043－265－7331,Chiba Ken,千葉県,35.574577,140.144501,1965-01,8,14,True,False,3.81,307.0,40.4,E
+298,F112310102422,Keiai University,敬愛大学,Private,私立,千葉県千葉市稲毛区穴川1－5－21,263－8588,043－251－6363,Chiba Ken,千葉県,35.633312,140.103821,1966-01,3,4,False,False,3.74,69.0,37.8,F
+299,F112310102431,Chiba Institute of Technology,千葉工業大学,Private,私立,千葉県習志野市津田沼2－17－1,275－0016,047－478－0208,Chiba Ken,千葉県,35.688942,140.021255,1942-05,10,32,True,False,3.75,361.0,46.2,D
+300,F112310102440,Chiba University of Commerce,千葉商科大学,Private,私立,千葉県市川市国府台1－3－1,272－8512,047－372－4111,Chiba Ken,千葉県,35.742493,139.907028,1928-02,9,11,True,False,3.69,213.0,43.4,E
+301,F112310102459,Chuogakuin University,中央学院大学,Private,私立,千葉県我孫子市久寺家451,270－1196,04－7183－6501,Chiba Ken,千葉県,35.8829,140.01796,1966-01,4,4,True,False,3.76,119.0,38.2,F
+302,F112310102468,Reitaku University,麗澤大学,Private,私立,千葉県柏市光ケ丘2－1－1,277－8686,04－7173－3601,Chiba Ken,千葉県,35.831802,139.951187,1942-04,6,9,True,False,3.81,118.0,39.3,E
+303,F112310102477,Wayo Women’s University,和洋女子大学,Private,私立,千葉県市川市国府台2－3－1,272－8533,047－371－1111,Chiba Ken,千葉県,35.742989,139.904266,1928-10,6,12,True,False,4.05,199.0,37.7,F
+304,F112310102486,International Budo University,国際武道大学,Private,私立,千葉県勝浦市新官841,299－5295,0470－73－4111,Chiba Ken,千葉県,35.161568,140.322876,1983-12,3,4,True,False,3.59,53.0,37.8,F
+305,F112310102495,Kanda University of International Studies,神田外語大学,Private,私立,千葉県千葉市美浜区若葉1－4－1,261－0014,043－273－1322,Chiba Ken,千葉県,35.656132,140.042236,1987-04,4,9,True,False,4.05,334.0,45.2,D
+306,F112310102501,Chiba Keizai University,千葉経済大学,Private,私立,千葉県千葉市稲毛区轟町3-59-5,263-0021,043-253-9111,Chiba Ken,千葉県,35.62973,140.109146,1987-12,2,3,True,False,3.65,72.0,43.0,E
+307,F112310102510,Shumei University,秀明大学,Private,私立,千葉県八千代市大学町1－1－1,276－0003,047－488－2111,Chiba Ken,千葉県,35.77285,140.099426,1987-12,5,5,False,False,3.93,84.0,40.9,E
+308,F112310102529,Kawamura Gakuen Woman’s University,川村学園女子大学,Private,私立,千葉県我孫子市下ケ戸1133,270－1138,04－7183－0111,Chiba Ken,千葉県,35.875843,140.053757,1987-12,4,11,True,False,3.51,79.0,37.6,F
+309,F112310102538,Tokyo University of Information Sciences,東京情報大学,Private,私立,千葉県千葉市若葉区御成台4－1,265－8501,043－236－1101,Chiba Ken,千葉県,35.637684,140.203354,1988-04,3,3,True,False,3.83,104.0,41.5,E
+310,F112310102547,Tokyo Christian University,東京基督教大学,Private,私立,千葉県印西市内野3－301－5,270－1347,0476－46－1131,Chiba Ken,千葉県,35.789703,140.125168,1989-12,3,5,True,False,4.23,33.0,,
+311,F112310102556,Seitoku University,聖徳大学,Private,私立,千葉県松戸市岩瀬550,271－8555,047－365－1111,Chiba Ken,千葉県,35.783543,139.903381,1989-12,18,25,True,True,3.6,350.0,37.9,F
+312,F112310102565,Edogawa University,江戸川大学,Private,私立,千葉県流山市駒木474,270－0198,04－7152－0661,Chiba Ken,千葉県,35.877056,139.938934,1989-12,2,6,False,False,3.57,111.0,42.4,E
+313,F112310102574,Ryotokuji University,了徳寺大学,Private,私立,千葉県浦安市明海5－8－1,279－8567,047－382－2111,Chiba Ken,千葉県,35.639462,139.926636,2005-12,1,3,False,False,3.66,54.0,39.3,E
+314,F112310102583,Uekusa Gakuen University,植草学園大学,Private,私立,千葉県千葉市若葉区小倉町1639番3,264－0007,043－233－9031,Chiba Ken,千葉県,35.634373,140.181976,2007-12,2,2,False,False,3.88,62.0,36.2,F
+315,F112310102592,Saniku Gakuin College,三育学院大学,Private,私立,千葉県夷隅郡大多喜町久我原1500,298－0297,0470－84－0111,Chiba Ken,千葉県,35.243866,140.262909,2007-12,2,2,True,False,4.08,14.0,38.0,F
+316,F112310102609,Kameda University of Health Sciences,亀田医療大学,Private,私立,千葉県鴨川市横渚462,296－0001,04－7099－1211,Chiba Ken,千葉県,35.102497,140.100525,2011-10,2,2,True,False,3.31,8.0,35.0,F
+317,F113310102840,Tokyo University of Social Welfare,東京福祉大学,Private,私立,群馬県伊勢崎市山王町2020－1,372－0831,0270－20－3671,Gunma Ken,群馬県,36.285713,139.194138,1999-12,14,15,True,True,3.82,367.0,35.5,F
+318,F113310102859,Atomi University,跡見学園女子大学,Private,私立,東京都文京区大塚1－5－2,112－8687,03－3941－7420,Tokyo To,東京都,35.71693,139.734116,1965-01,6,11,True,False,3.83,323.0,41.1,E
+319,F113310102868,Bunkyo University,文教大学,Private,私立,東京都品川区旗の台3－2－17,142－0064,03－3783－5511,Tokyo To,東京都,35.605209,139.705902,1966-01,14,25,True,False,3.89,676.0,46.7,D
+320,F113310102877,Bunkyo Gakuin University,文京学院大学,Private,私立,東京都文京区向丘1－19－1,113－8668,03－3814－1661,Tokyo To,東京都,35.718536,139.757568,1990-12,9,16,True,False,3.74,242.0,36.9,F
+321,F113310102886,Mejiro University,目白大学,Private,私立,東京都新宿区中落合4－31－1,161－8539,03－5996－3121,Tokyo To,東京都,35.716835,139.681244,1993-12,15,27,True,False,3.51,362.0,39.4,E
+322,F113310102895,Tokyo Seitoku University,東京成徳大学,Private,私立,東京都北区十条台1－7－13,114－0033,03－3908－4530,Tokyo To,東京都,35.756275,139.72403,1992-12,6,9,True,False,3.87,118.0,38.0,F
+323,F113310102902,Toyo Gakuen University,東洋学園大学,Private,私立,東京都文京区本郷1－26－3,113－0033,03－3811－1696,Tokyo To,東京都,35.704567,139.757568,1992-04,4,5,True,False,3.54,99.0,38.3,F
+324,F113310102911,Teikyo Heisei University,帝京平成大学,Private,私立,東京都豊島区東池袋2－51－4,170－8445,03－5843－3111,Tokyo To,東京都,35.732563,139.718811,1986-12,12,30,True,True,3.8,669.0,40.7,E
+325,F113310102920,Aoyama Gakuin University,青山学院大学,Private,私立,東京都渋谷区渋谷4－4－25,150－8366,03－3409－7798,Tokyo To,東京都,35.6618,139.708862,1949-04,22,52,True,False,4.03,1871.0,60.2,A
+326,F113310102939,Ueno Gakuen University,上野学園大学,Private,私立,東京都台東区東上野4－24－12,110－8642,03－3842－1020,Tokyo To,東京都,35.715767,139.782227,1958-01,2,4,False,False,3.69,35.0,,
+327,F113310102948,Otsuma Women’s University,大妻女子大学,Private,私立,東京都千代田区三番町12,102－8357,03－5275－6000,Tokyo To,東京都,35.69109,139.742264,1949-03,6,15,True,False,3.95,613.0,44.4,D
+328,F113310102957,Gakushuin University,学習院大学,Private,私立,東京都豊島区目白1－5－1,171－8588,03－5992－1003,Tokyo To,東京都,35.721264,139.707245,1877-10,12,38,True,False,4.11,805.0,56.8,B
+329,F113310102966,Kitasato University,北里大学,Private,私立,東京都港区白金5－9－1,108－8641,03－3444－6161,Tokyo To,東京都,35.645351,139.725525,1962-04,14,27,True,False,3.98,621.0,46.6,D
+330,F113310102975,Kyoritsu Women’s University,共立女子大学,Private,私立,東京都千代田区一ツ橋2－2－1,101－8437,03－3237－2536,Tokyo To,東京都,35.693314,139.757553,1928-10,9,16,True,False,3.92,489.0,45.7,D
+331,F113310102984,Keio University,慶應義塾大学,Private,私立,東京都港区三田2－15－45,108－8345,03－5427－1554,Tokyo To,東京都,35.649147,139.742828,1890-01,28,59,True,True,4.19,2682.0,66.3,S
+332,F113310102993,Kogakuin University,工学院大学,Private,私立,東京都新宿区西新宿1－24－2,163－8677,03－3342－1211,Tokyo To,東京都,35.690514,139.695648,1944-03,7,24,True,False,3.64,249.0,56.0,B
+333,F113310103000,Kokugakuin University,國學院大學,Private,私立,東京都渋谷区東4－10－28,150－8440,03－5466－0111,Tokyo To,東京都,35.655972,139.711365,1904-04,11,22,True,False,3.91,715.0,,
+334,F113310103019,Kokushikan University,国士舘大学,Private,私立,東京都世田谷区世田谷4－28－1,154－8515,03－5481－3111,Tokyo To,東京都,35.646896,139.653458,1929-04,17,29,True,False,3.75,503.0,44.7,D
+335,F113310103028,Komazawa University,駒澤大学,Private,私立,東京都世田谷区駒沢1－23－1,154－8525,03－3418－9111,Tokyo To,東京都,35.628857,139.65863,1882-10,16,32,True,False,3.73,990.0,52.1,C
+336,F113310103037,Jissen Women’s University,実践女子大学,Private,私立,東京都日野市大坂上4－1－1,191－8510,042－585－8817,Tokyo To,東京都,35.67152,139.38974,1925-01,6,15,True,False,3.92,375.0,45.8,D
+337,F113310103046,Shibaura Institute of Technology,芝浦工業大学,Private,私立,東京都江東区豊洲3－7－5,135－8548,03－5859－7000,Tokyo To,東京都,35.659737,139.794281,1927-07,5,28,True,False,3.94,376.0,53.5,C
+338,F113310103055,Juntendo University,順天堂大学,Private,私立,東京都文京区本郷2－1－1,113－8421,03－3813－3111,Tokyo To,東京都,35.701954,139.761734,1944-04,10,15,True,False,4.07,276.0,53.9,C
+339,F113310103064,Sophia University,上智大学,Private,私立,東京都千代田区紀尾井町7－1,102－8554,03－3238－3111,Tokyo To,東京都,35.683189,139.732742,1913-03,20,57,True,False,4.2,1120.0,62.3,A
+340,F113310103073,Showa University,昭和大学,Private,私立,東京都品川区旗の台1－5－8,142－8555,03－3784－8000,Tokyo To,東京都,35.60899,139.704071,1928-04,9,15,True,False,3.91,216.0,53.9,C
+341,F113310103082,Showa Women’s University,昭和女子大学,Private,私立,東京都世田谷区太子堂1－7－57,154－8533,03－3411－5111,Tokyo To,東京都,35.645466,139.675186,1946-04,9,25,True,False,3.94,549.0,51.6,C
+342,F113310103091,Showa Pharmaceutical University,昭和薬科大学,Private,私立,東京都町田市東玉川学園3－3165,194－8543,042－721－1511,Tokyo To,東京都,35.55368,139.470673,1930-11,2,3,True,False,3.55,74.0,50.3,C
+343,F113310103108,Joshibi University of Art And Design,女子美術大学,Private,私立,東京都杉並区和田1－49－8,166－8538,03－5340－4500,Tokyo To,東京都,35.693089,139.662079,1900-10,2,6,True,False,4.0,154.0,41.0,E
+344,F113310103117,Sugino Fashion College,杉野服飾大学,Private,私立,東京都品川区上大崎4－6－19,141－8652,03－3491－8151,Tokyo To,東京都,35.631489,139.71553,1964-04,3,4,True,False,3.51,45.0,35.5,F
+345,F113310103126,Seijo University,成城大学,Private,私立,東京都世田谷区成城6－1－20,157－8511,03－3482－2101,Tokyo To,東京都,35.642353,139.600174,1926-03,8,21,True,False,3.81,440.0,54.5,B
+346,F113310103135,"University of The Sacred Heart, Tokyo",聖心女子大学,Private,私立,東京都渋谷区広尾4－3－1,150－8938,03－3407－5811,Tokyo To,東京都,35.653835,139.717285,1916-04,2,15,True,False,4.33,148.0,45.0,D
+347,F113310103144,Seisen University,清泉女子大学,Private,私立,東京都品川区東五反田3－16－21,141－8642,03－3447－5551,Tokyo To,東京都,35.626957,139.729797,1950-02,3,10,True,False,4.15,186.0,42.2,E
+348,F113310103153,St.Luke’s International University,聖路加国際大学,Private,私立,東京都中央区明石町10－1,104－0044,03－3543－6391,Tokyo To,東京都,35.668316,139.775391,1920-10,3,4,True,False,4.41,42.0,59.7,A
+349,F113310103162,Senshu University,専修大学,Private,私立,東京都千代田区神田神保町3－8－1,101－8425,03－3265－6821,Tokyo To,東京都,35.6968,139.753876,1880-09,17,37,True,False,3.74,1185.0,50.2,C
+350,F113310103171,Taisho University,大正大学,Private,私立,東京都豊島区西巣鴨3－20－1,170－8470,03－3918－7311,Tokyo To,東京都,35.741486,139.728256,1926-04,11,22,True,False,3.8,311.0,41.3,E
+351,F113310103180,Daito Bunka University,大東文化大学,Private,私立,東京都板橋区高島平1－9－1,175－8571,03－5399－7333,Tokyo To,東京都,35.782089,139.667938,1923-09,17,37,True,False,3.69,571.0,43.8,E
+352,F113310103199,Takachiho University,高千穂大学,Private,私立,東京都杉並区大宮2－19－1,168－8508,03－3313－0141,Tokyo To,東京都,35.682804,139.638245,1912-05,4,4,True,False,3.56,85.0,38.0,F
+353,F113310103206,Takushoku University,拓殖大学,Private,私立,東京都文京区小日向3－4－14,112－8585,03－3947－7111,Tokyo To,東京都,35.715481,139.737274,1900-06,12,25,True,False,3.64,423.0,41.2,E
+354,F113310103215,Tama Art University,多摩美術大学,Private,私立,東京都世田谷区上野毛3－15－34,158－8558,03－3702－1141,Tokyo To,東京都,35.61409,139.637085,1935-10,2,17,True,False,3.95,196.0,45.1,D
+355,F113310103224,Chuo University,中央大学,Private,私立,東京都八王子市東中野742－1,192－0393,042－674－2210,Tokyo To,東京都,35.638794,139.399811,1885-07,17,61,True,True,3.91,2298.0,57.9,B
+356,F113310103233,Tokai University,東海大学,Private,私立,神奈川県平塚市北金目4－1－1,259－1292,0463－58－1211,Kanagawa Ken,神奈川県,35.359573,139.271378,1946-05,44,120,True,False,3.8,1430.0,43.4,E
+357,F113310103242,Tokyo Medical University,東京医科大学,Private,私立,東京都新宿区新宿6－1－1,160－8402,03－3351－6141,Tokyo To,東京都,35.69355,139.71225,1916-09,2,10,True,False,3.9,52.0,61.0,A
+358,F113310103251,Tokyo Kasei University,東京家政大学,Private,私立,東京都板橋区加賀1－18－1,173－8602,03－3961－5226,Tokyo To,東京都,35.756275,139.719482,1922-12,6,20,True,False,3.95,598.0,43.6,E
+359,F113310103260,Tokyo Kasei Gakuin University,東京家政学院大学,Private,私立,東京都町田市相原町2600,194－0292,042－782－9811,Tokyo To,東京都,35.60841,139.310562,1963-01,3,8,True,False,3.57,98.0,36.3,F
+360,F113310103279,Tokyo Dental College,東京歯科大学,Private,私立,東京都千代田区神田三崎町2－9－18,101－0061,03－6380－9001,Tokyo To,東京都,35.701309,139.754852,1890-01,2,2,True,False,4.16,53.0,55.5,B
+361,F113310103288,The Jikei University School of Medicine,東京慈恵会医科大学,Private,私立,東京都港区西新橋3－25－8,105－8461,03－3433－1111,Tokyo To,東京都,35.662537,139.75029,1921-10,2,4,True,False,4.28,50.0,60.0,A
+362,F113310103297,Tokyo Woman's Christian University,東京女子大学,Private,私立,東京都杉並区善福寺2－6－1,167－8585,03－5382－6340,Tokyo To,東京都,35.709896,139.591202,1918-03,3,10,True,False,3.93,442.0,52.3,C
+363,F113310103304,Tokyo Women’s Medical University,東京女子医科大学,Private,私立,東京都新宿区河田町8－1,162－8666,03－3353－8111,Tokyo To,東京都,35.696342,139.719635,1900-12,4,10,True,False,4.29,50.0,53.0,C
+364,F113310103313,Tokyo Denki University,東京電機大学,Private,私立,東京都足立区千住旭町5,120－8551,03－5284－5202,Tokyo To,東京都,35.748764,139.806381,1939-04,11,36,True,False,3.68,376.0,49.3,C
+365,F113310103322,Tokyo University of Agriculture,東京農業大学,Private,私立,東京都世田谷区桜丘1－1－1,156－8502,03－5477－2207,Tokyo To,東京都,35.640781,139.631912,1891-03,12,51,True,False,3.94,814.0,47.3,D
+366,F113310103331,Tokyo University of Pharmacy And Life Sciences,東京薬科大学,Private,私立,東京都八王子市堀之内1432－1,192－0392,042－676－5111,Tokyo To,東京都,35.638222,139.385071,1880-11,4,9,True,False,3.82,212.0,48.2,D
+367,F113310103340,Tokyo University of Science,東京理科大学,Private,私立,東京都新宿区神楽坂1－3,162－8601,03－3260－4271,Tokyo To,東京都,35.699505,139.741348,1881-06,17,51,True,False,3.85,1128.0,57.2,B
+368,F113310103359,Toho University,東邦大学,Private,私立,東京都大田区大森西5－21－16,143－8540,03－3762－4151,Tokyo To,東京都,35.570171,139.724884,1925-03,9,20,True,False,3.98,267.0,48.1,D
+369,F113310103368,Toyo University,東洋大学,Private,私立,東京都文京区白山5－28－20,112－8606,03－3945－7224,Tokyo To,東京都,35.724289,139.750763,1903-10,38,81,True,True,3.83,1870.0,51.2,C
+370,F113310103377,Tokyo College of Music,東京音楽大学,Private,私立,東京都目黒区上目黒1-9-1,153－8622,03－6455－2700,Tokyo To,東京都,35.647171,139.699265,1954-02,2,6,True,False,4.14,145.0,35.0,F
+371,F113310103386,Nishogakusha University,二松学舎大学,Private,私立,東京都千代田区三番町6－16,102－8336,03－3261－7407,Tokyo To,東京都,35.691261,139.74527,1928-02,5,10,True,False,3.67,192.0,,
+372,F113310103395,Nihon University,日本大学,Private,私立,東京都千代田区九段南4－8－24,102－8275,03－5275－8110,Tokyo To,東京都,35.691322,139.737396,1889-10,40,149,True,True,3.71,3665.0,47.3,D
+373,F113310103402,Nippon Medical School,日本医科大学,Private,私立,東京都文京区千駄木1－1－5,113－8602,03－3822－2131,Tokyo To,東京都,35.721233,139.758453,1904-04,2,2,True,False,3.99,31.0,70.0,S
+374,F113310103411,The Nippon Dental University,日本歯科大学,Private,私立,東京都千代田区富士見1－9－20,102－8159,03－3261－8311,Tokyo To,東京都,35.697971,139.746216,1907-06,4,4,True,False,3.16,35.0,46.3,D
+375,F113310103420,Japan College of Social Work,日本社会事業大学,Private,私立,東京都清瀬市竹丘3－1－30,204－8555,042－496－3000,Tokyo To,東京都,35.767517,139.508698,1946-11,3,4,True,False,3.86,85.0,40.0,E
+376,F113310103439,Japan Women’s University,日本女子大学,Private,私立,東京都文京区目白台2－8－1,112－8681,03－3943－3131,Tokyo To,東京都,35.715923,139.721085,1900-12,10,35,True,True,4.09,748.0,53.3,C
+377,F113310103448,Japan Women’s College of Physical Education,日本女子体育大学,Private,私立,東京都世田谷区北烏山8-19-1,157－8565,03－3300－2258,Tokyo To,東京都,35.676498,139.590546,1922-04,2,7,True,False,4.0,213.0,35.5,F
+378,F113310103457,Nippon Sport Science University,日本体育大学,Private,私立,東京都世田谷区深沢7－1－1,158－8508,03－5706－0900,Tokyo To,東京都,35.621609,139.650009,1941-03,9,16,True,False,4.03,382.0,40.0,E
+379,F113310103466,Japan Lutheran College,ルーテル学院大学,Private,私立,東京都三鷹市大沢3－10－20,181－0015,0422－31－4611,Tokyo To,東京都,35.686474,139.527481,1909-09,2,3,True,False,3.97,35.0,35.7,F
+380,F113310103475,Bunka Gakuen University,文化学園大学,Private,私立,東京都渋谷区代々木3－22－1,151－8523,03－3299－2310,Tokyo To,東京都,35.685848,139.693954,1964-01,5,11,True,False,4.08,143.0,41.2,E
+381,F113310103484,Hosei University,法政大学,Private,私立,東京都千代田区富士見2－17－1,102－8160,03－3264－9243,Tokyo To,東京都,35.695679,139.74115,1903-08,35,74,True,True,3.89,2242.0,58.7,B
+382,F113310103493,Hoshi University,星薬科大学,Private,私立,東京都品川区荏原2－4－41,142－8501,03－3786－1011,Tokyo To,東京都,35.618053,139.712601,1941-04,2,4,True,False,3.9,145.0,56.0,B
+383,F113310103509,Musashi University,武蔵大学,Private,私立,東京都練馬区豊玉上1－26－1,176－8534,03－5984－3713,Tokyo To,東京都,35.736893,139.666885,1921-12,6,13,True,False,3.96,341.0,56.0,B
+384,F113310103518,Tokyo City University,東京都市大学,Private,私立,東京都世田谷区玉堤1－28－1,158－8557,03－5707－0104,Tokyo To,東京都,35.596542,139.650925,1929-09,9,25,True,False,3.88,396.0,50.1,C
+385,F113310103527,Musashino Academia Musicae,武蔵野音楽大学,Private,私立,東京都練馬区羽沢1－13－1,176－8521,03－3992－1121,Tokyo To,東京都,35.741283,139.672195,1929-02,4,12,True,False,3.86,96.0,35.0,F
+386,F113310103536,Meiji University,明治大学,Private,私立,東京都千代田区神田駿河台1－1,101－8301,03－3296－4545,Tokyo To,東京都,35.697712,139.761398,1903-08,26,65,True,False,4.01,2765.0,60.8,A
+387,F113310103545,Meiji Gakuin University,明治学院大学,Private,私立,東京都港区白金台1－2－37,108－8636,03－5421－5111,Tokyo To,東京都,35.636738,139.730743,1903-11,13,28,True,False,3.9,976.0,54.2,B
+388,F113310103554,Meiji Pharmaceutical University,明治薬科大学,Private,私立,東京都清瀬市野塩2－522－1,204－8588,042－495－8611,Tokyo To,東京都,35.781338,139.50618,1902-03,2,4,True,False,3.93,175.0,50.6,C
+389,F113310103563,Rikkyo University,立教大学,Private,私立,東京都豊島区西池袋3－34－1,171－8501,03－3985－2752,Tokyo To,東京都,35.729706,139.704742,1949-02,24,54,True,False,4.09,1811.0,60.6,A
+390,F113310103572,Rissho University,立正大学,Private,私立,東京都品川区大崎4－2－16,141－8602,03－3492－2681,Tokyo To,東京都,35.62101,139.724075,1904-04,16,33,True,False,3.76,602.0,42.3,E
+391,F113310103581,Waseda University,早稲田大学,Private,私立,東京都新宿区戸塚町１－１０４,169－8050,03-3204-2253,Tokyo To,東京都,35.710083,139.722244,1902-10,35,94,True,True,4.14,4280.0,65.7,S
+392,F113310103590,International College For Postgraduate Buddhist Studies,国際仏教学大学院大学,Private,私立,東京都文京区春日2-8-9,112-0003,03-5981-5271,Tokyo To,東京都,35.710667,139.740997,1995-12,1,1,True,False,5.0,1.0,,
+393,F113310103607,Gakushuin Women’s College,学習院女子大学,Private,私立,東京都新宿区戸山3－20－1,162－8650,03－3203－1906,Tokyo To,東京都,35.706844,139.713242,1998-04,2,4,True,False,4.19,159.0,45.0,D
+394,F113310103616,International Professional University of Technology in Tokyo,東京国際工科専門職大学,Private,私立,東京都新宿区西新宿1-7-3,160－0023,03-3344-5555,Tokyo To,東京都,35.691559,139.698044,2020-04,2,3,False,False,4.0,1.0,,
+395,F113310103625,Tokyo Professional University of Health Sciences,東京保健医療専門職大学,Private,私立,東京都江東区塩浜2-22-10,135－0043,03-6272-5671,Tokyo To,東京都,35.66444,139.813049,2020-04,1,2,False,False,,,36.5,F
+396,F113310103634,Professional University of Information and Management for Innovation,情報経営イノベーション専門職大学,Private,私立,東京都墨田区文花1-18-13,131－0044,03-5655-1555,Tokyo To,東京都,35.711437,139.823807,2020-04,1,1,False,False,3.5,2.0,35.0,F
+397,F113310103643,"Graduate School of Leadership and Innovation, Shizenkan University",大学院大学至善館,Private,私立,東京都中央区日本橋二丁目5番1号 日本橋髙島屋三井ビルディング17階,103-6117,03-6281-9011,Tokyo To,東京都,35.681751,139.773468,2017-08,1,1,True,False,,,,
+398,F113310103652,Tokyo Online University,東京通信大学,Private,私立,東京都新宿区西新宿1-7-3,160－0023,03－3344－2222,Tokyo To,東京都,35.691559,139.698044,2018-04,2,2,False,True,3.78,201.0,,
+399,F113310103661,Professional Institute of International Fashion,国際ファッション専門職大学,Private,私立,東京都新宿区西新宿1-7-3,160－0023,03－3344－8000,Tokyo To,東京都,35.691559,139.698044,2019-04,1,4,False,False,4.0,4.0,,
+400,F113310103670,Komazawa Women’s University,駒沢女子大学,Private,私立,東京都稲城市坂浜238番地,206－8511,042－350－7111,Tokyo To,東京都,35.628113,139.493988,1992-12,5,12,True,False,3.74,171.0,41.8,E
+401,F113310103689,Asia University,亜細亜大学,Private,私立,東京都武蔵野市境5－8,180－8629,0422－36－3241,Tokyo To,東京都,35.705235,139.534866,1955-03,9,11,True,False,3.75,392.0,40.1,E
+402,F113310103698,J.F.Oberlin University,桜美林大学,Private,私立,東京都町田市常盤町3758,194－0294,042-797-2661,Tokyo To,東京都,35.582386,139.405487,1966-01,9,7,True,False,3.8,521.0,39.4,E
+403,F113310103705,Kunitachi College of Music,国立音楽大学,Private,私立,東京都立川市柏町5－5－1,190－8520,042－536－0321,Tokyo To,東京都,35.732414,139.410995,1926-04,3,12,True,False,4.09,179.0,39.0,F
+404,F113310103714,International Christian University,国際基督教大学,Private,私立,東京都三鷹市大沢3－10－2,181－8585,0422－33－3131,Tokyo To,東京都,35.686474,139.527481,1953-03,2,6,True,False,4.43,206.0,68.0,S
+405,F113310103723,Shirayuri University,白百合女子大学,Private,私立,東京都調布市緑ヶ丘1－25,182－8525,03－3326－5050,Tokyo To,東京都,35.668129,139.581207,1946-03,3,12,True,False,3.92,194.0,39.7,E
+406,F113310103732,Seikei University,成蹊大学,Private,私立,東京都武蔵野市吉祥寺北町3－3－1,180－8633,0422－37－3531,Tokyo To,東京都,35.710575,139.572693,1925-02,9,19,True,False,3.95,559.0,53.3,C
+407,F113310103741,Tamagawa University,玉川大学,Private,私立,東京都町田市玉川学園6－1－1,194－8610,042－739－8111,Tokyo To,東京都,35.567326,139.464844,1945-03,16,33,True,True,3.78,495.0,46.0,D
+408,F113310103750,Tsuda University,津田塾大学,Private,私立,東京都小平市津田町2－1－1,187－8577,042－342－5111,Tokyo To,東京都,35.721451,139.465271,1900-09,5,10,True,False,4.11,384.0,50.0,C
+409,F113310103769,Teikyo University,帝京大学,Private,私立,東京都板橋区加賀2－11－1,173－8605,03－3964－1211,Tokyo To,東京都,35.759392,139.714478,1966-01,24,57,True,True,3.71,1133.0,42.9,E
+410,F113310103778,Tokyo Keizai University,東京経済大学,Private,私立,東京都国分寺市南町1－7－34,185－8502,042－328－7711,Tokyo To,東京都,35.700047,139.488266,1900-07,8,11,True,False,3.87,339.0,48.7,D
+411,F113310103787,Tokyo Women’s College of Physical Education,東京女子体育大学,Private,私立,東京都国立市富士見台4－30－1,186－8668,042－572－4131,Tokyo To,東京都,35.689056,139.427765,1962-01,1,1,False,False,3.8,112.0,35.5,F
+412,F113310103796,Tokyo Union Theological Seminary,東京神学大学,Private,私立,東京都三鷹市大沢3－10－30,181－0015,0422－32－4185,Tokyo To,東京都,35.686474,139.527481,1944-04,2,3,True,False,2.86,2.0,,
+413,F113310103803,Tokyo Zokei University,東京造形大学,Private,私立,東京都八王子市宇津貫町1556,192－0992,042－637－8111,Tokyo To,東京都,35.617332,139.334259,1966-01,2,3,True,False,3.86,82.0,40.8,E
+414,F113310103812,Toho Gakuen School of Music,桐朋学園大学,Private,私立,東京都調布市若葉町1－41－1,182－8510,03－3307－4101,Tokyo To,東京都,35.659061,139.584274,1955-02,2,2,True,False,4.35,87.0,35.0,F
+415,F113310103821,Nippon Veterinary And Life Science University,日本獣医生命科学大学,Private,私立,東京都武蔵野市境南町1－7－1,180－8602,0422－31－4151,Tokyo To,東京都,35.701889,139.546646,1881-09,3,7,True,False,4.03,142.0,,
+416,F113310103830,Musashino University,武蔵野大学,Private,私立,東京都江東区有明三丁目3番3号,135－8181,03－5530－7333,Tokyo To,東京都,35.631275,139.786896,1965-01,34,46,True,True,3.7,512.0,47.4,D
+417,F113310103849,Musashino Art University,武蔵野美術大学,Private,私立,東京都小平市小川町1－736,187－8505,042－342－6021,Tokyo To,東京都,35.728161,139.449005,1929-10,6,21,True,True,4.01,230.0,47.7,D
+418,F113310103858,Meisei University,明星大学,Private,私立,東京都日野市程久保2－1－1,191－8506,042－591－5111,Tokyo To,東京都,35.645657,139.409485,1964-03,16,25,True,True,3.75,455.0,46.2,D
+419,F113310103867,WAKO UNIVERSITY,和光大学,Private,私立,東京都町田市金井ヶ丘5-1-1,195－8585,044－988－1431,Tokyo To,東京都,35.573551,139.463898,1966-01,4,9,True,False,3.59,145.0,36.4,F
+420,F113310103876,Kyorin University,杏林大学,Private,私立,東京都三鷹市新川6－20－2,181－8611,0422－47－5511,Tokyo To,東京都,35.677597,139.565598,1970-04,7,28,True,False,3.77,336.0,45.2,D
+421,F113310103885,Soka University,創価大学,Private,私立,東京都八王子市丹木町1－236,192－8577,042－691－2215,Tokyo To,東京都,35.687759,139.327942,1971-01,23,33,True,True,4.35,556.0,40.5,E
+422,F113310103894,Nihon Bunka University,日本文化大学,Private,私立,東京都八王子市片倉町977,192－0986,042－636－5211,Tokyo To,東京都,35.633663,139.341354,1978-01,1,1,False,False,3.22,26.0,38.0,F
+423,F113310103901,Tokyo University of Technology,東京工科大学,Private,私立,東京都八王子市片倉町1404－1,192－0982,042－637－2111,Tokyo To,東京都,35.626556,139.341415,1985-12,10,20,True,False,3.56,358.0,43.1,E
+424,F113310103910,Japanese Red Cross College of Nursing,日本赤十字看護大学,Private,私立,東京都渋谷区広尾4－1－3,150－0012,03－3409－0875,Tokyo To,東京都,35.654263,139.717285,1986-02,3,4,True,False,4.38,64.0,51.8,C
+425,F113310103929,Keisen University,恵泉女学園大学,Private,私立,東京都多摩市南野2－10－1,206－8586,042－376－8211,Tokyo To,東京都,35.60828,139.436417,1987-12,4,7,True,False,3.79,91.0,38.4,F
+426,F113310103938,Tama University,多摩大学,Private,私立,東京都多摩市聖ヶ丘4－1－1,206－0022,042－337－1111,Tokyo To,東京都,35.630268,139.463898,1989-04,3,4,True,False,3.34,78.0,35.3,F
+427,F113310103947,Tokyo Junshin University,東京純心大学,Private,私立,東京都八王子市滝山町二丁目600番地,192－0011,042－692－0326,Tokyo To,東京都,35.691895,139.335144,1995-12,2,2,False,False,3.58,18.0,36.0,F
+428,F113310103956,Kaetsu University,嘉悦大学,Private,私立,東京都小平市花小金井南町2－8－4,187－8578,042－466－3711,Tokyo To,東京都,35.720676,139.514572,2000-12,3,3,True,False,3.2,31.0,37.7,F
+429,F113310103965,Tokyo Fuji University,東京富士大学,Private,私立,東京都新宿区下落合1－7－7,161－8556,03－3362－7297,Tokyo To,東京都,35.715672,139.699997,2001-12,2,3,True,False,3.48,36.0,38.0,F
+430,F113310103974,LEC Graduate University,ＬＥＣ東京リーガルマインド大学院大学,Private,私立,東京都千代田区神田三崎町2－2－15,101－0061,03－3222－5151,Tokyo To,東京都,35.700062,139.7547,2004-11,1,1,True,False,,,,
+431,F113310103983,Digital Hollywood University,デジタルハリウッド大学,Private,私立,東京都千代田区神田駿河台4－6 御茶ノ水ソラシティアカデミア3F／4F,101－0062,03－5297－5787,Tokyo To,東京都,35.698673,139.766403,2004-02,2,2,True,False,4.25,84.0,45.3,D
+432,F113310103992,Shiraume Gakuen University,白梅学園大学,Private,私立,東京都小平市小川町1－830,187－8570,042－342－2311,Tokyo To,東京都,35.725597,139.451126,2004-11,2,4,True,False,3.95,103.0,40.7,E
+433,F113310104009,Tokyo Healthcare University,東京医療保健大学,Private,私立,東京都品川区東五反田4－1－17,141－8648,03－5421－7655,Tokyo To,東京都,35.631287,139.726364,2005-04,12,6,True,False,3.65,159.0,42.4,E
+434,F113310104018,Tokyo Seiei College,東京聖栄大学,Private,私立,東京都葛飾区西新小岩1－4－6,124－8530,03－3692－0211,Tokyo To,東京都,35.718178,139.856979,2004-11,1,2,False,False,3.79,44.0,36.3,F
+435,F113310104027,Business Breakthrough University,ビジネス・ブレークスルー大学,Private,私立,東京都千代田区六番町1－7 Ohmae@workビル,102－0085,03－5860－5544,Tokyo To,東京都,35.687626,139.735382,2004-11,1,2,False,True,4.23,12.0,,
+436,F113310104036,"Graduate School of Management, GLOBIS University",グロービス経営大学院大学,Private,私立,東京都千代田区二番町5－1住友不動産麹町ビル,102－0084,,Tokyo To,東京都,35.685379,139.736298,2005-12,1,1,True,False,5.0,2.0,,
+437,F113310104045,Bunka Fashion Graduate University,文化ファッション大学院大学,Private,私立,東京都渋谷区代々木3－22－1,151－8547,03－3299－2701,Tokyo To,東京都,35.685848,139.693954,2005-12,1,2,True,False,,,,
+438,F113310104054,Ohara Graduate School of Accounting,大原大学院大学,Private,私立,東京都千代田区西神田1－2－10,101－0065,03－3237－8760,Tokyo To,東京都,35.699211,139.756836,2006-01,1,1,True,False,3.82,6.0,,
+439,F113310104063,Tokyo Future University,東京未来大学,Private,私立,東京都足立区千住曙町34－12,120－0023,03－5813－2525,Tokyo To,東京都,35.743179,139.816635,2006-11,4,4,False,True,3.87,107.0,38.3,F
+440,F113310104072,Hollywood Graduate School of Beauty Business,ハリウッド大学院大学,Private,私立,東京都港区六本木6－4－1,106－8541,03－3403－3403,Tokyo To,東京都,35.661423,139.729691,2007-12,1,1,True,False,3.67,3.0,,
+441,F113310104081,Sbi Graduate School,ＳＢＩ大学院大学,Private,私立,東京都港区六本木1－6－1,106-6021,03－6229－1175,Tokyo To,東京都,35.664543,139.739487,2007-12,1,1,False,False,,,,
+442,F113310104090,Hosen College of Childhood Education,こども教育宝仙大学,Private,私立,東京都中野区中央2－33－26,164－8631,03－3365－0267,Tokyo To,東京都,35.700001,139.678802,2009-10,1,1,False,False,3.63,25.0,37.8,F
+443,F113310104107,Tokyo Ariake University of Medical And Health Sciences,東京有明医療大学,Private,私立,東京都江東区有明2－9－1,135－0063,03－6703－7000,Tokyo To,東京都,35.64106,139.7966,2008-10,4,5,True,False,3.71,39.0,36.8,F
+444,F113310104116,Tokyo Polytechnic University,東京工芸大学,Private,私立,東京都中野区本町2－9－5,164－8678,03－3372－1321,Tokyo To,東京都,35.692814,139.679535,1923-03,5,20,True,False,3.65,176.0,42.5,E
+445,F113310104125,Sanno University,産業能率大学,Private,私立,東京都世田谷区等々力6－39－15,158－8630,03－3704－9955,Tokyo To,東京都,35.613804,139.661514,1978-12,4,5,True,True,3.83,228.0,46.8,D
+446,F113310104134,Yamazaki University of Animal Health Technology,ヤマザキ動物看護大学,Private,私立,東京都八王子市南大沢4－7－2,192－0364,042－653－0901,Tokyo To,東京都,35.611378,139.375656,2010-04,2,3,True,False,3.57,52.0,40.0,E
+447,F113310104143,University of Tokyo Health Sciences,東京医療学院大学,Private,私立,東京都多摩市落合4－11,206－0033,042－373－8118,Tokyo To,東京都,35.612213,139.42894,2011-10,1,2,False,False,3.39,33.0,37.8,F
+448,F113310104152,The Graduate School of Project Design,事業構想大学院大学,Private,私立,東京都港区南青山3－13－16,107－8411,03－3478－8411,Tokyo To,東京都,35.665565,139.713745,2012-04,1,1,True,False,,,,
+449,F113310104161,The Graduate School of Social Design,社会構想大学院大学,Private,私立,東京都新宿区高田馬場1－25－30,169－8518,03－3207－0005,Tokyo To,東京都,35.712387,139.706604,2017-04,2,2,True,False,,,,
+450,F113310104170,Teikyo University of Science,帝京科学大学,Private,私立,東京都足立区千住桜木2－2－1,120－0045,03－6910－1010,Tokyo To,東京都,35.753677,139.789429,1989-12,5,20,True,False,3.58,232.0,41.5,E
+451,F114310104632,Seisa University,星槎大学,Private,私立,神奈川県足柄下郡箱根町仙石原817－255,250－0613,0460－83－8202,Kanagawa Ken,神奈川県,35.265572,138.999374,2003-11,2,2,True,True,4.15,29.0,,
+452,F114310104641,Kanagawa University,神奈川大学,Private,私立,神奈川県横浜市神奈川区六角橋3－27－1,221－8686,045－481－5661,Kanagawa Ken,神奈川県,35.484413,139.620773,1929-03,17,32,True,False,3.68,1017.0,46.1,D
+453,F114310104650,Kanto Gakuin University,関東学院大学,Private,私立,神奈川県横浜市金沢区六浦東1－50－1,236－8501,045－786－7002,Kanagawa Ken,神奈川県,35.32428,139.625931,1884-10,16,28,True,False,3.54,440.0,38.5,F
+454,F114310104669,Tsurumi University,鶴見大学,Private,私立,神奈川県横浜市鶴見区鶴見2－1－3,230－8501,045－580－8627,Kanagawa Ken,神奈川県,35.506329,139.6707,1963-04,4,10,True,False,3.75,117.0,37.3,F
+455,F114310104678,Ferris University,フェリス女学院大学,Private,私立,神奈川県横浜市泉区緑園4－5－3,245－8650,045－812－8211,Kanagawa Ken,神奈川県,35.437656,139.525589,1965-01,6,12,True,False,4.06,208.0,35.3,F
+456,F114310104687,Yokohama College of Commerce,横浜商科大学,Private,私立,神奈川県横浜市鶴見区東寺尾4－11－1,230－8577,045－571－3901,Kanagawa Ken,神奈川県,35.498199,139.659317,1966-01,1,3,False,False,3.51,49.0,37.9,F
+457,F114310104696,Yashima Gakuen University,八洲学園大学,Private,私立,神奈川県横浜市西区桜木町7－42,220－0021,045－313－5454,Kanagawa Ken,神奈川県,35.458904,139.622726,2003-11,1,1,False,True,3.42,26.0,,
+458,F114310104703,Institute of Information Security,情報セキュリティ大学院大学,Private,私立,神奈川県横浜市神奈川区鶴屋町2－14－1,221－0835,045－311－7784,Kanagawa Ken,神奈川県,35.468109,139.623535,2003-11,1,1,True,False,3.28,4.0,,
+459,F114310104712,Yokohama University of Pharmacy,横浜薬科大学,Private,私立,神奈川県横浜市戸塚区俣野町字東原601－1,245－0066,045－859－1300,Kanagawa Ken,神奈川県,35.382626,139.49202,2006-04,2,6,True,False,3.68,95.0,37.8,F
+460,F114310104721,Azabu University,麻布大学,Private,私立,神奈川県相模原市中央区淵野辺1－17－71,252－5201,042－754－7111,Kanagawa Ken,神奈川県,35.573708,139.392426,1934-04,4,8,True,False,3.83,202.0,42.6,E
+461,F114310104730,Kanagawa Dentaluniversity,神奈川歯科大学,Private,私立,神奈川県横須賀市稲岡町82,238－8580,046－822－8751,Kanagawa Ken,神奈川県,35.29361,139.665237,1964-01,2,2,True,False,3.11,23.0,35.5,F
+462,F114310104749,Kamakura Women’s University,鎌倉女子大学,Private,私立,神奈川県鎌倉市大船6－1－3,247－8512,0467－44－2111,Kanagawa Ken,神奈川県,35.354252,139.538498,1943-01,4,6,True,False,3.9,264.0,41.0,E
+463,F114310104758,Shonan Institute of Technology,湘南工科大学,Private,私立,神奈川県藤沢市辻堂西海岸1－1－25,251－8511,0466－30－0271,Kanagawa Ken,神奈川県,35.326111,139.453232,1963-01,2,8,True,False,3.76,82.0,35.5,F
+464,F114310104767,Sagami Women’s University,相模女子大学,Private,私立,神奈川県相模原市南区文京2－1－1,252－0383,042－742－1411,Kanagawa Ken,神奈川県,35.533947,139.427368,1900-09,5,11,True,False,3.76,270.0,36.6,F
+465,F114310104776,Senzoku Gakuen College of Music,洗足学園音楽大学,Private,私立,神奈川県川崎市高津区久本2－3－1,213－8580,044－856－2727,Kanagawa Ken,神奈川県,35.594688,139.615311,1967-01,3,8,True,False,3.86,177.0,,
+466,F114310104785,St.Marianna University School of Medicine,聖マリアンナ医科大学,Private,私立,神奈川県川崎市宮前区菅生2－16－1,216－8511,044－977－8111,Kanagawa Ken,神奈川県,35.59956,139.547073,1971-01,2,2,True,False,3.76,22.0,63.0,A
+467,F114310104794,Kanagawa Institute of Technology,神奈川工科大学,Private,私立,神奈川県厚木市下荻野1030,243－0292,046－241－1214,Kanagawa Ken,神奈川県,35.486244,139.343307,1962-12,6,19,True,False,3.59,215.0,36.4,F
+468,F114310104801,Showa University of Music,昭和音楽大学,Private,私立,神奈川県川崎市麻生区上麻生1－11－1,215－8558,044－953－1121,Kanagawa Ken,神奈川県,35.600418,139.508041,1940-04,3,8,True,False,4.06,85.0,35.0,F
+469,F114310104810,Toin University of Yokohama,桐蔭横浜大学,Private,私立,神奈川県横浜市青葉区鉄町1614,225－8503,045－972－5881,Kanagawa Ken,神奈川県,35.567417,139.521179,1965-04,6,8,True,False,3.71,91.0,35.9,F
+470,F114310104829,Toyo Eiwa University,東洋英和女学院大学,Private,私立,神奈川県横浜市緑区三保町32,226－0015,045－922－5511,Kanagawa Ken,神奈川県,35.508823,139.510101,1988-12,4,6,True,False,3.78,153.0,35.4,F
+471,F114310104838,Shoin University,松蔭大学,Private,私立,神奈川県厚木市森の里若宮9－1,243－0124,046－247－1511,Kanagawa Ken,神奈川県,35.442726,139.315689,2000-04,5,11,True,False,3.47,32.0,35.3,F
+472,F114310104847,Den-En Chofu University,田園調布学園大学,Private,私立,神奈川県川崎市麻生区東百合丘3－4－1,215－8542,044－966－9211,Kanagawa Ken,神奈川県,35.595226,139.525146,2002-04,4,6,True,False,3.64,76.0,35.8,F
+473,F114310104856,Yokohama University of Art & Design,横浜美術大学,Private,私立,神奈川県横浜市青葉区鴨志田町1204,227－0033,045－962－2221,Kanagawa Ken,神奈川県,35.557827,139.497253,2009-10,1,1,False,False,3.92,29.0,36.0,F
+474,F114310104865,Japan Institute of The Moving Image,日本映画大学,Private,私立,神奈川県川崎市麻生区万福寺1－16－30,215－0004,044－951－2511,Kanagawa Ken,神奈川県,35.604919,139.507553,2010-10,1,1,False,False,3.73,18.0,36.0,F
+475,F114310104874,Yokohama Soei University,横浜創英大学,Private,私立,神奈川県横浜市緑区三保町1,226－0015,045－922－5641,Kanagawa Ken,神奈川県,35.511475,139.510056,2011-10,3,3,True,False,3.56,38.0,37.0,F
+476,F114310104883,Shonan University of Medical Sciences,湘南医療大学,Private,私立,神奈川県横浜市戸塚区上品濃16－48,244－0806,045－821－0111,Kanagawa Ken,神奈川県,35.437679,139.548645,2015-04,4,6,True,False,3.72,34.0,38.6,F
+477,F114310104892,SHONAN KAMAKURA UNIVERSITY OF MEDICAL SCIENCES,湘南鎌倉医療大学,Private,私立,神奈川県鎌倉市山崎1195-3,247－0066,0467-38-3131,Kanagawa Ken,神奈川県,35.34156,139.52774,2020-04,2,2,True,False,3.67,3.0,35.0,F
+478,F115310105104,Nagaoka University,長岡大学,Private,私立,新潟県長岡市御山町80－8,940－0828,0258－39－1600,Niigata Ken,新潟県,37.428562,138.880157,2000-12,1,1,False,False,3.44,27.0,43.0,E
+479,F115310105113,Niigata University of Health And Welfare,新潟医療福祉大学,Private,私立,新潟県新潟市北区島見町1398,950－3198,025－257－4455,Niigata Ken,新潟県,37.9664,139.188843,2000-12,7,18,True,False,3.89,236.0,38.1,F
+480,F115310105122,Niigata Seiryo University,新潟青陵大学,Private,私立,新潟県新潟市中央区水道町1－5939－27,951－8121,025－266－0127,Niigata Ken,新潟県,37.921284,139.025436,1999-12,4,5,True,False,3.94,110.0,42.8,E
+481,F115310105131,Niigata Institute of Technology,新潟工科大学,Private,私立,新潟県柏崎市大字藤橋1719,945－1195,0257－22－8111,Niigata Ken,新潟県,37.338867,138.576767,1994-12,2,2,True,False,3.62,26.0,35.3,F
+482,F115310105140,Niigata University of Management,新潟経営大学,Private,私立,新潟県加茂市希望ヶ丘2909－2,959－1321,0256－53－3000,Niigata Ken,新潟県,37.672485,139.065048,1993-12,2,3,False,False,3.73,30.0,36.0,F
+483,F115310105159,Niigata University of International And Information Studies,新潟国際情報大学,Private,私立,新潟県新潟市西区みずき野3－1－1,950－2292,025－239－3111,Niigata Ken,新潟県,37.816799,138.899292,1993-12,2,3,False,False,3.69,70.0,45.5,D
+484,F115310105168,Keiwa College,敬和学園大学,Private,私立,新潟県新発田市富塚字三賀境1270,957－8585,0254－26－3636,Niigata Ken,新潟県,37.953205,139.2901,1990-12,1,3,False,False,3.45,42.0,35.2,F
+485,F115310105177,Niigata University of Pharmacy and Applied Life Sciences,新潟薬科大学,Private,私立,新潟県新潟市秋葉区東島265－1,956－8603,0250－25－5000,Niigata Ken,新潟県,37.77475,139.12204,1977-01,4,5,True,False,3.51,72.0,35.7,F
+486,F115310105186,International University of Japan,国際大学,Private,私立,新潟県南魚沼市国際町777,949－7277,025－779－1111,Niigata Ken,新潟県,37.1479,138.948013,1982-01,2,2,True,False,3.0,1.0,,
+487,F115310105195,Niigata Sangyo University,新潟産業大学,Private,私立,新潟県柏崎市軽井川4730,945－1393,0257－24－6655,Niigata Ken,新潟県,37.337311,138.593201,1987-12,3,4,True,True,3.73,17.0,37.5,F
+488,F115310105202,Graduate Institute For Entrepreneurial Studies,事業創造大学院大学,Private,私立,新潟県新潟市中央区米山3－1－46,950－0916,025－255－1250,Niigata Ken,新潟県,37.907841,139.061737,2005-12,1,1,True,False,,,,
+489,F115310105211,Niigata University of Rehabilitation,新潟リハビリテーション大学,Private,私立,新潟県村上市上の山2－16,958－0053,0254－56－8292,Niigata Ken,新潟県,38.185974,139.439468,2007-01,2,2,True,False,3.18,23.0,35.5,F
+490,F115310105220,Niigata Agro-Food University,新潟食料農業大学,Private,私立,新潟県新潟市北区島見町940,950－3197,025－212－3301,Niigata Ken,新潟県,37.968521,139.194901,2017-08,2,2,True,False,2.75,4.0,35.3,F
+491,F115310105239,Kaishi Professional University,開志専門職大学,Private,私立,新潟県新潟市中央区紫竹山6丁目3番5号,950－0914,025-240-8118,Niigata Ken,新潟県,37.897717,139.067429,2020-04,3,3,False,False,4.0,1.0,36.5,F
+492,F115310105248,Nagaoka Sutoku University,長岡崇徳大学,Private,私立,新潟県長岡市深沢町2278番地８,940－2135,0258－46－6666,Niigata Ken,新潟県,37.425255,138.773346,2019-04,1,1,False,False,3.75,4.0,37.5,F
+493,F116310105336,Takaoka University of Law,高岡法科大学,Private,私立,富山県高岡市戸出石代307－3,939－1193,0766－63－3388,Toyama Ken,富山県,36.66967,137.001297,1988-12,1,1,False,False,3.43,18.0,35.7,F
+494,F116310105345,Toyama University of International Studies,富山国際大学,Private,私立,富山県富山市東黒牧65－1,930－1292,076－483－8000,Toyama Ken,富山県,36.601566,137.273621,1989-12,2,2,False,False,3.7,65.0,36.3,F
+495,F116310105354,Toho Gakuen Graduate School,桐朋学園大学院大学,Private,私立,富山県富山市呉羽町1884－17,930－0138,076－434－6800,Toyama Ken,富山県,36.717968,137.165161,1998-12,1,1,True,False,5.0,1.0,,
+496,F117310105451,Kanazawa Seiryo University,金沢星稜大学,Private,私立,石川県金沢市御所町丑10-1,920-8620,076-253-3924,Ishikawa Ken,石川県,36.583309,136.68222,1967-04,4,6,True,False,3.77,172.0,36.5,F
+497,F117310105460,Kanazawa Institute of Technology,金沢工業大学,Private,私立,石川県野々市市扇が丘7－1,921－8501,076－248－1100,Ishikawa Ken,石川県,36.529015,136.627518,1965-01,7,23,True,False,3.69,259.0,38.8,F
+498,F117310105479,Kanazawa Medical University,金沢医科大学,Private,私立,石川県河北郡内灘町字大学1－1,920－0293,076－286－2211,Ishikawa Ken,石川県,36.657558,136.647263,1972-03,4,4,True,False,3.9,47.0,54.0,C
+499,F117310105488,Hokuriku University,北陸大学,Private,私立,石川県金沢市太陽が丘1－1,920－1180,076－229－1161,Ishikawa Ken,石川県,36.524445,136.707336,1975-02,6,8,False,False,3.46,78.0,36.2,F
+500,F117310105497,Kanazawa Gakuin University,金沢学院大学,Private,私立,石川県金沢市末町10の5,920－1392,076－229－1181,Ishikawa Ken,石川県,36.515697,136.698029,1986-12,13,16,True,False,3.4,128.0,37.9,F
+501,F117310105503,Kinjo University,金城大学,Private,私立,石川県白山市笠間町1200,924－8511,076－276－4400,Ishikawa Ken,石川県,36.508892,136.529785,2000-04,5,7,True,False,3.84,103.0,37.3,F
+502,F117310105512,Hokurikugakuin University,北陸学院大学,Private,私立,石川県金沢市三小牛町イ11,920－1396,076－280－3850,Ishikawa Ken,石川県,36.517262,136.670761,2007-12,1,2,False,False,3.81,39.0,37.6,F
+503,F117310111854,Kanazawa Professional University of Food Management,かなざわ食マネジメント専門職大学,Private,私立,石川県白山市横江町5250,924－0011,076-275-5933,Ishikawa Ken,石川県,36.543907,136.586166,2021-04,1,1,False,False,,,36.0,F
+504,F118310105628,Fukui University of Technology,福井工業大学,Private,私立,福井県福井市学園3－6－1,910－8505,0776－29－2620,Fukui Ken,福井県,36.068718,136.196365,1963-01,4,10,True,False,3.59,57.0,41.6,E
+505,F118310105637,Jin-Ai University,仁愛大学,Private,私立,福井県越前市大手町3－1－1,915－8586,0778－27－2010,Fukui Ken,福井県,35.891541,136.211166,2000-12,3,5,True,False,3.85,100.0,37.5,F
+506,F118310105646,Fukui Health Science University,福井医療大学,Private,私立,福井県福井市江上町55－13－1,910－3190,0776－59－2200,Fukui Ken,福井県,36.130241,136.165817,2016-08,2,3,True,False,3.56,9.0,37.8,F
+507,F119310105707,Yamanashi Gakuin University,山梨学院大学,Private,私立,山梨県甲府市酒折2－4－5,400－8575,055－233－1111,Yamanashi Ken,山梨県,35.657879,138.600906,1962-01,6,7,True,False,3.74,138.0,39.0,F
+508,F119310105716,Minobusan University,身延山大学,Private,私立,山梨県南巨摩郡身延町身延3567,409－2597,0556－62－0107,Yamanashi Ken,山梨県,35.383202,138.428558,1994-12,1,1,False,False,5.0,1.0,37.0,F
+509,F119310105725,Yamanashi-Eiwa College,山梨英和大学,Private,私立,山梨県甲府市横根町888,400―8555,055－223－6020,Yamanashi Ken,山梨県,35.661758,138.613174,2001-12,2,2,True,False,3.66,46.0,36.0,F
+510,F119310105734,Health Science University,健康科学大学,Private,私立,山梨県南都留郡富士河口湖町小立7187,401－0380,0555－83－5200,Yamanashi Ken,山梨県,35.464031,138.744141,2002-12,2,4,False,False,3.58,52.0,35.6,F
+511,F120310105820,Matsumoto Dental University,松本歯科大学,Private,私立,長野県塩尻市広丘郷原1780,399－0781,0263－52－3100,Nagano Ken,長野県,36.127342,137.939728,1972-01,2,2,True,False,3.1,11.0,38.5,F
+512,F120310105839,Matsumoto University,松本大学,Private,私立,長野県松本市大字新村2095－1,390－1295,0263－48－7200,Nagano Ken,長野県,36.220024,137.911194,2001-12,5,7,True,False,3.91,120.0,42.7,E
+513,F120310105848,Seisen Jogakuin College,清泉女学院大学,Private,私立,長野県長野市上野2－120－8,381－0085,026－295－5665,Nagano Ken,長野県,36.685642,138.23291,2002-12,5,5,True,False,4.1,54.0,36.5,F
+514,F120310105857,Saku University,佐久大学,Private,私立,長野県佐久市岩村田2384,385－0022,0267－68－6680,Nagano Ken,長野県,36.265114,138.463028,2008-04,4,4,True,False,3.89,26.0,38.0,F
+515,F120310105866,Nagano University of Health And Medicine,長野保健医療大学,Private,私立,長野県長野市川中島町今井原11－1,381－2227,026－283－6111,Nagano Ken,長野県,36.593323,138.145218,2015-04,3,3,True,False,3.87,16.0,40.5,E
+516,F120310111868,MATSUMOTO COLLEGE OF NURSING,松本看護大学,Private,私立,長野県松本市笹賀3118,399－0033,0263ｰ58ｰ4417,Nagano Ken,長野県,36.174709,137.93544,2021-04,1,1,False,False,3.0,2.0,38.0,F
+517,F121310106016,Chukyo Gakuin University,中京学院大学,Private,私立,岐阜県中津川市千旦林1－104,509－9195,0573－66－3121,Gifu Ken,岐阜県,35.476894,137.485397,1992-12,2,2,False,False,3.64,44.0,35.2,F
+518,F121310106025,Gifu Kyoritsu University,岐阜協立大学,Private,私立,岐阜県大垣市北方町5－50,503－8550,0584－77－3511,Gifu Ken,岐阜県,35.39423,136.619125,1967-01,5,7,True,False,3.46,55.0,35.6,F
+519,F121310106034,Gifu Women’s University,岐阜女子大学,Private,私立,岐阜県岐阜市太郎丸80,501－2592,058－229－2211,Gifu Ken,岐阜県,35.487743,136.806992,1968-03,5,9,True,True,3.77,94.0,35.5,F
+520,F121310106043,Asahi University,朝日大学,Private,私立,岐阜県瑞穂市穂積1851－1,501－0296,058－329－1111,Gifu Ken,岐阜県,35.382084,136.69072,1971-02,8,9,True,False,3.76,120.0,40.1,E
+521,F121310106052,Gifu Shotoku Gakuen University,岐阜聖徳学園大学,Private,私立,岐阜県岐阜市柳津町高桑西1－1,501－6194,058－279－0804,Gifu Ken,岐阜県,35.361855,136.706558,1972-04,6,7,True,False,4.09,241.0,42.6,E
+522,F121310106061,Tokai Gakuin University,東海学院大学,Private,私立,岐阜県各務原市那加桐野町5－68,504－8511,058－389－2200,Gifu Ken,岐阜県,35.424854,136.82048,1981-01,3,5,True,False,3.52,83.0,35.3,F
+523,F121310106070,Chubu Gakuin University,中部学院大学,Private,私立,岐阜県関市桐ケ丘2－1,501－3993,0575－24－2211,Gifu Ken,岐阜県,35.45853,136.897781,1996-12,7,8,True,True,3.86,102.0,35.9,F
+524,F121310106089,Gifu University of Medical Science,岐阜医療科学大学,Private,私立,岐阜県関市市平賀字長峰795－1,501－3892,0575－22－9401,Gifu Ken,岐阜県,35.490181,136.948273,2005-12,5,6,True,False,3.79,91.0,40.5,E
+525,F121310106098,Gifu University of Health Sciences,岐阜保健大学,Private,私立,岐阜県岐阜市東鶉2-92,500－8281,058－274－5001,Gifu Ken,岐阜県,35.38459,136.739914,2019-04,3,4,True,False,3.91,7.0,36.0,F
+526,F122310106275,The Graduate School For The Creation of New Photonics Industries,光産業創成大学院大学,Private,私立,静岡県浜松市西区呉松町1955－1,431－1202,053－484－2501,Shizuoka Ken,静岡県,34.776619,137.630966,2004-11,1,1,True,False,,,,
+527,F122310106284,Shizuoka University of Welfare,静岡福祉大学,Private,私立,静岡県焼津市本中根549－1,425－8611,054－623－7000,Shizuoka Ken,静岡県,34.829826,138.296936,2003-11,2,4,False,False,3.89,61.0,35.5,F
+528,F122310106293,Hamamatsu Gakuin University,浜松学院大学,Private,私立,静岡県浜松市中区布橋3－2－3,432－8012,053－450－7000,Shizuoka Ken,静岡県,34.719769,137.713333,2003-11,1,2,False,False,3.93,48.0,35.5,F
+529,F122310106300,Shizuoka Eiwa Gakuin University,静岡英和学院大学,Private,私立,静岡県静岡市駿河区池田1769,422－8545,054－261－9201,Shizuoka Ken,静岡県,34.982883,138.433868,2001-12,1,2,False,False,3.54,54.0,35.7,F
+530,F122310106319,Tokoha University,常葉大学,Private,私立,静岡県静岡市駿河区弥生町6－1,422－8581,054－297－6100,Shizuoka Ken,静岡県,35.004887,138.436478,1980-01,14,25,True,False,3.77,348.0,38.8,F
+531,F122310106328,Shizuoka Institute of Science And Technology,静岡理工科大学,Private,私立,静岡県袋井市豊沢2200－2,437－8555,0538－45－0111,Shizuoka Ken,静岡県,34.73632,137.957748,1990-12,3,9,True,False,3.59,52.0,40.6,E
+532,F122310106337,Seirei Christopher University,聖隷クリストファー大学,Private,私立,静岡県浜松市北区三方原町3453,433－8558,053－439－1400,Shizuoka Ken,静岡県,34.791798,137.689636,1992-04,7,11,True,False,4.0,104.0,38.8,F
+533,F122310106346,Shizuoka Sangyo University,静岡産業大学,Private,私立,静岡県藤枝市駿河台4－1－1,426－8668,054－645－0191,Shizuoka Ken,静岡県,34.861412,138.229004,1994-04,3,6,False,False,3.64,73.0,35.5,F
+534,F123310106498,Aichi University of Technology,愛知工科大学,Private,私立,愛知県蒲郡市西迫町馬乗50－2,443－0047,0533－68－1135,Aichi Ken,愛知県,34.832626,137.19342,1999-12,2,4,True,False,3.5,28.0,36.0,F
+535,F123310106504,Nagoya Sangyo University,名古屋産業大学,Private,私立,愛知県尾張旭市新居町山の田3255－5,488－8711,0561－55－3020,Aichi Ken,愛知県,35.21994,137.031418,2000-04,2,3,True,False,3.63,15.0,36.3,F
+536,F123310106513,University of Human Environments,人間環境大学,Private,私立,愛知県岡崎市本宿町上三本松6－2,444－3505,0564－48－7811,Aichi Ken,愛知県,34.897923,137.264633,1999-12,8,10,True,False,3.58,58.0,43.6,E
+537,F123310106522,Nagoya Bunri University,名古屋文理大学,Private,私立,愛知県稲沢市稲沢町前田365,492－8520,0587－23－2400,Aichi Ken,愛知県,35.248829,136.789261,1999-04,2,3,False,False,3.68,86.0,38.9,F
+538,F123310106531,Aichi Mizuho College,愛知みずほ大学,Private,私立,愛知県名古屋市瑞穂区春敲町2－13,467－0867,052－882－1123,Aichi Ken,愛知県,35.127125,136.921875,1992-12,2,2,True,False,3.46,32.0,38.7,F
+539,F123310106540,Aichi Gakuin University,愛知学院大学,Private,私立,愛知県日進市岩崎町阿良池12,470－0195,0561－73－1111,Aichi Ken,愛知県,35.158417,137.042679,1953-04,20,30,True,False,3.83,610.0,44.0,E
+540,F123310106559,Aichi Institute of Technology,愛知工業大学,Private,私立,愛知県豊田市八草町八千草1247,470－0392,0565－48－8121,Aichi Ken,愛知県,35.184185,137.111893,1954-02,5,15,True,False,3.67,228.0,45.4,D
+541,F123310106568,Kinjogakuin University,金城学院大学,Private,私立,愛知県名古屋市守山区大森2－1723,463－8521,052－798－0180,Aichi Ken,愛知県,35.208553,136.99321,1927-03,9,20,True,False,4.02,534.0,39.1,E
+542,F123310106577,Sugiyama Jogakuen University,椙山女学園大学,Private,私立,愛知県名古屋市千種区星が丘元町17－3,464－8662,052－781－1186,Aichi Ken,愛知県,35.159889,136.987167,1929-11,11,17,True,False,3.98,613.0,41.8,E
+543,F123310106586,Daido University,大同大学,Private,私立,愛知県名古屋市南区滝春町10－3,457－8530,052－612－6111,Aichi Ken,愛知県,35.078518,136.905609,1964-01,4,13,True,False,3.71,129.0,41.5,E
+544,F123310106595,Chukyo University,中京大学,Private,私立,愛知県名古屋市昭和区八事本町101－2,466－8666,052－835－7111,Aichi Ken,愛知県,35.138783,136.965393,1954-04,21,38,True,False,3.81,944.0,51.6,C
+545,F123310106602,Doho University,同朋大学,Private,私立,愛知県名古屋市中村区稲葉地町7－1,453－8540,052－411－1113,Aichi Ken,愛知県,35.163673,136.843185,1921-06,5,6,True,False,3.62,71.0,36.8,F
+546,F123310106611,Nagoya Gakuin University,名古屋学院大学,Private,私立,愛知県名古屋市熱田区熱田西町1－25,456－8612,052－678－4080,Aichi Ken,愛知県,35.128548,136.89859,1964-01,11,16,True,False,3.6,249.0,42.4,E
+547,F123310106620,Nagoya University of Commerce & Business,名古屋商科大学,Private,私立,愛知県日進市米野木町三ケ峯4－4,470－0193,0561－73－2111,Aichi Ken,愛知県,35.147362,137.082047,1953-03,7,11,True,False,3.37,122.0,36.5,F
+548,F123310106639,Nagoya Women’s University,名古屋女子大学,Private,私立,愛知県名古屋市瑞穂区汐路町3－40,467－8610,052－852－1111,Aichi Ken,愛知県,35.131889,136.938492,1964-01,5,8,True,False,3.79,253.0,39.5,E
+549,F123310106648,Nanzan University,南山大学,Private,私立,愛知県名古屋市昭和区山里町18,466－8673,052－832－3111,Aichi Ken,愛知県,35.14901,136.96315,1946-07,16,35,True,False,3.96,955.0,51.6,C
+550,F123310106657,Nihon Fukushi University,日本福祉大学,Private,私立,愛知県知多郡美浜町奥田,470－3295,0569－87－2211,Aichi Ken,愛知県,34.783028,136.872833,1953-04,15,18,True,True,3.76,461.0,38.2,F
+551,F123310106666,Meijo University,名城大学,Private,私立,愛知県名古屋市天白区塩釜口一丁目501番地,468－8502,052－832－1151,Aichi Ken,愛知県,35.135921,136.976532,1947-09,20,47,True,False,3.84,996.0,50.8,C
+552,F123310106675,Nagoya College of Music,名古屋音楽大学,Private,私立,愛知県名古屋市中村区稲葉地町7－1,453－8540,052－411－1115,Aichi Ken,愛知県,35.163673,136.843185,1976-01,2,5,True,False,3.86,70.0,40.0,E
+553,F123310106684,Toyota Technological Institute,豊田工業大学,Private,私立,愛知県名古屋市天白区久方2－12－1,468－8511,052－802－1111,Aichi Ken,愛知県,35.106468,136.982498,1981-01,2,4,True,False,3.76,36.0,58.0,B
+554,F123310106693,Nagoya University of Foreign Studies,名古屋外国語大学,Private,私立,愛知県日進市岩崎町竹ノ山57,470－0197,0561－74－1111,Aichi Ken,愛知県,35.155373,137.040131,1987-12,6,13,True,False,3.89,384.0,52.8,C
+555,F123310106700,Nagoya Zokei University of Art ; Design,名古屋造形大学,Private,私立,愛知県名古屋市北区名城2丁目4番1,462-8545,052-908-1630,Aichi Ken,愛知県,35.189964,136.905731,1989-12,2,2,True,False,3.65,53.0,42.7,E
+556,F123310106719,Aichi Sangyo University,愛知産業大学,Private,私立,愛知県岡崎市岡町字原山12－5,444－0005,0564－48－4511,Aichi Ken,愛知県,34.919106,137.219589,1991-12,4,7,True,True,3.8,36.0,35.6,F
+557,F123310106728,Tokai Gakuen University,東海学園大学,Private,私立,愛知県みよし市福谷町西ノ洞21－233,470－0207,0561－36－5555,Aichi Ken,愛知県,35.126869,137.098785,1994-12,7,7,True,False,3.56,243.0,37.2,F
+558,F123310106737,Toyohashi Sozo University,豊橋創造大学,Private,私立,愛知県豊橋市牛川町字松下20－1,440－8511,0532－54－2111,Aichi Ken,愛知県,34.776573,137.409988,1995-12,4,5,True,False,3.54,37.0,38.6,F
+559,F123310106746,Aichi Toho University,愛知東邦大学,Private,私立,愛知県名古屋市名東区平和が丘3－11,465－8515,052－782－1241,Aichi Ken,愛知県,35.170525,136.986328,2000-12,3,4,False,False,3.54,49.0,35.4,F
+560,F123310106755,Seijoh University,星城大学,Private,私立,愛知県東海市富貴ノ台2－172,476－8588,052－601－6000,Aichi Ken,愛知県,35.033436,136.900803,2001-12,3,3,True,False,3.75,51.0,38.1,F
+561,F123310106764,Aichi Bunkyo University,愛知文教大学,Private,私立,愛知県小牧市大草5969－3,485－8565,0568－78－2211,Aichi Ken,愛知県,35.300236,137.007355,1997-12,2,2,True,False,3.55,10.0,36.0,F
+562,F123310106773,Ohkagakuen University,桜花学園大学,Private,私立,愛知県豊明市栄町武侍48,470－1193,0562－97－5503,Aichi Ken,愛知県,35.05722,136.973251,1997-12,2,3,False,False,4.21,108.0,35.3,F
+563,F123310106782,Aichi University,愛知大学,Private,私立,愛知県名古屋市東区筒井2－10－31,461－8641,052－937－8111,Aichi Ken,愛知県,35.174255,136.927292,1946-11,14,22,True,False,3.83,781.0,48.4,D
+564,F123310106791,Aichi Gakusen University,愛知学泉大学,Private,私立,愛知県岡崎市舳越町字上川成28,444－8520,0564－34－1212,Aichi Ken,愛知県,34.972233,137.143311,1966-03,1,4,False,False,3.41,82.0,36.3,F
+565,F123310106808,Shigakkan University,至学館大学,Private,私立,愛知県大府市横根町名高山55,474－8651,0562－46－1291,Aichi Ken,愛知県,35.031044,136.972305,1963-01,2,5,True,False,3.58,111.0,39.9,E
+566,F123310106817,Chubu University,中部大学,Private,私立,愛知県春日井市松本町1200,487－8501,0568－51－1111,Aichi Ken,愛知県,35.274693,137.015121,1964-04,13,50,True,False,3.73,560.0,43.8,E
+567,F123310106826,Fujita Health University,藤田医科大学,Private,私立,愛知県豊明市沓掛町田楽ケ窪1－98,470－1192,0562－93－2000,Aichi Ken,愛知県,35.070999,137.001389,1968-05,5,9,True,False,3.73,199.0,51.7,C
+568,F123310106835,Nagoya University of The Arts,名古屋芸術大学,Private,私立,愛知県北名古屋市熊之庄古井281,481－8503,0568－24－0315,Aichi Ken,愛知県,35.256161,136.880783,1970-04,7,9,True,False,3.72,115.0,36.6,F
+569,F123310106844,Aichi Medical University,愛知医科大学,Private,私立,愛知県長久手市岩作雁又1－1,480－1195,0561－62－3311,Aichi Ken,愛知県,35.19241,137.048386,1971-12,4,5,True,False,3.76,63.0,55.2,B
+570,F123310106853,Aichi Shukutoku University,愛知淑徳大学,Private,私立,愛知県長久手市片平二丁目9,480－1197,0561－62－4111,Aichi Ken,愛知県,35.15873,137.031342,1975-01,15,20,True,False,3.84,772.0,44.4,D
+571,F123310106862,Nagoya University of Economics,名古屋経済大学,Private,私立,愛知県犬山市字内久保61－1,484－8504,0568－67－0511,Aichi Ken,愛知県,35.319664,136.953247,1978-12,7,10,True,False,3.38,81.0,38.3,F
+572,F123310106871,Nagoya University of Arts And Sciences,名古屋学芸大学,Private,私立,愛知県日進市岩崎町竹ノ山57,470－0196,0561－75－7111,Aichi Ken,愛知県,35.155373,137.040131,2001-12,8,10,True,False,4.16,291.0,52.5,C
+573,F123310106880,Japanese Red Cross Toyota College of Nursing,日本赤十字豊田看護大学,Private,私立,愛知県豊田市白山町七曲12－33,471－8565,0565－36－5111,Aichi Ken,愛知県,35.100468,137.120712,2003-11,2,3,True,False,3.88,38.0,41.0,E
+574,F123310106899,Shubun University,修文大学,Private,私立,愛知県一宮市日光町6,491－0938,0586－45－2101,Aichi Ken,愛知県,35.300484,136.781296,2007-12,3,3,False,False,3.47,35.0,37.4,F
+575,F123310106906,Okazaki Women’s University,岡崎女子大学,Private,私立,愛知県岡崎市中町1－8－4,444－0015,0564－22－1295,Aichi Ken,愛知県,34.954697,137.185226,2012-11,1,1,False,False,4.1,42.0,35.5,F
+576,F123310106915,Ichinomiya Kenshin College,一宮研伸大学,Private,私立,愛知県一宮市常願通五丁目４番１,491－0063,0586－28－8110,Aichi Ken,愛知県,35.316635,136.811523,2017-04,1,1,False,False,4.0,4.0,42.3,E
+577,F123310106924,Nagoya Ryujo Women's University,名古屋柳城女子大学,Private,私立,愛知県名古屋市昭和区明月町2－54,466－0034,052－841－2635,Aichi Ken,愛知県,35.146511,136.932465,1898-04,1,1,False,False,4.12,7.0,37.5,F
+578,F123310111883,International Professional University of Technology in Nagoya,名古屋国際工科専門職大学,Private,私立,愛知県名古屋市中村区名駅4-27-1,450－0002,052-561-2001,Aichi Ken,愛知県,35.16843,136.8862,2021-04,2,3,False,False,5.0,1.0,,
+579,F124310107165,Yokkaichi University,四日市大学,Private,私立,三重県四日市市萱生町1200,512－8512,059－365－6588,Mie Ken,三重県,35.022343,136.605225,1987-12,2,2,False,False,3.65,32.0,36.5,F
+580,F124310107174,Kogakkan University,皇學館大学,Private,私立,三重県伊勢市神田久志本町1704,516－8555,0596－22－0201,Mie Ken,三重県,34.488365,136.726547,1962-02,6,11,True,False,3.9,178.0,41.4,E
+581,F124310107183,Suzuka University of Medical Science,鈴鹿医療科学大学,Private,私立,三重県鈴鹿市岸岡町1001－1,510－0293,059－383－8991,Mie Ken,三重県,34.858315,136.59938,1990-12,6,14,True,False,3.59,161.0,41.5,E
+582,F124310107192,Suzuka University,鈴鹿大学,Private,私立,三重県鈴鹿市郡山町字西高山663－222,510－0298,059－372－2121,Mie Ken,三重県,34.8144,136.534454,1994-04,4,4,True,False,3.51,21.0,38.0,F
+583,F124310107209,Yokkaichi Nursing And Medical Care University,四日市看護医療大学,Private,私立,三重県四日市市萱生町1200,512－8045,059－340－0700,Mie Ken,三重県,35.022343,136.605225,2006-11,2,3,True,False,3.76,42.0,42.3,E
+584,F125310107315,Seian University of Art And Design,成安造形大学,Private,私立,滋賀県大津市仰木の里東4－3－1,520－0248,077－574－2111,Shiga Ken,滋賀県,35.107018,135.902008,1992-12,1,1,False,False,3.75,35.0,53.0,C
+585,F125310107324,Seisen University,聖泉大学,Private,私立,滋賀県彦根市肥田町720,521－1123,0749－43－3600,Shiga Ken,滋賀県,35.20517,136.204422,2002-12,4,4,True,False,3.39,30.0,35.5,F
+586,F125310107333,Nagahama Institute of Bio-Science And Technology,長浜バイオ大学,Private,私立,滋賀県長浜市田村町1266,526－0829,0749－64－8100,Shiga Ken,滋賀県,35.356911,136.28038,2002-12,2,4,True,False,3.76,55.0,40.3,E
+587,F125310107342,Biwako Seikei Sport College,びわこ成蹊スポーツ大学,Private,私立,滋賀県大津市北比良1204,520－0503,077－596－8410,Shiga Ken,滋賀県,35.227333,135.94754,2003-04,2,2,True,False,3.88,57.0,36.0,F
+588,F125310107351,Biwako-Gakuin University,びわこ学院大学,Private,私立,滋賀県東近江市布施町29,527－8533,0748－22－3388,Shiga Ken,滋賀県,35.088188,136.184052,2008-10,1,2,False,False,3.63,33.0,37.0,F
+589,F125310107360,Biwako Professional University of Rehabilitation,びわこリハビリテーション専門職大学,Private,私立,滋賀県東近江市北坂町967,527－0145,0749-46-2311,Shiga Ken,滋賀県,35.132339,136.275558,2020-04,1,2,False,False,5.0,1.0,37.8,F
+590,F126310107476,Heian Jogakuin st.Agnes University,平安女学院大学,Private,私立,京都府京都市上京区武衛陣町221,602－8029,075－414－8153,Kyoto Fu,京都府,35.019299,135.757797,1999-12,2,2,False,False,3.85,50.0,35.5,F
+591,F126310107485,Otani University,大谷大学,Private,私立,京都府京都市北区小山上総町,603－8143,075－432－3131,Kyoto Fu,京都府,35.042549,135.759064,1923-04,5,18,True,False,3.88,202.0,37.7,F
+592,F126310107494,Kyoto University of Foreign Studies,京都外国語大学,Private,私立,京都府京都市右京区西院笠目町6,615－8558,075－322－6012,Kyoto Fu,京都府,35.004147,135.718948,1959-04,4,14,True,False,3.81,352.0,44.9,D
+593,F126310107500,Kyoto Sangyo University,京都産業大学,Private,私立,京都府京都市北区上賀茂本山,603－8555,075－705－1408,Kyoto Fu,京都府,35.066345,135.754211,1965-01,21,40,True,True,3.81,723.0,46.3,D
+594,F126310107519,Kyoto Women’s University,京都女子大学,Private,私立,京都府京都市東山区今熊野北日吉町35,605－8501,075－531－7030,Kyoto Fu,京都府,34.989666,135.778442,1920-03,10,24,True,False,3.91,787.0,49.0,D
+595,F126310107528,Kyoto    Pharmaceutical  University,京都薬科大学,Private,私立,京都府京都市山科区御陵中内町5,607－8414,075－595－4600,Kyoto Fu,京都府,34.990833,135.809723,1919-03,2,3,True,False,3.97,191.0,53.5,C
+596,F126310107537,Kyoto Koka Women’s University,京都光華女子大学,Private,私立,京都府京都市右京区西京極葛野町38,615－0882,075－325－5305,Kyoto Fu,京都府,34.996956,135.718384,1944-03,6,9,True,False,3.79,141.0,35.9,F
+597,F126310107546,Shuchiin University,種智院大学,Private,私立,京都府京都市伏見区向島西定請70,612－8156,075－604－5600,Kyoto Fu,京都府,34.912777,135.766678,1929-04,1,2,False,False,3.97,8.0,35.0,F
+598,F126310107555,Kyoto Tachibana University,京都橘大学,Private,私立,京都府京都市山科区大宅山田町34,607－8175,075－571－1111,Kyoto Fu,京都府,34.968323,135.82515,1967-01,15,22,True,True,3.94,338.0,44.7,D
+599,F126310107564,Doshisha University,同志社大学,Private,私立,京都府京都市上京区今出川通烏丸東入玄武町601,602－8580,075－251－3110,Kyoto Fu,京都府,34.968323,135.82515,1904-03,30,69,True,False,4.06,2011.0,59.0,B
+600,F126310107573,Doshisha Women’s College of Liberal Arts,同志社女子大学,Private,私立,京都府京田辺市興戸南鉾立97－1,610－0395,0774－65－8411,Kyoto Fu,京都府,34.80452,135.772675,1912-02,12,20,True,False,4.15,729.0,48.2,D
+601,F126310107582,Kyoto Notre Dame University,京都ノートルダム女子大学,Private,私立,京都府京都市左京区下鴨南野々神町1,606－0847,075－781－1173,Kyoto Fu,京都府,35.051197,135.770004,1961-03,5,9,True,False,3.98,107.0,35.5,F
+602,F126310107591,Hanazono University,花園大学,Private,私立,京都府京都市中京区西ノ京壺ノ内町8－1,604－8456,075－811－5181,Kyoto Fu,京都府,35.01722,135.726288,1911-09,4,10,True,False,3.83,99.0,35.5,F
+603,F126310107608,Bukkyo University,佛教大学,Private,私立,京都府京都市北区紫野北花ノ坊町96,603－8301,075－491－2141,Kyoto Fu,京都府,35.043476,135.737289,1912-05,22,42,True,True,3.89,505.0,43.7,E
+604,F126310107617,Ritsumeikan University,立命館大学,Private,私立,京都府京都市中京区西ノ京東栂尾町8,604－8520,075－813－8137,Kyoto Fu,京都府,35.009155,135.742157,1900-05,37,57,True,False,3.9,2452.0,55.4,B
+605,F126310107626,Ryukoku University,龍谷大学,Private,私立,京都府京都市伏見区深草塚本町67,612－8577,075－642－1111,Kyoto Fu,京都府,34.963924,135.766693,1922-05,22,60,True,False,3.85,1280.0,46.4,D
+606,F126310107635,Kyoto University of Advanced Science,京都先端科学大学,Private,私立,京都府京都市右京区山ノ内五反田町18,615－8577,075－406－7000,Kyoto Fu,京都府,35.010235,135.719025,1969-04,10,17,True,False,3.51,115.0,37.7,F
+607,F126310107644,Kyoto Seika University,京都精華大学,Private,私立,京都府京都市左京区岩倉木野町137,606－8588,075－702－5131,Kyoto Fu,京都府,35.075008,135.769882,1978-12,11,17,True,False,3.92,157.0,44.6,D
+608,F126310107653,Meiji University of Integrative Medicine,明治国際医療大学,Private,私立,京都府南丹市日吉町保野田ヒノ谷6－1,629－0392,0771－72－1181,Kyoto Fu,京都府,35.173378,135.487335,1983-04,5,8,True,False,3.78,28.0,36.3,F
+609,F126310107662,Kyoto University of the Arts,京都芸術大学,Private,私立,京都府京都市左京区北白川瓜生山2－116,606－8271,075－791－9122,Kyoto Fu,京都府,35.037243,135.794586,1990-12,3,18,True,True,3.88,187.0,41.4,E
+610,F126310107671,Kyoto Bunkyo University,京都文教大学,Private,私立,京都府宇治市槇島町千足80,611－0041,0774－25－2400,Kyoto Fu,京都府,34.914272,135.785049,1995-12,4,4,True,False,3.76,127.0,35.1,F
+611,F126310107680,Kyoto Saga University of Arts,嵯峨美術大学,Private,私立,京都府京都市右京区嵯峨五島町1,616－8362,075－864－7858,Kyoto Fu,京都府,35.013035,135.688416,2000-12,2,3,True,False,3.93,39.0,41.0,E
+612,F126310107699,The Kyoto College of Graduate Studies For Informatics,京都情報大学院大学,Private,私立,京都府京都市左京区田中門前町7,606－8225,075－711－0161,Kyoto Fu,京都府,35.030453,135.779221,2004-01,1,1,True,False,,,,
+613,F126310107706,Kyoto College of Medical Science,京都医療科学大学,Private,私立,京都府南丹市園部町小山東町今北1－3,622－0041,0771－63－0066,Kyoto Fu,京都府,35.102692,135.479446,2006-11,1,1,False,False,3.86,20.0,43.0,E
+614,F126310107715,Kyoto Kacho University,京都華頂大学,Private,私立,京都府京都市東山区林下町3－456,605－0062,075－551－1188,Kyoto Fu,京都府,35.007614,135.780304,2010-10,1,2,False,False,3.82,48.0,35.1,F
+615,F126310107724,Kyoto Arts And Crafts University,京都美術工芸大学,Private,私立,京都府京都市東山区川端通七条上ル,605－0991,075－525－1515,Kyoto Fu,京都府,35.007614,135.780304,2011-10,3,3,True,False,4.03,14.0,39.3,E
+616,F126310107733,Kyoto College of Nursing,京都看護大学,Private,私立,京都府京都市中京区壬生東高田町1－21,604－8845,075－311－0123,Kyoto Fu,京都府,34.997562,135.73465,2013-10,2,2,True,False,3.25,27.0,42.0,E
+617,F127310107894,Osaka University of Economics,大阪経済大学,Private,私立,大阪府大阪市東淀川区大隅2－2－8,533－8533,06－6328－2431,Osaka Fu,大阪府,34.750027,135.543991,1935-09,9,11,True,False,3.78,430.0,43.8,E
+618,F127310107901,Osaka Institute of Technology,大阪工業大学,Private,私立,大阪府大阪市旭区大宮5－16－1,535－8585,06－6954－4097,Osaka Fu,大阪府,34.730782,135.54538,1940-03,8,26,True,False,3.81,290.0,45.1,D
+619,F127310107910,Osaka Dental University,大阪歯科大学,Private,私立,大阪府枚方市楠葉花園町8－1,573－1121,072－864－3111,Osaka Fu,大阪府,34.858795,135.676361,1911-12,4,6,True,False,3.61,28.0,45.0,D
+620,F127310107929,Soai University,相愛大学,Private,私立,大阪府大阪市住之江区南港中4－4－1,559－0033,06－6612－5900,Osaka Fu,大阪府,34.634575,135.424088,1958-01,5,8,True,False,3.79,91.0,35.5,F
+621,F127310107938,Momoyama Gakuin University,桃山学院大学,Private,私立,大阪府和泉市まなび野1－1,594－1198,0725－92－7062,Osaka Fu,大阪府,34.452583,135.454117,1959-01,10,12,True,False,3.58,305.0,41.5,E
+622,F127310107947,Setsunan University,摂南大学,Private,私立,大阪府寝屋川市池田中町17－8,572－8508,072－839－9102,Osaka Fu,大阪府,34.779728,135.613068,1975-01,16,29,True,False,3.64,365.0,43.4,E
+623,F127310107956,Momoyama Gakuin University of Education,桃山学院教育大学,Private,私立,大阪府堺市南区槇塚台4－5－1,590－0114,072－288－6655,Osaka Fu,大阪府,34.483715,135.533585,1995-12,1,1,False,False,3.66,27.0,40.6,E
+624,F127310107965,Osaka Medical and Pharmaceutical University,大阪医科薬科大学,Private,私立,大阪府高槻市大学町2－7,569－8686,072－683－1221,Osaka Fu,大阪府,34.85186,135.624405,1904-05,6,9,True,False,4.11,9.0,57.0,B
+625,F127310107974,Osaka College of Music,大阪音楽大学,Private,私立,大阪府豊中市庄内幸町1－1－8,561－8555,06－6334－2131,Osaka Fu,大阪府,34.753349,135.470444,1958-01,3,7,True,False,4.0,117.0,35.0,F
+626,F127310107983,Osaka Gakuin University,大阪学院大学,Private,私立,大阪府吹田市岸部南2－36－1,564－8511,06－6381－8434,Osaka Fu,大阪府,34.773399,135.541901,1963-04,13,14,True,True,3.58,194.0,39.7,E
+627,F127310107992,Osaka University of Arts,大阪芸術大学,Private,私立,大阪府南河内郡河南町東山469,585－8555,0721－93－3781,Osaka Fu,大阪府,34.51239,135.630569,1964-01,3,25,True,True,3.79,415.0,43.3,E
+628,F127310108009,Osaka Sangyo University,大阪産業大学,Private,私立,大阪府大東市中垣内3－1－1,574－8530,072－875－3001,Osaka Fu,大阪府,34.70779,135.646149,1965-04,11,27,True,False,3.46,247.0,38.8,F
+629,F127310108018,Osaka Shoin Women’s University,大阪樟蔭女子大学,Private,私立,大阪府東大阪市菱屋西4－2－26,577－8550,06－6723－8181,Osaka Fu,大阪府,34.663212,135.578369,1925-12,6,13,True,False,3.86,195.0,36.8,F
+630,F127310108027,Osaka University of Commerce,大阪商業大学,Private,私立,大阪府東大阪市御厨栄町4－1－10,577－8505,06－6781－0381,Osaka Fu,大阪府,34.666237,135.583664,1928-04,4,7,True,False,3.56,157.0,41.3,E
+631,F127310108036,Osaka University of Health And Sport Sciences,大阪体育大学,Private,私立,大阪府泉南郡熊取町朝代台1－1,590－0496,072－453－7022,Osaka Fu,大阪府,34.380264,135.358826,1965-01,3,4,True,False,4.13,142.0,40.8,E
+632,F127310108045,Osaka Electro-Communication University,大阪電気通信大学,Private,私立,大阪府寝屋川市初町18－8,572－8530,072－824－1131,Osaka Fu,大阪府,34.760239,135.627777,1961-03,7,17,True,False,3.78,201.0,43.7,E
+633,F127310108063,Osaka Ohtani University,大阪大谷大学,Private,私立,大阪府富田林市錦織北3－11－1,584－8540,0721－24－0381,Osaka Fu,大阪府,34.481937,135.58226,1966-01,7,10,True,False,3.78,201.0,41.2,E
+634,F127310108072,Otemon Gakuin University,追手門学院大学,Private,私立,大阪府茨木市西安威2-1-15,567－8502,072－641－9608,Osaka Fu,大阪府,34.846218,135.558502,1966-01,11,14,True,False,3.56,381.0,45.8,D
+635,F127310108081,Kansai University,関西大学,Private,私立,大阪府吹田市山手町3－3－35,564－8680,06－6368－1121,Osaka Fu,大阪府,34.769669,135.510162,1904-01,29,44,True,False,3.95,2661.0,55.6,B
+636,F127310108090,Kansai Medical University,関西医科大学,Private,私立,大阪府枚方市新町2－5－1,573－1010,072－804－0101,Osaka Fu,大阪府,34.818779,135.645493,1928-06,5,6,True,False,4.07,37.0,52.5,C
+637,F127310108107,Kansai Gaidai University,関西外国語大学,Private,私立,大阪府枚方市中宮東之町16－1,573－1001,072－805－2801,Osaka Fu,大阪府,34.822128,135.667068,1966-01,5,7,True,False,3.71,1072.0,50.0,C
+638,F127310108116,Kindai University,近畿大学,Private,私立,大阪府東大阪市小若江3－4－1,577－8502,06－6721－2332,Osaka Fu,大阪府,34.65155,135.587158,1925-03,28,73,True,True,3.86,2246.0,49.6,C
+639,F127310108125,Shitennoji University,四天王寺大学,Private,私立,大阪府羽曳野市学園前3－2－1,583－8501,072－956－3181,Osaka Fu,大阪府,34.54615,135.583755,1967-01,6,9,True,False,3.88,251.0,42.0,E
+640,F127310108134,Tezukayamagakuin University,帝塚山学院大学,Private,私立,大阪府堺市南区晴美台4－2－2,590－0113,072－296－1331,Osaka Fu,大阪府,34.489052,135.532791,1966-01,3,7,True,False,3.85,103.0,42.8,E
+641,F127310108143,Baika Women’s University,梅花女子大学,Private,私立,大阪府茨木市宿久庄2－19－5,567－8578,072－643－6221,Osaka Fu,大阪府,34.841614,135.535049,1922-03,7,14,True,False,3.83,169.0,39.4,E
+642,F127310108152,Hannan University,阪南大学,Private,私立,大阪府松原市天美東5－4－33,580－8502,072－332－1224,Osaka Fu,大阪府,34.592194,135.534409,1965-01,6,6,True,False,3.76,273.0,39.5,E
+643,F127310108161,Osaka University of Economics and Law,大阪経済法科大学,Private,私立,大阪府八尾市楽音寺6－10,581－8511,072－941－8211,Osaka Fu,大阪府,34.641026,135.645554,1971-01,5,6,True,False,3.53,124.0,42.0,E
+644,F127310108170,Osaka International University,大阪国際大学,Private,私立,大阪府守口市藤田町6－21－57,570－8555,06－6902－0791,Osaka Fu,大阪府,34.748039,135.603439,1987-12,5,9,True,False,3.78,139.0,39.4,E
+645,F127310108189,Kansai University of Welfare Sciences,関西福祉科学大学,Private,私立,大阪府柏原市旭ヶ丘3－11－1,582－0026,072－978－0088,Osaka Fu,大阪府,34.559875,135.636398,1996-12,6,8,True,False,3.79,194.0,35.8,F
+646,F127310108198,Taisei Gakuin University,太成学院大学,Private,私立,大阪府堺市美原区平尾1060－1,587－8555,072－362－3731,Osaka Fu,大阪府,34.526031,135.578201,1997-12,3,5,False,False,3.32,44.0,36.6,F
+647,F127310108205,Tokiwakai Gakuen University,常磐会学園大学,Private,私立,大阪府大阪市平野区喜連東1－4－12,547－0021,06－4302－8880,Osaka Fu,大阪府,34.616505,135.561798,1998-12,1,1,False,False,3.82,33.0,35.0,F
+648,F127310108214,Osaka University of Tourism,大阪観光大学,Private,私立,大阪府泉南郡熊取町大久保南5－3－1,590－0493,072－453－8222,Osaka Fu,大阪府,34.392704,135.339508,2000-04,3,3,False,False,3.39,20.0,35.0,F
+649,F127310108223,Osaka University of Human Sciences,大阪人間科学大学,Private,私立,大阪府摂津市正雀1－4－1,566－8501,06－6381－3000,Osaka Fu,大阪府,34.779377,135.547882,2000-12,4,10,True,False,3.6,78.0,35.4,F
+650,F127310108232,Hagoromo University of International Studies,羽衣国際大学,Private,私立,大阪府堺市西区浜寺南町1－89－1,592－8344,072－265－7000,Osaka Fu,大阪府,34.534309,135.447662,2001-12,2,4,False,False,3.51,47.0,35.3,F
+651,F127310108241,Osaka Seikei University,大阪成蹊大学,Private,私立,大阪府大阪市東淀川区相川3－10－62,533－0007,06－6829－2600,Osaka Fu,大阪府,34.758598,135.537384,2003-04,5,7,True,False,3.71,136.0,40.5,E
+652,F127310108250,Kansai University of Health Sciences,関西医療大学,Private,私立,大阪府泉南郡熊取町若葉2－11－1,590－0482,072－453－8251,Osaka Fu,大阪府,34.406616,135.3703,2003-04,3,7,True,False,3.92,83.0,39.8,E
+653,F127310108269,Senri Kinran University,千里金蘭大学,Private,私立,大阪府吹田市藤白台5－25－1,565－0873,06－6872－0673,Osaka Fu,大阪府,34.826584,135.515549,2002-12,3,4,True,False,3.8,86.0,38.3,F
+654,F127310108278,Higashiosaka College,東大阪大学,Private,私立,大阪府東大阪市西堤学園町3－1－1,577－8567,06－6782－2824,Osaka Fu,大阪府,34.674828,135.580933,2002-12,1,2,False,False,3.83,86.0,35.5,F
+655,F127310108287,Osaka Jogakuin University,大阪女学院大学,Private,私立,大阪府大阪市中央区玉造2－26－54,540－0004,06－6761－9371,Osaka Fu,大阪府,34.676949,135.526535,2003-11,2,2,True,False,3.91,57.0,36.0,F
+656,F127310108296,Aino University,藍野大学,Private,私立,大阪府茨木市東太田4－5－4,567－0012,072－627－1711,Osaka Fu,大阪府,34.843227,135.581833,2004-04,2,5,True,False,3.53,84.0,40.3,E
+657,F127310108303,Osaka Aoyama University,大阪青山大学,Private,私立,大阪府箕面市新稲二丁目11－1,562－8580,072－722－4165,Osaka Fu,大阪府,34.83382,135.457367,2004-11,2,3,False,False,3.73,76.0,39.3,E
+658,F127310108312,Shijonawate Gakuen University,四條畷学園大学,Private,私立,大阪府大東市北条5－11－10,574－0011,072－863－5043,Osaka Fu,大阪府,34.727669,135.646805,2004-11,2,2,False,False,3.9,26.0,38.0,F
+659,F127310108321,Osaka Kawasaki Rehabilitation University,大阪河崎リハビリテーション大学,Private,私立,大阪府貝塚市水間158,597－0104,072－446－6700,Osaka Fu,大阪府,34.404541,135.38707,2006-04,2,2,True,False,3.8,31.0,,
+660,F127310108330,Osaka University of Comprehensive Children Education,大阪総合保育大学,Private,私立,大阪府大阪市東住吉区照ヶ丘矢田2－21－9,546－0021,06－6702－0320,Osaka Fu,大阪府,34.60725,135.538864,1942-12,2,3,True,False,4.06,58.0,40.0,E
+661,F127310108349,Morinomiya University of Medical Sciences,森ノ宮医療大学,Private,私立,大阪府大阪市住之江区南港北1－26－16,559－8611,06－6616－6911,Osaka Fu,大阪府,34.641914,135.413635,2006-11,5,11,True,False,3.9,76.0,44.3,D
+662,F127310108358,Osaka Health Science University,大阪保健医療大学,Private,私立,大阪府大阪市北区天満1－9－27,530－0043,06－6352－0093,Osaka Fu,大阪府,34.693417,135.519669,2008-10,3,3,True,False,4.01,44.0,38.0,F
+663,F127310108367,Butsuryo College of Osaka,大阪物療大学,Private,私立,大阪府堺市西区鳳北町3-33,593-8328,072－260－0088,Osaka Fu,大阪府,34.538174,135.462921,2010-10,1,1,False,False,3.51,20.0,38.0,F
+664,F127310108376,Jikei University of Health Care Sciences,滋慶医療科学大学,Private,私立,大阪府大阪市淀川区宮原1－2－8,532－0003,06ー6394ー1617,Osaka Fu,大阪府,34.734314,135.500031,2010-10,2,2,True,False,4.0,2.0,36.3,F
+665,F127310108385,Osaka Yukioka College of Health Science,大阪行岡医療大学,Private,私立,大阪府茨木市総持寺1－1－14,567－0801,072－621－0881,Osaka Fu,大阪府,34.828323,135.580566,2011-10,1,1,False,False,3.41,7.0,39.0,F
+666,F127310108394,Yamato University,大和大学,Private,私立,大阪府吹田市片山町2－5－1,564－0082,06－6385－8010,Osaka Fu,大阪府,34.765766,135.519043,2013-10,5,7,False,False,3.7,134.0,52.1,C
+667,F127310108900,Takarazuka University,宝塚大学,Private,私立,大阪府大阪市北区芝田1-13-16,530－0012,06-6376-0853,Osaka Fu,大阪府,34.707886,135.497284,1986-12,4,4,True,False,3.55,50.0,38.3,F
+668,F127310111898,International Professional University of Technology in Osaka,大阪国際工科専門職大学,Private,私立,大阪府大阪市北区梅田3-3-1,530－0001,06-6347-0111,Osaka Fu,大阪府,34.699421,135.49324,2021-04,2,3,False,False,4.0,1.0,,
+669,F128310108703,Konan University,甲南大学,Private,私立,兵庫県神戸市東灘区岡本8－9－1,658－8501,078－431－4341,Hyogo Ken,兵庫県,34.729561,135.268463,1923-01,13,27,True,False,3.88,673.0,48.6,D
+670,F128310108712,Konan Women’s University,甲南女子大学,Private,私立,兵庫県神戸市東灘区森北町6-2-23,658-0001,078-431-0391,Hyogo Ken,兵庫県,34.734211,135.288895,1964-01,7,15,True,False,3.98,393.0,42.7,E
+671,F128310108721,Kobe Kaisei College,神戸海星女子学院大学,Private,私立,兵庫県神戸市灘区青谷町2－7－1,657－0805,078－801－2277,Hyogo Ken,兵庫県,34.712616,135.21196,1965-01,1,2,False,False,3.87,35.0,36.0,F
+672,F128310108730,Kobe Gakuin University,神戸学院大学,Private,私立,兵庫県神戸市中央区港島1－1－3,650－8586,078－974－1551,Hyogo Ken,兵庫県,34.672279,135.203583,1966-01,18,26,True,False,3.6,603.0,39.5,E
+673,F128310108749,Kobe Women’s University,神戸女子大学,Private,私立,兵庫県神戸市須磨区東須磨青山2－1,654－8585,078－731－4416,Hyogo Ken,兵庫県,34.658886,135.109131,1966-03,10,20,True,False,3.84,364.0,43.6,E
+674,F128310108758,Kobe Pharmaceutical University,神戸薬科大学,Private,私立,兵庫県神戸市東灘区本山北町4－19－1,658－8558,078－453－0031,Hyogo Ken,兵庫県,34.732506,135.283752,1932-03,2,3,True,False,3.68,124.0,48.3,D
+675,F128310108767,Kobe Shoin Women’s University,神戸松蔭女子学院大学,Private,私立,兵庫県神戸市灘区篠原伯母野山町1－2－1,657－0015,078－882－6122,Hyogo Ken,兵庫県,34.72765,135.229904,1947-03,4,14,True,False,3.86,166.0,39.3,E
+676,F128310108776,Kobe Shinwa Women’S University,神戸親和女子大学,Private,私立,兵庫県神戸市北区鈴蘭台北町7－13－1,651－1111,078－591－1651,Hyogo Ken,兵庫県,34.727726,135.154785,1966-04,4,9,True,True,3.9,174.0,,
+677,F128310108785,Kobe International University,神戸国際大学,Private,私立,兵庫県神戸市東灘区向洋町中9－1－6,658－0032,078－845－3111,Hyogo Ken,兵庫県,34.681519,135.271103,1968-02,3,4,False,False,3.66,88.0,35.2,F
+678,F128310108794,Hyogo University,兵庫大学,Private,私立,兵庫県加古川市平岡町新在家2301,675－0195,079－427－5111,Hyogo Ken,兵庫県,34.746761,134.881317,1994-12,7,9,True,False,3.68,94.0,38.4,F
+679,F128310108801,Kobe Tokiwa University,神戸常盤大学,Private,私立,兵庫県神戸市長田区大谷町2－6－2,653－0838,078－611－1821,Hyogo Ken,兵庫県,34.6661,135.140472,2007-12,2,5,False,False,3.8,116.0,39.5,E
+680,F128310108810,Takarazuka University of Medical and Health Care,宝塚医療大学,Private,私立,兵庫県宝塚市花屋敷緑ガ丘1,666－0162,072－736－8600,Hyogo Ken,兵庫県,34.835621,135.401855,2010-10,4,6,False,False,3.7,27.0,36.3,F
+681,F128310108829,Ashiya University,芦屋大学,Private,私立,兵庫県芦屋市六麓荘町13－22,659－8511,0797－23－0661,Hyogo Ken,兵庫県,34.753239,135.30777,1964-01,4,7,True,False,3.67,57.0,35.0,F
+682,F128310108838,Otemae University,大手前大学,Private,私立,兵庫県西宮市御茶家所町6－42,662－8552,0798－34－6331,Hyogo Ken,兵庫県,34.737976,135.325104,1966-01,7,7,True,True,3.63,230.0,39.1,E
+683,F128310108847,Kwansei Gakuin University,関西学院大学,Private,私立,兵庫県西宮市上ケ原一番町1－155,662－8501,0798－54－6100,Hyogo Ken,兵庫県,34.767162,135.34436,1908-09,29,63,True,False,4.0,1990.0,54.2,B
+684,F128310108856,Koshien University,甲子園大学,Private,私立,兵庫県宝塚市紅葉ガ丘10－1,665－0006,0797－87－5111,Hyogo Ken,兵庫県,34.806511,135.33316,1967-01,4,5,True,False,3.55,57.0,37.0,F
+685,F128310108865,Kobe College,神戸女学院大学,Private,私立,兵庫県西宮市岡田山4－1,662－8505,0798－51－8536,Hyogo Ken,兵庫県,34.759605,135.350464,1909-10,6,9,True,False,4.23,296.0,41.0,E
+686,F128310108874,Sonoda Women’s University,園田学園女子大学,Private,私立,兵庫県尼崎市南塚口町7－29－1,661－8520,06－6429－1201,Hyogo Ken,兵庫県,34.749084,135.411011,1966-01,3,5,False,False,3.59,131.0,37.0,F
+687,F128310108883,Mukogawa Women’s University,武庫川女子大学,Private,私立,兵庫県西宮市池開町6－46,663－8558,0798－47－1212,Hyogo Ken,兵庫県,34.717453,135.374451,1949-04,19,33,True,False,4.01,969.0,45.8,D
+688,F128310108892,Hyogo Medical University,兵庫医科大学,Private,私立,兵庫県西宮市武庫川町1－1,663－8501,0798－45－6111,Hyogo Ken,兵庫県,34.719002,135.378647,1971-11,8,10,True,False,3.94,34.0,47.3,D
+689,F128310108918,Himeji Dokkyo University,姫路獨協大学,Private,私立,兵庫県姫路市上大野7－2－1,670－8524,079－223－2211,Hyogo Ken,兵庫県,34.873276,134.688828,1986-12,7,12,True,False,3.71,107.0,35.8,F
+690,F128310108927,University of Marketing And Distribution Sciences,流通科学大学,Private,私立,兵庫県神戸市西区学園西町3－1,651－2188,078－794－3555,Hyogo Ken,兵庫県,34.687099,135.057877,1987-12,4,8,True,False,3.78,98.0,39.6,E
+691,F128310108936,Kobe Design University,神戸芸術工科大学,Private,私立,兵庫県神戸市西区学園西町8－1－1,651－2196,078－794－2112,Hyogo Ken,兵庫県,34.677147,135.055939,1988-12,4,12,True,False,3.78,87.0,38.1,F
+692,F128310108945,Kansai University of Social Welfare,関西福祉大学,Private,私立,兵庫県赤穂市新田380－3,678－0255,0791－46－2525,Hyogo Ken,兵庫県,34.761024,134.368454,1996-12,6,7,True,False,3.74,53.0,42.4,E
+693,F128310108954,Kansai University of International Studies,関西国際大学,Private,私立,兵庫県三木市志染町青山1－18,673－0521,0794－85－2288,Hyogo Ken,兵庫県,34.771805,135.044052,1997-12,10,12,True,False,3.57,141.0,35.9,F
+694,F128310108963,Kobe University of Welfare,神戸医療未来大学,Private,私立,兵庫県神崎郡福崎町高岡字塩田1966－5,679－2217,0790－22－2620,Hyogo Ken,兵庫県,34.97525,134.726196,1999-12,1,3,False,False,3.67,27.0,35.3,F
+695,F128310108972,Kobe Institute of Computing - Graduate School of Information Technology,神戸情報大学院大学,Private,私立,兵庫県神戸市中央区加納町2－2－7,650－0001,078－262－7715,Hyogo Ken,兵庫県,34.698917,135.193039,2005-04,1,1,True,False,3.63,2.0,,
+696,F128310108981,Kansai University of Nursing And Health Sciences,関西看護医療大学,Private,私立,兵庫県淡路市志筑1456-4,656－2131,0799－60－1200,Hyogo Ken,兵庫県,34.4356,134.901291,2005-12,2,2,True,False,3.9,23.0,40.0,E
+697,F128310108990,Hyogo University of Health Sciences,兵庫医療大学,Private,私立,兵庫県神戸市中央区港島1－3－6,650－8530,078－304－3000,Hyogo Ken,兵庫県,34.666256,135.203979,2006-11,6,7,True,False,3.99,87.0,,
+698,F128310109007,Himeji University,姫路大学,Private,私立,兵庫県姫路市大塩町2042番2,671－0101,079－247－7301,Hyogo Ken,兵庫県,34.773808,134.75943,2006-11,4,4,True,True,3.72,65.0,37.5,F
+699,F129310109257,Tezukayama University,帝塚山大学,Private,私立,奈良県奈良市帝塚山七丁目1番1号,631－8501,0742－48－9122,Nara Ken,奈良県,34.686455,135.722137,1964-01,8,9,True,False,3.7,210.0,40.8,E
+700,F129310109266,Tenri University,天理大学,Private,私立,奈良県天理市杣之内町1050,632－8510,0743－63－9001,Nara Ken,奈良県,34.597195,135.845306,1925-02,8,12,True,False,4.17,173.0,39.1,E
+701,F129310109275,Nara University,奈良大学,Private,私立,奈良県奈良市山陵町1500,631－8502,0742－44－1251,Nara Ken,奈良県,34.714764,135.783218,1969-03,5,11,True,True,3.86,177.0,39.0,F
+702,F129310109284,Naragakuen University,奈良学園大学,Private,私立,奈良県奈良市中登美ケ丘三丁目15-1,631-8524,0742-95-9800,Nara Ken,奈良県,34.721218,135.747269,1983-12,3,4,True,False,3.76,41.0,38.4,F
+703,F129310109293,Kio University,畿央大学,Private,私立,奈良県北葛城郡広陵町馬見中4－2－2,635－0832,0745－54－1601,Nara Ken,奈良県,34.546612,135.723099,2002-12,6,9,True,False,4.04,226.0,46.2,D
+704,F129310109300,Tenri Health Care University,天理医療大学,Private,私立,奈良県天理市別所町80－1,632－0018,0743－63－7811,Nara Ken,奈良県,34.607342,135.83638,2011-10,1,2,False,False,3.53,19.0,,
+705,F130310109370,Koyasan University,高野山大学,Private,私立,和歌山県伊都郡高野町高野山385,648－0280,0736－56－2921,Wakayama Ken,和歌山県,34.211441,135.585602,1926-04,3,6,True,False,4.33,5.0,35.5,F
+706,F130310109389,Wakayama Shin-ai University,和歌山信愛大学,Private,私立,和歌山県和歌山市住吉町1番地,640－8022,073－488－6228,Wakayama Ken,和歌山県,34.236881,135.176102,2019-04,1,1,False,False,3.79,14.0,37.3,F
+707,F130310111919,Wakayama Professional University of Rehabilitation,和歌山リハビリテーション専門職大学,Private,私立,和歌山県和歌山市湊本町3丁目１番地,640－8222,073－435-4888,Wakayama Ken,和歌山県,34.233154,135.163116,2021-04,1,1,False,False,,,37.8,F
+708,F131310109431,Tottori College of Nursing,鳥取看護大学,Private,私立,鳥取県倉吉市福庭854,682－8555,0858－27－2800,Tottori Ken,鳥取県,35.456047,133.859024,2015-04,2,2,True,False,4.23,11.0,39.5,E
+709,F133310109536,Kibi International University,吉備国際大学,Private,私立,岡山県高梁市伊賀町8,716－8508,0866－22－9454,Okayama Ken,岡山県,34.796394,133.620956,1989-12,15,22,True,True,3.67,55.0,37.1,F
+710,F133310109545,Okayama Shoka University,岡山商科大学,Private,私立,岡山県岡山市北区津島京町2－10－1,700－8601,086－252－0642,Okayama Ken,岡山県,34.683128,133.90094,1955-03,6,7,True,False,3.71,59.0,37.1,F
+711,F133310109554,Okayama University of Science,岡山理科大学,Private,私立,岡山県岡山市北区理大町1－1,700－0005,086－256－8431,Okayama Ken,岡山県,34.695194,133.924484,1964-01,16,47,True,False,3.69,320.0,38.9,F
+712,F133310109563,Kurashiki Sakuyo University,くらしき作陽大学,Private,私立,岡山県倉敷市玉島長尾3515,710－0292,086－523－0888,Okayama Ken,岡山県,34.574867,133.677567,1966-04,4,5,True,False,3.84,120.0,36.4,F
+713,F133310109572,Notre Dame Seishin University,ノートルダム清心女子大学,Private,私立,岡山県岡山市北区伊福町2－16－9,700－8516,086－252－1155,Okayama Ken,岡山県,34.672947,133.916412,1944-02,4,13,True,False,4.08,261.0,49.5,C
+714,F133310109581,Kawasaki Medical School,川崎医科大学,Private,私立,岡山県倉敷市松島577,701－0192,086－462－1111,Okayama Ken,岡山県,34.631077,133.809937,1970-03,2,2,True,False,3.57,18.0,60.0,A
+715,F133310109590,Shujitsu University,就実大学,Private,私立,岡山県岡山市中区西川原1－6－1,703－8516,086－271－8111,Okayama Ken,岡山県,34.676815,133.93541,1979-02,7,10,True,False,3.96,196.0,41.8,E
+716,F133310109607,Kawasaki University of Medical Welfare,川崎医療福祉大学,Private,私立,岡山県倉敷市松島288,701－0193,086－462－1111,Okayama Ken,岡山県,34.63422,133.810959,1990-12,8,31,True,False,3.79,285.0,38.5,F
+717,F133310109616,Sanyo Gakuen University,山陽学園大学,Private,私立,岡山県岡山市中区平井1－14－1,703－8501,086－272－6254,Okayama Ken,岡山県,34.642506,133.94426,1994-04,5,6,True,False,3.57,41.0,38.0,F
+718,F133310109625,Kurashiki University of Science And The Arts,倉敷芸術科学大学,Private,私立,岡山県倉敷市連島町西之浦2640,712－8505,086－440－1111,Okayama Ken,岡山県,34.555973,133.712479,1994-12,9,14,True,True,3.63,78.0,36.7,F
+719,F133310109634,Okayama Gakuin University,岡山学院大学,Private,私立,岡山県倉敷市有城787,710－8511,086－428－2651,Okayama Ken,岡山県,34.572922,133.799286,2001-12,1,1,False,False,3.43,14.0,35.0,F
+720,F133310109643,Chugokugakuen University,中国学園大学,Private,私立,岡山県岡山市北区庭瀬83番地,701－0197,086－293－1100,Okayama Ken,岡山県,34.650665,133.849426,2001-12,5,5,True,False,3.76,51.0,35.5,F
+721,F133310109652,International Pacific University,環太平洋大学,Private,私立,岡山県岡山市東区瀬戸町観音寺721,709－0863,086－908－0200,Okayama Ken,岡山県,34.729137,134.012451,2006-11,5,7,False,True,3.75,79.0,36.0,F
+722,F133310109661,Okayama Healthcare Professional University,岡山医療専門職大学,Private,私立,岡山県岡山市北区大供3-2-18,700－0913,086-233-8020,Okayama Ken,岡山県,34.656384,133.916397,2020-04,1,2,False,False,2.0,1.0,35.5,F
+723,F133310109670,Mimasaka University,美作大学,Private,私立,岡山県津山市北園町50,708－8511,0868－22－7718,Okayama Ken,岡山県,35.076176,134.00824,1967-02,3,5,True,False,4.09,65.0,41.5,E
+724,F134310109839,Elisabeth University of Music,エリザベト音楽大学,Private,私立,広島県広島市中区幟町4－15,730－0016,082－221－0918,Hiroshima Ken,広島県,34.395115,132.467819,1952-03,2,7,True,False,3.54,29.0,36.0,F
+725,F134310109848,Hiroshima University of Economics,広島経済大学,Private,私立,広島県広島市安佐南区祇園5－37－1,731－0192,082－871－1000,Hiroshima Ken,広島県,34.447708,132.455368,1967-01,4,6,True,False,3.74,100.0,38.6,F
+726,F134310109857,Hiroshima Institute of Technology,広島工業大学,Private,私立,広島県広島市佐伯区三宅2－1－1,731－5193,082－921－3121,Hiroshima Ken,広島県,34.370216,132.342941,1963-04,5,20,True,False,3.69,149.0,41.0,E
+727,F134310109866,Hiroshima Shudo University,広島修道大学,Private,私立,広島県広島市安佐南区大塚東1－1－1,731－3195,082－848－2121,Hiroshima Ken,広島県,34.435001,132.403549,1960-01,11,23,True,False,3.89,413.0,42.6,E
+728,F134310109875,Hiroshima Jogakuin University,広島女学院大学,Private,私立,広島県広島市東区牛田東4－13－1,732－0063,082－228－0386,Hiroshima Ken,広島県,34.413734,132.484268,1932-02,4,9,True,False,3.9,106.0,36.8,F
+729,F134310109884,Hiroshima Kokusai Gakuin University,広島国際学院大学,Private,私立,広島県広島市安芸区中野6－20－1,739－0321,082－820－2345,Hiroshima Ken,広島県,34.410328,132.579514,1967-01,4,6,True,False,3.58,16.0,,
+730,F134310109893,Hiroshima Bunkyo University,広島文教大学,Private,私立,広島県広島市安佐北区可部東1－2－1,731－0295,082－814－3191,Hiroshima Ken,広島県,34.505554,132.51973,1948-03,3,6,True,False,4.08,106.0,39.4,E
+731,F134310109900,Yasuda Women’s University,安田女子大学,Private,私立,広島県広島市安佐南区安東6－13－1,731－0153,082－878－8111,Hiroshima Ken,広島県,34.480515,132.452377,1966-01,11,20,True,False,4.28,472.0,42.7,E
+732,F134310109919,Fukuyama University,福山大学,Private,私立,広島県福山市東村町字三蔵985－1,729－0292,084－936－2111,Hiroshima Ken,広島県,34.463791,133.244263,1975-01,9,25,True,False,3.76,167.0,37.7,F
+733,F134310109928,Hijiyama University,比治山大学,Private,私立,広島県広島市東区牛田新町4－1－1,732－8509,082－229－0121,Hiroshima Ken,広島県,34.427959,132.474304,1993-12,4,8,True,False,3.73,94.0,36.9,F
+734,F134310109937,Fukuyama Heisei University,福山平成大学,Private,私立,広島県福山市御幸町上岩成正戸117－1,720－0001,084－972－5001,Hiroshima Ken,広島県,34.54808,133.346588,1993-12,7,9,True,False,3.7,68.0,36.9,F
+735,F134310109946,Hiroshima Bunka Gakuen University,広島文化学園大学,Private,私立,広島県呉市郷原学びの丘1－1－1,737－0182,0823－70－3300,Hiroshima Ken,広島県,34.288696,132.637268,1994-12,7,8,True,False,3.52,91.0,35.6,F
+736,F134310109955,Hiroshima InternationalUniversity,広島国際大学,Private,私立,広島県東広島市黒瀬学園台555－36,739－2695,0823－70－4503,Hiroshima Ken,広島県,34.313538,132.687531,1997-12,16,21,True,False,3.61,265.0,43.3,E
+737,F134310109964,Japanese Red Cross Hiroshima College of Nursing,日本赤十字広島看護大学,Private,私立,広島県廿日市市阿品台東1－2,738－0052,0829－20－2800,Hiroshima Ken,広島県,34.335869,132.309082,1999-12,2,3,True,False,3.9,42.0,42.0,E
+738,F134310109973,Hiroshima Cosmopolitan University,広島都市学園大学,Private,私立,広島県広島市南区宇品西5丁目13-18,734-0014,082-250-1133,Hiroshima Ken,広島県,34.359978,132.457932,2008-10,4,5,True,False,3.41,37.0,35.9,F
+739,F135310110096,Baiko Gakuin University,梅光学院大学,Private,私立,山口県下関市向洋町1丁目1番1号,750-8511,083-227-1000,Yamaguchi Ken,山口県,33.967678,130.933243,1967-01,3,4,True,False,3.34,55.0,36.5,F
+740,F135310110112,The University of East Asia,東亜大学,Private,私立,山口県下関市一の宮学園町2－1,751－8503,083－256－1111,Yamaguchi Ken,山口県,34.000916,130.948242,1974-02,6,14,True,True,3.86,32.0,35.5,F
+741,F135310110121,Shiseikan University,至誠館大学,Private,私立,山口県萩市大字椿東字浦田5000番地,758－8585,0838－24－4000,Yamaguchi Ken,山口県,34.426121,131.413086,1998-12,1,1,False,False,3.47,4.0,38.5,F
+742,F135310110130,Ube Frontier University,宇部フロンティア大学,Private,私立,山口県宇部市文京台2－1－1,755－0805,0836－38－0500,Yamaguchi Ken,山口県,33.980694,131.234238,2001-12,4,4,True,False,3.84,21.0,35.3,F
+743,F135310110149,Yamaguchi Gakugei University,山口学芸大学,Private,私立,山口県山口市小郡みらい町1－7－1,754－0032,083－972－3288,Yamaguchi Ken,山口県,34.120808,131.401886,2006-11,2,2,True,False,4.01,19.0,38.5,F
+744,F136310110255,Shikoku University,四国大学,Private,私立,徳島県徳島市応神町古川字戎子野123－1,771－1192,088－665－1300,Tokushima Ken,徳島県,34.102814,134.553314,1966-01,8,14,True,False,3.78,144.0,36.7,F
+745,F136310110264,Tokushima Bunri University,徳島文理大学,Private,私立,徳島県徳島市寺島本町東1-8,770－8560,088-622-0097,Tokushima Ken,徳島県,34.072392,134.553452,1966-01,17,37,True,False,3.74,229.0,35.9,F
+746,F137310110334,Shikoku Gakuin University,四国学院大学,Private,私立,香川県善通寺市文京町3－2－1,765－8505,0877－62－2111,Kagawa Ken,香川県,34.225399,133.785568,1950-03,6,6,True,False,3.74,66.0,35.5,F
+747,F137310110343,Takamatsu University,高松大学,Private,私立,香川県高松市春日町960,761－0194,087－841－3255,Kagawa Ken,香川県,34.32811,134.087769,1995-12,4,4,True,False,3.84,51.0,38.0,F
+748,F138310110404,Matsuyama University,松山大学,Private,私立,愛媛県松山市文京町4－2,790－8578,089－925－7111,Ehime Ken,愛媛県,33.851158,132.767639,1923-02,11,12,True,False,3.7,456.0,38.5,F
+749,F138310110413,St.Catherine University,聖カタリナ大学,Private,私立,愛媛県松山市北条660番地,799－2496,089－993－0702,Ehime Ken,愛媛県,33.978985,132.779617,1987-12,2,5,True,False,3.97,39.0,35.3,F
+750,F138310110422,Matsuyama Shinonome College,松山東雲女子大学,Private,私立,愛媛県松山市桑原3－2－1,790－8531,089－931－6211,Ehime Ken,愛媛県,33.831757,132.796432,1991-12,1,1,False,False,3.97,62.0,35.5,F
+751,F139310110537,Kochi Professional University of Rehabilitation,高知リハビリテーション専門職大学,Private,私立,高知県土佐市高岡町乙1139－3,781－1102,088－850－2311,Kochi Ken,高知県,33.500893,133.410797,2019-04,1,1,False,False,4.0,1.0,35.5,F
+752,F139310110546,Kochi Gakuen University,高知学園大学,Private,私立,高知県高知市旭天神町292－26,780－0955,088－840－1121,Kochi Ken,高知県,33.560822,133.506653,2020-04,1,2,False,False,4.0,3.0,35.5,F
+753,F140310110641,Kyushu Kyoritsu University,九州共立大学,Private,私立,福岡県北九州市八幡西区自由ケ丘1－8,807－8585,093－693－3005,Fukuoka Ken,福岡県,33.870468,130.703064,1965-01,4,5,True,False,3.7,82.0,36.2,F
+754,F140310110650,Kyushu Women’s University,九州女子大学,Private,私立,福岡県北九州市八幡西区自由ケ丘1－1,807－8586,093－693－3116,Fukuoka Ken,福岡県,33.870468,130.703064,1962-04,2,3,False,False,3.64,113.0,35.5,F
+755,F140310110669,Kyushu International University,九州国際大学,Private,私立,福岡県北九州市八幡東区平野1－6－1,805－8512,093－671－8910,Fukuoka Ken,福岡県,33.86253,130.79277,1947-03,4,5,True,False,3.56,70.0,35.5,F
+756,F140310110678,Fukuoka Dental College,福岡歯科大学,Private,私立,福岡県福岡市早良区田村2－15－1,814－0193,092－801－0411,Fukuoka Ken,福岡県,33.546623,130.331177,1972-07,2,2,True,False,3.44,18.0,36.5,F
+757,F140310110687,Kyushu Sangyo University,九州産業大学,Private,私立,福岡県福岡市東区松香台2－3－1,813－8503,092－673－5050,Fukuoka Ken,福岡県,33.670216,130.444656,1960-01,20,41,True,False,3.86,407.0,42.8,E
+758,F140310110696,Kurume University,久留米大学,Private,私立,福岡県久留米市旭町67,830－0011,0942－35－3311,Fukuoka Ken,福岡県,33.328121,130.511475,1928-02,15,34,True,False,3.83,334.0,41.5,E
+759,F140310110703,Seinan Gakuin University,西南学院大学,Private,私立,福岡県福岡市早良区西新六丁目2番92号,814－8511,092－823－3250,Fukuoka Ken,福岡県,33.584869,130.356842,1921-02,19,26,True,False,4.02,687.0,51.7,C
+760,F140310110712,Daiichi University of Pharmacy,第一薬科大学,Private,私立,福岡県福岡市南区玉川町22－1,815－8511,092－541－0161,Fukuoka Ken,福岡県,33.565372,130.417648,1960-01,3,5,True,False,3.39,44.0,35.5,F
+761,F140310110721,Nakamura Gakuen University,中村学園大学,Private,私立,福岡県福岡市城南区別府5－7－1,814－0198,092－851－2531,Fukuoka Ken,福岡県,33.573196,130.367905,1965-01,6,7,True,False,4.04,318.0,43.4,E
+762,F140310110730,Nishinippon Institute of Technology,西日本工業大学,Private,私立,福岡県京都郡苅田町新津1－11,800－0394,0930－23－1491,Fukuoka Ken,福岡県,33.753147,130.973511,1967-01,3,4,True,False,3.87,40.0,35.1,F
+763,F140310110749,Fukuoka University,福岡大学,Private,私立,福岡県福岡市城南区七隈8－19－1,814－0180,092－871－6631,Fukuoka Ken,福岡県,33.546928,130.363129,1934-04,21,65,True,False,3.98,1298.0,47.6,D
+764,F140310110758,Fukuoka Institute of Technology,福岡工業大学,Private,私立,福岡県福岡市東区和白東3－30－1,811－0295,092－606－3131,Fukuoka Ken,福岡県,33.696144,130.441742,1963-04,5,20,True,False,3.87,170.0,43.0,E
+765,F140310110767,Japan University of Economics,日本経済大学,Private,私立,福岡県太宰府市五条3－11－25,818－0197,092－922－5131,Fukuoka Ken,福岡県,33.506367,130.527756,1968-03,3,7,True,False,3.7,57.0,35.5,F
+766,F140310110776,Kurume Institute of Technology,久留米工業大学,Private,私立,福岡県久留米市上津町2228－66,830－0052,0942－22－2345,Fukuoka Ken,福岡県,33.270023,130.526123,1966-04,2,8,True,False,3.68,39.0,36.8,F
+767,F140310110785,"University of Occupational and Environmental Health, Japan",産業医科大学,Private,私立,福岡県北九州市八幡西区医生ケ丘1－1,807－8555,093－603－1611,Fukuoka Ken,福岡県,33.876781,130.709549,1977-12,3,6,True,False,3.76,71.0,50.3,C
+768,F140310110794,Chikushi Jogakuen University,筑紫女学園大学,Private,私立,福岡県太宰府市石坂2－12－1,818－0192,092－925－3511,Fukuoka Ken,福岡県,33.512836,130.537613,1987-12,4,6,True,False,3.97,220.0,35.9,F
+769,F140310110801,Fukuoka Jo Gakuin University,福岡女学院大学,Private,私立,福岡県福岡市南区曰佐3－42－1,811－1313,092－575－2971,Fukuoka Ken,福岡県,33.53281,130.441666,1989-12,4,10,True,False,3.92,174.0,36.9,F
+770,F140310110810,Seinan Jo Gakuin University,西南女学院大学,Private,私立,福岡県北九州市小倉北区井堀1－3－5,803－0835,093－583－5130,Fukuoka Ken,福岡県,33.88451,130.849899,1993-12,3,6,False,False,3.78,127.0,36.7,F
+771,F140310110829,Kyushu Institute of Information Sciences University,九州情報大学,Private,私立,福岡県太宰府市宰府6－3－1,818－0117,092－928－4000,Fukuoka Ken,福岡県,33.525135,130.53717,1997-12,3,4,True,False,3.71,12.0,36.5,F
+772,F140310110838,Kyushu Nutrition Welfare University,九州栄養福祉大学,Private,私立,福岡県北九州市小倉北区下到津5－1－1,803－8511,093－561－2136,Fukuoka Ken,福岡県,33.877014,130.858078,2000-12,3,4,True,False,3.9,51.0,36.5,F
+773,F140310110847,Japanese Red Cross Kyushu International College of Nursing,日本赤十字九州国際看護大学,Private,私立,福岡県宗像市アスティ1－1,811－4157,0940－35－7001,Fukuoka Ken,福岡県,33.796188,130.609161,2000-12,2,3,True,False,3.88,33.0,38.0,F
+774,F140310110856,St.Mary’s College,聖マリア学院大学,Private,私立,福岡県久留米市津福本町422,830－8558,0942－35－7271,Fukuoka Ken,福岡県,33.304573,130.509384,2006-04,3,3,True,False,3.74,35.0,40.5,E
+775,F140310110865,Cyber University,サイバー大学,Private,私立,福岡県福岡市東区香椎照葉3－2－1 シーマークビル3階,813－0017,092－674－3337,Fukuoka Ken,福岡県,33.662762,130.423126,2006-11,1,1,False,True,3.83,37.0,,
+776,F140310110874,Fukuoka Jo Gakuin Nursing University,福岡女学院看護大学,Private,私立,福岡県古賀市千鳥1－1－7,811－3113,092－943－4174,Fukuoka Ken,福岡県,33.740604,130.473541,2007-12,1,1,False,False,4.52,34.0,40.5,E
+777,F140310110883,College of Healthcare Management,保健医療経営大学,Private,私立,福岡県みやま市瀬高町高柳字宮手960－4,835－0018,0944－67－7007,Fukuoka Ken,福岡県,33.146324,130.459808,2007-12,1,1,False,False,3.24,4.0,,
+778,F140310110892,Junshin Gakuen University,純真学園大学,Private,私立,福岡県福岡市南区筑紫丘1－1－1,815－8510,092－554－1255,Fukuoka Ken,福岡県,33.558674,130.420029,2010-10,2,6,True,False,3.45,49.0,39.6,E
+779,F140310110909,Fukuoka Nursing College,福岡看護大学,Private,私立,福岡県福岡市早良区田村2－15－1,814－0193,092－801－0411,Fukuoka Ken,福岡県,33.546623,130.331177,2016-08,2,2,True,False,3.0,5.0,38.5,F
+780,F140310110918,Fukuoka International University of Health and Welfare,福岡国際医療福祉大学,Private,私立,福岡県福岡市早良区百道浜3丁目6-40,814－0001,092－832－1200,Fukuoka Ken,福岡県,33.591415,130.349396,2018-08,3,5,False,False,3.74,24.0,40.9,E
+781,F141310111140,Nishikyushu University,西九州大学,Private,私立,佐賀県神埼市神埼町尾崎4490－9,842－8585,0952－52－4191,Saga Ken,佐賀県,33.331242,130.344986,1968-02,6,13,True,False,3.83,119.0,35.5,F
+782,F142310111201,Nagasaki Institute of Applied Science,長崎総合科学大学,Private,私立,長崎県長崎市網場町536,851－0193,095－839－3111,Nagasaki Ken,長崎県,32.750111,129.942505,1945-03,3,7,True,False,3.65,34.0,35.6,F
+783,F142310111210,Kwassui Women’s University,活水女子大学,Private,私立,長崎県長崎市東山手町1-50,850－8515,095-822-4107,Nagasaki Ken,長崎県,32.738106,129.873413,1981-01,5,8,True,False,3.76,118.0,35.6,F
+784,F142310111229,Nagasaki Junshin Catholic University,長崎純心大学,Private,私立,長崎県長崎市三ツ山町235,852－8558,095－846－0084,Nagasaki Ken,長崎県,32.802841,129.907333,1993-12,2,6,True,False,3.92,109.0,36.8,F
+785,F142310111238,Nagasaki International University,長崎国際大学,Private,私立,長崎県佐世保市ハウステンボス町2825-7,859-3298,0956-39-2020,Nagasaki Ken,長崎県,33.101685,129.789978,1999-12,6,9,True,False,3.95,110.0,36.6,F
+786,F142310111247,Nagasaki University of Foreign Studies,長崎外国語大学,Private,私立,長崎県西彼杵郡時津町元村郷1010－1,851－2196,095－840－2000,Nagasaki Ken,長崎県,32.814011,129.841446,2000-12,1,2,False,False,3.76,55.0,36.3,F
+787,F142310111256,Nagasaki Wesleyan University,鎮西学院大学,Private,私立,長崎県諫早市西栄田町1212－1,854－0082,0957－26－1234,Nagasaki Ken,長崎県,32.858086,130.030273,2001-12,1,3,False,False,3.71,20.0,35.5,F
+788,F143310111317,Sojo University,崇城大学,Private,私立,熊本県熊本市西区池田4－22－1,860－0082,096－326－3111,Kumamoto Ken,熊本県,32.831253,130.695465,1965-01,9,25,True,False,3.85,166.0,42.5,E
+789,F143310111326,Kumamoto Gakuen University,熊本学園大学,Private,私立,熊本県熊本市中央区大江2－5－1,862－8680,096－364－5161,Kumamoto Ken,熊本県,32.804508,130.728745,1954-02,10,17,True,False,3.8,290.0,39.4,E
+790,F143310111335,Shokei University,尚絅大学,Private,私立,熊本県熊本市中央区九品寺2-6-78,862－8678,096－362－2011,Kumamoto Ken,熊本県,32.797447,130.716278,1975-01,2,2,False,False,3.51,41.0,35.8,F
+791,F143310111344,Kyushu Lutheran College,九州ルーテル学院大学,Private,私立,熊本県熊本市中央区黒髪3－12－16,860－8520,096－343－1600,Kumamoto Ken,熊本県,32.820332,130.722031,1996-12,2,3,True,False,4.28,44.0,40.0,E
+792,F143310111353,Kyushu University of Nursing And Social Welfare,九州看護福祉大学,Private,私立,熊本県玉名市富尾888番地,865－0062,0968－75－1800,Kumamoto Ken,熊本県,32.946815,130.553604,1998-04,3,9,True,False,3.72,86.0,37.4,F
+793,F143310111362,Heisei College of Music,平成音楽大学,Private,私立,熊本県上益城郡御船町滝川1658,861－3295,096－282－0506,Kumamoto Ken,熊本県,32.712303,130.791824,1972-04,2,3,False,False,3.72,23.0,,
+794,F143310111371,Kumamoto Health Science University,熊本保健科学大学,Private,私立,熊本県熊本市北区和泉町亀の甲325,861－5598,096－275－2111,Kumamoto Ken,熊本県,32.852104,130.68782,2002-12,3,5,True,False,4.11,85.0,39.3,E
+795,F144310111432,Nippon Bunri University,日本文理大学,Private,私立,大分県大分市大字一木1727－162,870－0397,097－592－1600,Oita Ken,大分県,33.231152,131.725113,1967-01,4,8,True,False,3.63,62.0,36.9,F
+796,F144310111441,Beppu University,別府大学,Private,私立,大分県別府市大字北石垣82,874－8501,0977－67－0101,Oita Ken,大分県,33.312283,131.490509,1947-04,6,12,True,False,3.87,110.0,35.6,F
+797,F144310111450,Ritsumeikan Asia Pacific University,立命館アジア太平洋大学,Private,私立,大分県別府市十文字原1－1,874－8577,0977－78－1111,Oita Ken,大分県,33.284721,131.491104,1999-12,4,5,True,False,3.94,195.0,50.6,C
+798,F145310111556,Minami Kyushu University,南九州大学,Private,私立,宮崎県宮崎市霧島5－1－2,880－0032,0985－83－2111,Miyazaki Ken,宮崎県,31.93807,131.414932,1967-02,4,6,True,False,4.11,73.0,,
+799,F145310111565,Miyazaki Sangyo-Keiei University,宮崎産業経営大学,Private,私立,宮崎県宮崎市古城町丸尾100,880－0931,0985－52－3111,Miyazaki Ken,宮崎県,31.882841,131.404449,1987-02,2,2,False,False,3.78,36.0,38.5,F
+800,F145310111574,Miyazaki International College,宮崎国際大学,Private,私立,宮崎県宮崎市清武町加納丙1405,889－1605,0985－85－5931,Miyazaki Ken,宮崎県,31.87104,131.387329,1993-12,2,2,False,False,3.68,22.0,36.3,F
+801,F145310111583,Kyushu University of Health And Welfare,九州保健福祉大学,Private,私立,宮崎県延岡市吉野町1714－1,882－8508,0982－23－5555（代）,Miyazaki Ken,宮崎県,32.56876,131.613464,1998-12,9,13,True,True,3.64,91.0,,
+802,F146310111644,The International University of Kagoshima,鹿児島国際大学,Private,私立,鹿児島県鹿児島市坂之上8－34－1,891－0197,099－261－3211,Kagoshima Ken,鹿児島県,31.493916,130.496445,1932-03,6,9,True,False,3.89,139.0,36.8,F
+803,F146310111653,Daiichi Institute of Technology,第一工科大学,Private,私立,鹿児島県霧島市国分中央1－10－2,899－4395,0995－45－0640,Kagoshima Ken,鹿児島県,31.745907,130.768463,1966-01,2,5,False,False,4.02,28.0,35.5,F
+804,F146310111662,Shigakukan University,志學館大学,Private,私立,鹿児島県鹿児島市紫原1－59－1,890－8504,099－812－8501,Kagoshima Ken,鹿児島県,31.559242,130.542252,1978-12,3,5,True,False,3.84,86.0,36.0,F
+805,F146310111671,Kagoshima Immaculate Heart University,鹿児島純心女子大学,Private,私立,鹿児島県薩摩川内市天辰町2365,895－0011,0996－23－5311,Kagoshima Ken,鹿児島県,31.826616,130.327606,1993-12,3,4,True,False,4.04,60.0,36.2,F
+806,F147310111778,Okinawa Institute of Science and Technology Graduate University,沖縄科学技術大学院大学,Private,私立,沖縄県国頭郡恩納村字谷茶1919－1,904－0495,098－966－8711,Okinawa Ken,沖縄県,26.464243,127.830719,2011-10,1,1,True,False,3.64,3.0,,
+807,F147310111787,Okinawa International University,沖縄国際大学,Private,私立,沖縄県宜野湾市宜野湾2－6－1,901－2701,098－892－1111,Okinawa Ken,沖縄県,26.263245,127.755028,1972-02,7,15,True,False,3.95,263.0,41.6,E
+808,F147310111796,Okinawa University,沖縄大学,Private,私立,沖縄県那覇市字国場555,902－8521,098－832－3216,Okinawa Ken,沖縄県,26.200539,127.699211,1961-03,4,7,True,False,3.88,121.0,37.5,F
+809,F147310111803,Okinawa Christian University,沖縄キリスト教学院大学,Private,私立,沖縄県中頭郡西原町字翁長777,903－0207,098－946－1231,Okinawa Ken,沖縄県,26.23896,127.754646,2003-11,2,2,True,False,4.23,25.0,39.0,F
+810,F108310111971,R Professional University of Rehabilitation,アール医療専門職大学,Private,私立,茨城県土浦市湖北２丁目10番35号,300-0032,029-824-7611,Ibaraki Ken,茨城県,36.084904,140.212311,2022-04,1,2,False,False,2.0,1.0,37.5,F
+811,F127310111950,Osaka Shin-Ai  Gakuin University,大阪信愛学院大学,Private,私立,大阪府大阪市城東区古市2-7-30,536－8585,06－6939－4391,Osaka Fu,大阪府,34.711761,135.559464,2022-04,2,2,False,False,,,38.8,F
+812,F140310112006,Reiwa Health Sciences University,令和健康科学大学,Private,私立,福岡県福岡市東区和白丘２丁目１－１２,811-0213,092-607-6701,Fukuoka Ken,福岡県,33.690834,130.432571,2022-04,2,3,False,False,3.5,2.0,36.0,F

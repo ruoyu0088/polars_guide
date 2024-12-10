@@ -2,8 +2,22 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+root: index
+
+parts:
+    - caption: 基本編
+      chapters:
+        - file: 000_polars_install
+        - file: 001_polars_example_japanese_universities
+        - file: 005_polars_vs_pandas
+        - file: 008_polars_dataframe_get_data
+        - file: 010_polars_expression
+        - file: 020_polars_datatype
+        - file: 030_polars_group
+        - file: 040_polars_combine_tables
+        - file: 050_polars_call_user_function
+        - file: 090_polars_arrow_memory
+    
+    - caption: 応用編
+      chapters:
+        - file: 100_polars_example_who
