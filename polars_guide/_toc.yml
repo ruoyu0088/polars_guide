@@ -10,6 +10,7 @@ parts:
         - file: 000_polars_install
         - file: 001_polars_example_japanese_universities
         - file: 005_polars_vs_pandas
+        - file: 006_polars_input_and_output
         - file: 008_polars_dataframe_get_data
         - file: 010_polars_expression
         - file: 020_polars_datatype
