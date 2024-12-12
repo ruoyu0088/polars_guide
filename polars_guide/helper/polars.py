@@ -40,3 +40,33 @@ def try_cast_to_number(s, int_type=pl.Int64, float_type=pl.Float64):
             return s.str.strip_chars().cast(float_type)
         except InvalidOperationError:
             return s
+
+
+def load_100knocks_data():
+    pl.Config.set_fmt_str_lengths(100)
+    
+    dtypes = {
+        'customer_id': str,
+        'gender_cd': str,
+        'postal_cd': str,
+        'application_store_cd': str,
+        'status_cd': str,
+        'category_major_cd': str,
+        'category_medium_cd': str,
+        'category_small_cd': str,
+        'product_cd': str,
+        'store_cd': str,
+        'prefecture_cd': str,
+        'tel_no': str,
+        'postal_cd': str,
+        'street': str
+    }
+    
+    df_customer = pl.read_csv("data/customer.csv", schema_overrides=dtypes)
+    df_category = pl.read_csv("data/category.csv", schema_overrides=dtypes)
+    df_product = pl.read_csv("data/product.csv", schema_overrides=dtypes)
+    df_receipt = pl.read_csv("data/receipt.csv", schema_overrides=dtypes)
+    df_store = pl.read_csv("data/store.csv", schema_overrides=dtypes)
+    df_geocode = pl.read_csv("data/geocode.csv", schema_overrides=dtypes)
+
+    return df_customer, df_category, df_product, df_receipt, df_store, df_geocode

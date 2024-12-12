@@ -22,3 +22,11 @@ parts:
     - caption: 応用編
       chapters:
         - file: 100_polars_example_who
+    
+    - caption: 構造化データ加工
+      chapters:
+        - file: 200_polars_100knocks_1_10
+        - file: 201_polars_100knocks_11_20
+        - file: 202_polars_100knocks_21_30
+        - file: 203_polars_100knocks_31_40
+        - file: 204_polars_100knocks_41_50
