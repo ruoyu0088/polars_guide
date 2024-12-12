@@ -5,3 +5,19 @@
 pre {
     padding: 0.3rem !important;    
 }
+
+div.cell_output th, div.cell_output td {
+    vertical-align: top !important;
+}
+
+.highlight pre {
+    line-height: 140% !important;
+}
+
+div.cell_output table {
+    color: unset !important;
+}
+
+div.text_html > table > tbody > tr {
+    background-color: unset !important;
+}
