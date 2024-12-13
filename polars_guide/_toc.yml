@@ -32,3 +32,8 @@ parts:
         - file: 202_polars_100knocks_21_30
         - file: 203_polars_100knocks_31_40
         - file: 204_polars_100knocks_41_50
+        - file: 205_polars_100knocks_51_60
+        - file: 206_polars_100knocks_61_70              
+        - file: 207_polars_100knocks_71_80             
+        - file: 208_polars_100knocks_81_90
+        - file: 209_polars_100knocks_91_100

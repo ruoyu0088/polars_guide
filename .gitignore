@@ -4,3 +4,7 @@ polars_guide/data/csv_different_type.csv
 polars_guide/data/csv_header.csv
 polars_guide/data/csv_trailing_space.csv
 __pycache__
+polars_guide/data/product_full_cp932.csv
+polars_guide/data/product_full_nohead.csv
+polars_guide/data/product_full.csv
+polars_guide/data/product_full.tsv
