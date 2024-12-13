@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const match = textContent.match(/#(❶|❷|❸|❹|❺|❻|❼|❽|❾)/);
       if (match) {
         // `#`と丸数字を分割し、新しいHTMLを設定
-        span.innerHTML = `#<span style="font-size: 200%;">${match[1]}</span>`;
+        span.innerHTML = `<span style="opacity: 0;">#</span><span style="font-size: 200%; color:#C76E00;">${match[1]}</span>`;
       }
     });
 
