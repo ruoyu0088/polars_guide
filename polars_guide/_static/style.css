@@ -21,3 +21,7 @@ div.cell_output table {
 div.text_html > table > tbody > tr {
     background-color: unset !important;
 }
+
+:root {
+    --pst-font-family-base-system: 'Meiryo', sans-serif;
+}    
