@@ -13,4 +13,18 @@ document.addEventListener('DOMContentLoaded', () => {
         span.innerHTML = `#<span style="font-size: 200%;">${match[1]}</span>`;
       }
     });
-  });
+
+
+  const divs = document.querySelectorAll('div.cell_input.docutils.container');
+
+  // Iterate through each div to check if it contains the code 'import panel as pn'
+  divs.forEach(div => {
+    if (div.textContent.includes('import panel as pn')) {
+      console.log('Found the div containing "import panel as pn".');
+      const nextDiv = div.nextElementSibling;
+      if (nextDiv) {
+        nextDiv.style.display = 'none'; // Hide the next div
+      }      
+    }
+  });    
+});

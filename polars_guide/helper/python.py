@@ -17,3 +17,18 @@ def print_tree(p, last=True, header=''):
 
 def print_subclasses(cls):
     print_tree(class_tree(cls))
+
+
+def search_arguments(targets, search_name):
+    import inspect
+    for obj in targets:
+        print("-" * 20)
+        for name in dir(obj):
+            val = getattr(obj, name)
+            try:
+                args = [p.name for p in inspect.signature(val).parameters.values()]
+                null_args = [arg for arg in args if search_name in arg]
+                if null_args:
+                    print(f'{val.__qualname__}: {",".join(null_args)}')
+            except (ValueError, TypeError):
+                pass
