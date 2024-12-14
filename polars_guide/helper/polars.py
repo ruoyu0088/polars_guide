@@ -1,8 +1,12 @@
+from typing import Any
+import numbers
+from dataclasses import dataclass
+from collections import ChainMap
+from functools import cache
 import polars as pl
 from polars.exceptions import InvalidOperationError
-from dataclasses import dataclass
 from IPython.display import display_html, display_markdown, display_pretty
-from typing import Any
+from helper.python import keydefaultdict
 
 
 class DataCapturer:
@@ -220,29 +224,100 @@ def load_100knocks_data():
     return load_data('data', dtypes, level=3)            
 
 
-# def load_100knocks_data():
-#     dtypes = {
-#         'customer_id': str,
-#         'gender_cd': str,
-#         'postal_cd': str,
-#         'application_store_cd': str,
-#         'status_cd': str,
-#         'category_major_cd': str,
-#         'category_medium_cd': str,
-#         'category_small_cd': str,
-#         'product_cd': str,
-#         'store_cd': str,
-#         'prefecture_cd': str,
-#         'tel_no': str,
-#         'postal_cd': str,
-#         'street': str
-#     }
+def get_expr_functions(root, show_error=False):
+    env = {}
     
-#     df_customer = pl.read_csv("data/customer.csv", schema_overrides=dtypes)
-#     df_category = pl.read_csv("data/category.csv", schema_overrides=dtypes)
-#     df_product = pl.read_csv("data/product.csv", schema_overrides=dtypes)
-#     df_receipt = pl.read_csv("data/receipt.csv", schema_overrides=dtypes)
-#     df_store = pl.read_csv("data/store.csv", schema_overrides=dtypes)
-#     df_geocode = pl.read_csv("data/geocode.csv", schema_overrides=dtypes)
+    # Get all attributes in the `polars` module
+    all_attrs = dir(root)
+    
+    # Filter to get only functions
+    functions = [
+        attr for attr in all_attrs
+        if not attr.startswith("_") and callable(getattr(root, attr))
+    ]
 
-#     return df_customer, df_category, df_product, df_receipt, df_store, df_geocode
+    for func_name in functions:
+        func = getattr(root, func_name)
+
+        try:
+            if func.__annotations__['return'] == 'Expr': 
+                env[func_name] = func
+        except KeyError:
+            if show_error:
+                print(f"KeyError {func}")
+        except AttributeError:
+            if show_error:
+                print(f"AttributeError {func}")
+        except TypeError:
+            if show_error:
+                print(f"TypeError {func}")
+            
+    return env
+
+@cache
+def get_env():
+    env = get_expr_functions(pl)
+    env2 = get_expr_functions(pl.Expr)
+    for key, val in env2.items():
+        if key in env:
+            key = f'{key}_'
+        env[key] = val
+
+    namespaces = [
+        ('list', pl.expr.list.ExprListNameSpace),
+        ('str', pl.expr.string.ExprStringNameSpace),
+        ('arr', pl.expr.array.ExprArrayNameSpace),
+        ('struct', pl.expr.struct.ExprStructNameSpace),
+        ('cat', pl.expr.categorical.ExprCatNameSpace),
+        ('dt', pl.expr.datetime.ExprDateTimeNameSpace),
+
+    ]
+        
+    for prefix, namespace in namespaces:
+        env2 = get_expr_functions(namespace)
+        for key, val in env2.items():
+            env[f'{prefix}_{key}'] = val
+    
+    env['col'] = pl.col
+    return env
+
+
+def polars_exprs(func):
+    import builtins
+    def inner_func(**kw):
+        env = keydefaultdict(pl.col)
+        env.update(builtins.__dict__)
+        env.update(func.__globals__)
+        env.update(get_env())
+
+        def add_col(item, name):
+            if isinstance(item, str):
+                col = pl.col(item)
+            else:
+                col = item
+            if name is None:
+                name = item
+            env[name] = col
+            
+        for key, val in kw.items():
+            add_col(val, key)
+
+        return eval(func.__code__, env)
+    return inner_func
+
+
+def with_columns_chain(self: pl.DataFrame, *args, **kw) -> pl.DataFrame:
+    if kw:
+        df = self.lazy()
+        for key, expr in kw.items():
+            df = df.with_columns(expr.alias(key))
+        return df.collect()
+    else:
+        df = self.lazy()
+        for expr in args:
+            df = df.with_columns(expr)
+        return df.collect()
+
+
+if getattr(pl.DataFrame, "with_columns_chain", None) is not with_columns_chain:
+    setattr(pl.DataFrame, "with_columns_chain", with_columns_chain)   

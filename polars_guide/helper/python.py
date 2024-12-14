@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 def class_tree(cls):
     return { cls.__name__: [class_tree(sub_class) for sub_class in cls.__subclasses__()] }
 
@@ -32,3 +35,12 @@ def search_arguments(targets, search_name):
                     print(f'{val.__qualname__}: {",".join(null_args)}')
             except (ValueError, TypeError):
                 pass
+
+
+class keydefaultdict(defaultdict):
+    def __missing__(self, key):
+        if self.default_factory is None:
+            raise KeyError(key)
+        else:
+            ret = self[key] = self.default_factory(key)
+            return ret
