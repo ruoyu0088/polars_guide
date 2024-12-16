@@ -16,6 +16,7 @@ parts:
         - file: 020_polars_datatype
         - file: 030_polars_group
         - file: 040_polars_combine_tables
+        - file: 043_polars_shape_change
         - file: 045_polars_null
         - file: 050_polars_call_user_function
         - file: 060_polars_tips
