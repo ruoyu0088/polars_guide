@@ -8,3 +8,4 @@ polars_guide/data/product_full_cp932.csv
 polars_guide/data/product_full_nohead.csv
 polars_guide/data/product_full.csv
 polars_guide/data/product_full.tsv
+polars_guide/data/output.csv

@@ -264,13 +264,15 @@ def get_env():
         env[key] = val
 
     namespaces = [
-        ('list', pl.expr.list.ExprListNameSpace),
-        ('str', pl.expr.string.ExprStringNameSpace),
-        ('arr', pl.expr.array.ExprArrayNameSpace),
-        ('struct', pl.expr.struct.ExprStructNameSpace),
-        ('cat', pl.expr.categorical.ExprCatNameSpace),
-        ('dt', pl.expr.datetime.ExprDateTimeNameSpace),
-
+        ('list', pl.expr.expr.ExprListNameSpace),
+        ('str', pl.expr.expr.ExprStringNameSpace),
+        ('bin', pl.expr.expr.ExprBinaryNameSpace),
+        ('arr', pl.expr.expr.ExprArrayNameSpace),
+        ('struct', pl.expr.expr.ExprStructNameSpace),
+        ('cat', pl.expr.expr.ExprCatNameSpace),
+        ('dt', pl.expr.expr.ExprDateTimeNameSpace),
+        ('name', pl.expr.expr.ExprNameNameSpace),
+        ('meta', pl.expr.expr.ExprMetaNameSpace),
     ]
         
     for prefix, namespace in namespaces:
@@ -285,22 +287,18 @@ def get_env():
 def polars_exprs(func):
     import builtins
     def inner_func(**kw):
-        env = keydefaultdict(pl.col)
+        env = {}
         env.update(builtins.__dict__)
         env.update(func.__globals__)
         env.update(get_env())
-
-        def add_col(item, name):
-            if isinstance(item, str):
-                col = pl.col(item)
-            else:
-                col = item
-            if name is None:
-                name = item
-            env[name] = col
+        for name in func.__code__.co_names:
+            if name.startswith("c_"):
+                env[name] = pl.col(name[2:])
             
         for key, val in kw.items():
-            add_col(val, key)
+            if isinstance(val, str):
+                val = pl.col(val)
+            env[key] = val
 
         return eval(func.__code__, env)
     return inner_func
