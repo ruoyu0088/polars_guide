@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta
+import random
 from typing import Any
 import numbers
 from dataclasses import dataclass
@@ -319,3 +321,22 @@ def with_columns_chain(self: pl.DataFrame, *args, **kw) -> pl.DataFrame:
 
 if getattr(pl.DataFrame, "with_columns_chain", None) is not with_columns_chain:
     setattr(pl.DataFrame, "with_columns_chain", with_columns_chain)   
+
+def create_datetime_sample_data(n=10):
+    now = datetime(2024, 12, 10, 10, 32, 14)
+
+    start_datetimes = []
+    for _ in range(n):
+        start_datetimes.append(now)
+        now += timedelta(seconds=int(random.uniform(1, 20) * 3600))
+    
+    end_datetimes = [start + timedelta(seconds=random.randint(20, 1000)) for start in start_datetimes]
+    categories = [random.choice(['A', 'B', 'C', 'D']) for _ in range(n)]
+    
+    df = pl.DataFrame({
+        "start": start_datetimes,
+        "end": end_datetimes,
+        "category": categories
+    })
+    return df
+    

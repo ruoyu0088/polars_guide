@@ -18,6 +18,7 @@ parts:
         - file: 040_polars_combine_tables
         - file: 043_polars_shape_change
         - file: 045_polars_null
+        - file: 048_polars_time
         - file: 050_polars_call_user_function
         - file: 060_polars_tips
         - file: 090_polars_arrow_memory
