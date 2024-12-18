@@ -5,6 +5,8 @@ import numbers
 from dataclasses import dataclass
 from collections import ChainMap
 from functools import cache
+import pyarrow as pa
+import numpy as np
 import polars as pl
 from polars.exceptions import InvalidOperationError
 from IPython.display import display_html, display_markdown, display_pretty
@@ -340,3 +342,49 @@ def create_datetime_sample_data(n=10):
     })
     return df
     
+
+class batch_base:
+    def __init__(self, func, kw=None):
+        """
+        Initialize the batch processing class with the function and optional keyword arguments.
+        """
+        self._func = func
+        self._kw = kw if kw is not None else {}
+
+    def __call__(self, args=None, **kw):
+        """
+        Execute the batch processing function with arguments converted to a specific format (e.g., Arrow or NumPy).
+        """
+        # If keyword arguments are passed, return a new instance with updated kw
+        if kw:
+            return self.__class__(self._func, kw)
+        
+        # Convert series in args using from_series method of the class
+        if args is not None:
+            args = [self.from_series(s) for s in args]
+        
+        # Call the function with the arguments and the stored keyword arguments
+        result = self._func(*args, **self._kw)
+
+        # Convert result to a series if it's of the expected array type
+        if isinstance(result, self.array_type):
+            return self.to_series(result)
+        return result
+
+
+class pyarrow_batch(batch_base):
+    """
+    Batch processor for pyarrow arrays. Converts Series to Arrow arrays and back.
+    """
+    array_type = pa.Array
+    from_series = staticmethod(pl.Series.to_arrow)
+    to_series = staticmethod(pl.from_arrow)
+
+
+class numpy_batch(batch_base):
+    """
+    Batch processor for numpy arrays. Converts Series to NumPy arrays and back.
+    """
+    array_type = np.ndarray
+    from_series = staticmethod(pl.Series.to_numpy)
+    to_series = staticmethod(pl.Series)
