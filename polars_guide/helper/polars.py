@@ -388,3 +388,31 @@ class numpy_batch(batch_base):
     array_type = np.ndarray
     from_series = staticmethod(pl.Series.to_numpy)
     to_series = staticmethod(pl.Series)
+
+
+def when_map(col_name, *args, default_value=None):
+    if isinstance(col_name, str):
+        col = pl.col(col_name)
+    else:
+        col = col_name
+
+    expr = pl
+    for from_values, to_value in zip(args[::2], args[1::2]):
+        expr = expr.when(col.is_in(from_values)).then(to_value)
+    return expr.otherwise(default_value)
+
+
+def match(*exprs):
+    "helper function for creating pl.when().then().when().then().otherwise() quickly"
+    inv_exprs = list(exprs[::-1])
+    res = pl
+    while inv_exprs:
+        e1 = inv_exprs.pop()
+        try:
+            e2 = inv_exprs.pop()
+        except IndexError:
+            res = res.otherwise(e1)
+            break
+
+        res = res.when(e1).then(e2)
+    return res         
