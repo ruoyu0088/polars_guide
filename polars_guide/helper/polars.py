@@ -371,6 +371,10 @@ class batch_base:
             return self.to_series(result)
         return result
 
+class series_batch(batch_base):
+    array_type = type(None)
+    from_series = staticmethod(lambda s:s)
+    to_series = None
 
 class pyarrow_batch(batch_base):
     """

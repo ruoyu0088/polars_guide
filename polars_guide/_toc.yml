@@ -26,6 +26,7 @@ parts:
     - caption: 応用編
       chapters:
         - file: 100_polars_example_who
+        - file: 999_polars_unsolved
     
     - caption: 構造化データ加工
       chapters:
