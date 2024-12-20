@@ -28,6 +28,6 @@ html:
   use_repository_button: true
   use_issues_button: true
 
-# sphinx:
-#   extra_extensions:
-#    - sphinxcontrib.mermaid
+sphinx:
+  extra_extensions:
+   - sphinxcontrib.mermaid

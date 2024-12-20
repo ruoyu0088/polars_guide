@@ -11,3 +11,6 @@ polars_guide/data/product_full.tsv
 polars_guide/data/output.csv
 polars_guide/data/test_time.csv
 tmp*.ipynb
+polars_guide/data/pandas_foo.csv
+polars_guide/data/pandas_foo.parquet
+polars_guide/data/pandas_foo.xlsx
