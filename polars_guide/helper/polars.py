@@ -14,6 +14,41 @@ from helper.python import keydefaultdict
 
 
 class DataCapturer:
+    """
+    A utility class for capturing and logging DataFrames during method chaining in data pipelines.
+
+    This class allows tracking intermediate results in a data pipeline by logging 
+    DataFrames associated with method names dynamically. It enables debugging and 
+    analyzing the state of data at various stages of the pipeline.
+
+    Example
+    -------
+
+    ```python
+    df = pl.DataFrame({
+        "A": [1, 2, 3],
+        "B": [4, 5, 6]
+    })
+
+    cap = DataCapturer()
+
+    (
+    df
+    .with_columns(
+        C=pl.col('A') % 2
+    )
+    .pipe(cap.before_group)
+    .group_by('C')
+    .agg(
+        pl.col('B').max()
+    )
+    .sort('B')
+    )
+
+    print(cap.before_group)
+    ```
+    """
+
     def __init__(self):
         self._current_name = None  # Tracks the name of the current method being logged
         self._logs = {}            # Stores logged data by method name
@@ -419,4 +454,201 @@ def match(*exprs):
             break
 
         res = res.when(e1).then(e2)
-    return res         
+    return res
+
+
+def agg(df, items):
+    """
+    Perform aggregation operations on specified columns of a Polars DataFrame and return the results.
+
+    Args:
+        df (pl.DataFrame): The input Polars DataFrame on which the aggregations will be performed.
+        items (dict): A dictionary where keys are column names in `df`, and values are lists of aggregation method names (strings) 
+                      to apply to the corresponding column.
+
+    Returns:
+        pl.DataFrame: A Polars DataFrame containing the aggregated results. 
+                      The rows correspond to the columns being aggregated, and the columns represent the aggregation names.
+
+    Example:
+        >>> import polars as pl
+        >>> df = pl.DataFrame({"a": [1, 2, 3], "b": [4, 5, 6]})
+        >>> items = {"a": ["mean", "max"], "b": ["min"]}
+        >>> result = agg(df, items)
+        >>> print(result)
+        shape: (2, 4)
+        ┌────────┬──────┬──────┬──────┐
+        │ column ┆ mean ┆ max  ┆ min  │
+        │ ---    ┆ ---  ┆ ---  ┆ ---  │
+        │ str    ┆ f64  ┆ i64  ┆ i64  │
+        ╞════════╪══════╪══════╪══════╡
+        │ a      ┆ 2.0  ┆ 3    ┆ null │
+        │ b      ┆ null ┆ null ┆ 4    │
+        └────────┴──────┴──────┴──────┘        
+    """    
+    exprs = {
+        key: pl.struct(**{agg_name: getattr(pl.col(key), agg_name)() for agg_name in agg_names})
+        for key, agg_names in items.items()
+    }
+    return df.select(**exprs).transpose(include_header=True, column_names=["agg"]).unnest("agg")
+
+
+def concat_with_keys(dfs, keys, key_column_name='key'):
+    """
+    Concatenate multiple Polars DataFrames vertically, adding a key column to identify the source of each row.
+
+    Args:
+        dfs (list of pl.DataFrame): A list of Polars DataFrames to concatenate.
+        keys (list): A list of keys corresponding to each DataFrame in `dfs`.
+        key_column_name (str): The name of the column to store the keys. Defaults to 'key'.
+
+    Returns:
+        pl.DataFrame: A single concatenated DataFrame with an additional key column.
+
+    Example:
+        >>> import polars as pl
+        >>> df1 = pl.DataFrame({"a": [1, 2], "b": [3, 4]})
+        >>> df2 = pl.DataFrame({"a": [5, 6], "b": [7, 8]})
+        >>> keys = ["df1", "df2"]
+        >>> result = concat_with_keys([df1, df2], keys)
+        >>> print(result)
+        shape: (4, 3)
+        ┌─────┬─────┬─────┐
+        │ key ┆ a   ┆ b   │
+        │ --- ┆ --- ┆ --- │
+        │ str ┆ i64 ┆ i64 │
+        ╞═════╪═════╪═════╡
+        │ df1 ┆ 1   ┆ 3   │
+        │ df1 ┆ 2   ┆ 4   │
+        │ df2 ┆ 5   ┆ 7   │
+        │ df2 ┆ 6   ┆ 8   │
+        └─────┴─────┴─────┘        
+    """    
+    dfs = [df.with_columns(pl.lit(key).alias(key_column_name)) 
+           for df, key in zip(dfs, keys)]
+    return pl.concat(dfs, how='vertical').select(key_column_name, pl.exclude(key_column_name))
+
+
+def pivot_with_margins(df, on, index, expr):
+    """
+    Create a pivot table from a Polars DataFrame, including marginal totals.
+
+    Parameters:
+    ----------
+    df : pl.DataFrame
+        The input Polars DataFrame.
+    on : str
+        The column name to use as the pivot column.
+    index : str
+        The column name to use as the index for the pivot table.
+    expr : pl.Expr
+        The Polars expression to aggregate values (e.g., a sum or count operation).
+
+    Returns:
+    -------
+    pl.DataFrame
+        A pivot table with marginal totals added for both rows and columns, as well as a grand total.
+
+    Notes:
+    -----
+    - The marginal totals are calculated by aggregating across all levels of `on` and/or `index`.
+    - The grand total is calculated by aggregating across all rows and columns.
+
+    Example:
+    -------
+    >>> import polars as pl
+    >>> df = pl.DataFrame({
+    ...     "Category": ["A", "A", "B", "B"],
+    ...     "Subcategory": ["X", "Y", "X", "Y"],
+    ...     "Values": [10, 20, 30, 40]
+    ... })
+    >>> expr = pl.col("Values").sum()
+    >>> result = pivot_with_margins(df, on="Subcategory", index="Category", expr=expr)
+    >>> print(result)
+
+    shape: (3, 4)
+    ┌──────────┬─────┬─────┬─────┐
+    │ Category ┆ X   ┆ Y   ┆ All │
+    │ ---      ┆ --- ┆ --- ┆ --- │
+    │ str      ┆ i64 ┆ i64 ┆ i64 │
+    ╞══════════╪═════╪═════╪═════╡
+    │ A        ┆ 10  ┆ 20  ┆ 30  │
+    │ B        ┆ 30  ┆ 40  ┆ 70  │
+    │ All      ┆ 40  ┆ 60  ┆ 100 │
+    └──────────┴─────┴─────┴─────┘    
+
+    This will create a pivot table with totals for each category, subcategory, and a grand total.
+    """    
+    all_on = pl.lit('All').alias(on)
+    all_index = pl.lit('All').alias(index)
+
+    return (
+        pl.concat([
+            df.group_by(index, on).agg(expr),
+            df.group_by(index).agg(all_on, expr),
+            df.group_by(on).agg(all_index, expr),
+            df.select(all_on, all_index, expr),
+        ], how='diagonal')
+         .pivot(on=on, index=index)
+    )
+
+
+def update_with_mask(value_expr, cond_expr, values_expr):
+    """
+    Updates a column or expression with new values based on a condition mask.
+    
+    This function applies a condition (`cond_expr`) to determine where updates
+    should be made. For every `True` in the condition mask, corresponding values 
+    from `values_expr` are used to replace values in `value_expr`. The updates 
+    are applied sequentially.
+
+    Parameters:
+    ----------
+    value_expr : pl.Expr
+        The Polars expression or column to be updated.
+        
+    cond_expr : pl.Expr
+        A Polars expression that evaluates to a boolean mask, where `True`
+        indicates positions to update.
+        
+    values_expr : list, tuple, or pl.Expr
+        The values to use for updating. Can be a list or tuple for sequential updates
+        or a Polars expression.
+
+    Returns:
+    -------
+    pl.Expr
+        A new Polars expression where `value_expr` is updated with values
+        from `values_expr` based on the condition mask.
+
+    Notes:
+    ------
+    - The condition mask (`cond_expr`) determines the positions to update. Only
+      `True` positions are considered.
+    - If `values_expr` is a list or tuple, it is automatically converted to a 
+      Polars literal (`pl.lit`).
+    - Updates are applied sequentially, starting from the first `True` in the 
+      condition mask.
+
+    Example:
+    --------
+    ```python
+    import polars as pl
+
+    df = pl.DataFrame({
+        "value": [1, 2, 3, 4, 5],
+    })
+
+    cond = pl.col("value") % 2 == 0
+    updates = [10, 20]
+
+    updated_df = df.with_columns(
+        update_with_mask(pl.col("value"), cond, updates).alias("updated_value")
+    )
+    print(updated_df)
+    ```
+    """    
+    index = pl.when(cond_expr).then(1).cum_sum() - 1
+    if isinstance(values_expr, (tuple, list)):
+        values_expr = pl.lit(pl.Series(values_expr))
+    return pl.coalesce(values_expr.get(index), value_expr)

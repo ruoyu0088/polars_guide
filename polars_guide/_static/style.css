@@ -24,4 +24,9 @@ div.text_html > table > tbody > tr {
 
 :root {
     --pst-font-family-base-system: 'Meiryo', sans-serif;
-}    
+}
+
+table{
+  margin-left: unset !important;
+  font-size:80% !important;
+}

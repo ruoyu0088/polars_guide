@@ -10,3 +10,4 @@ polars_guide/data/product_full.csv
 polars_guide/data/product_full.tsv
 polars_guide/data/output.csv
 polars_guide/data/test_time.csv
+tmp*.ipynb

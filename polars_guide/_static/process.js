@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Iterate through each div to check if it contains the code 'import panel as pn'
   divs.forEach(div => {
-    if (div.textContent.includes('import panel as pn')) {
+    if (div.textContent.includes('import panel as pn') || div.textContent.includes('import hvplot')) {
       console.log('Found the div containing "import panel as pn".');
       const nextDiv = div.nextElementSibling;
       if (nextDiv) {

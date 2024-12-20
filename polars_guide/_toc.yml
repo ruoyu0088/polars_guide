@@ -27,6 +27,10 @@ parts:
       chapters:
         - file: 100_polars_example_who
         - file: 999_polars_unsolved
+
+    - caption: Pandasから
+      chapters:
+        - file: 500_polars_pandas_getting_started
     
     - caption: 構造化データ加工
       chapters:
