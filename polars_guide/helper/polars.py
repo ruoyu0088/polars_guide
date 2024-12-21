@@ -652,3 +652,73 @@ def update_with_mask(value_expr, cond_expr, values_expr):
     if isinstance(values_expr, (tuple, list)):
         values_expr = pl.lit(pl.Series(values_expr))
     return pl.coalesce(values_expr.get(index), value_expr)
+
+
+def to_dataframe(data):
+    import re
+    from io import StringIO
+    data = re.sub(r'[ \t]+', ',', data.strip())
+    return pl.read_csv(StringIO(data))    
+
+
+def align_op(df1, df2, op, on='index', fill_value=0):
+    """
+    Align two Polars DataFrames on a specified key column, then perform an operation on common columns.
+
+    Args:
+        df1 (pl.DataFrame): The base DataFrame to align and modify.
+        df2 (pl.DataFrame): The secondary DataFrame whose values will be aligned and used for operations.
+        op (callable): A Polars expression representing the operation to perform (e.g., pl.Expr.add, pl.Expr.sub).
+        on (str): The name of the column to use as the key for alignment. Defaults to 'index'.
+        fill_value (int or float): The value to fill in for missing entries after the join. Defaults to 0.
+
+    Returns:
+        pl.DataFrame: A new DataFrame with the same schema as `df1`, but with the operation applied to common columns.
+
+    Example:
+        >>> import polars as pl
+        >>> df1 = pl.DataFrame({
+        ...     "index": ["a", "b", "c"],
+        ...     "X": [1, 2, 3],
+        ...     "Y": [4, 5, 6]
+        ... })
+        >>> df2 = pl.DataFrame({
+        ...     "index": ["a", "c"],
+        ...     "X": [10, 20],
+        ...     "Y": [30, 40]
+        ... })
+        >>> align_op(df1, df2, pl.Expr.sub)
+        shape: (3, 3)
+        ┌───────┬─────┬─────┐
+        │ index │ X   │ Y   │
+        ├───────┼─────┼─────┤
+        │ a     │ -9  │ -26 │
+        │ b     │ 2   │ 5   │
+        │ c     │ -17 │ -34 │
+        └───────┴─────┴─────┘
+
+    Notes:
+        - The `op` argument must be a callable that takes two Polars expressions and returns a Polars expression.
+        - Only columns that are common between `df1` and `df2` (excluding the alignment column) are processed.
+        - The resulting DataFrame will have the same structure and columns as `df1`.
+    """
+    # Find common columns between the two DataFrames, excluding the alignment column
+    common_columns = list(set(df1.columns) & set(df2.columns))
+    if on in common_columns:
+        common_columns.remove(on)
+
+    # Perform the operation using lazy evaluation
+    df_res = (
+        df1.lazy()
+        .join(df2.lazy(), on=on, how="left")  # Align rows by the key column
+        .fill_null(fill_value)  # Fill missing values
+        .with_columns(
+            [
+                op(pl.col(col), pl.col(f"{col}_right")).alias(col)  # Apply operation to common columns
+                for col in common_columns
+            ]
+        )
+        .select(df1.columns)  # Preserve the structure of the original DataFrame
+        .collect()  # Execute the lazy computation
+    )
+    return df_res
