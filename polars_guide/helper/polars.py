@@ -661,7 +661,7 @@ def to_dataframe(data):
     return pl.read_csv(StringIO(data))    
 
 
-def align_op(df1, df2, op, on='index', fill_value=0):
+def align_op(df1, df2, op, on='index', how='left', fill_value=0):
     """
     Align two Polars DataFrames on a specified key column, then perform an operation on common columns.
 
@@ -710,8 +710,8 @@ def align_op(df1, df2, op, on='index', fill_value=0):
     # Perform the operation using lazy evaluation
     df_res = (
         df1.lazy()
-        .join(df2.lazy(), on=on, how="left")  # Align rows by the key column
-        .fill_null(fill_value)  # Fill missing values
+        .join(df2.lazy(), on=on, how=how, coalesce=True)  # Align rows by the key column
+        .pipe(lambda df:df.fill_null(fill_value) if fill_value is not None else df) # Fill missing values
         .with_columns(
             [
                 op(pl.col(col), pl.col(f"{col}_right")).alias(col)  # Apply operation to common columns
