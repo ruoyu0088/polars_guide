@@ -32,6 +32,7 @@ parts:
       chapters:
         - file: 500_polars_pandas_getting_started
         - file: 510_polars_pandas_10_minutes
+        - file: 515_polars_pandas_data
         - file: 520_polars_pandas_basic        
     
     - caption: 構造化データ加工
