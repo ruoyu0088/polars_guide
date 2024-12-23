@@ -1,3 +1,5 @@
+from io import StringIO
+import json
 from datetime import datetime, timedelta
 import random
 from typing import Any
@@ -11,7 +13,6 @@ import polars as pl
 from polars.exceptions import InvalidOperationError
 from IPython.display import display_html, display_markdown, display_pretty
 from helper.python import keydefaultdict
-
 
 class DataCapturer:
     """
@@ -704,8 +705,11 @@ def align_op(df1, df2, op, on='index', how='left', fill_value=0):
     """
     # Find common columns between the two DataFrames, excluding the alignment column
     common_columns = list(set(df1.columns) & set(df2.columns))
-    if on in common_columns:
-        common_columns.remove(on)
+    if not isinstance(on, list):
+        on = [on]
+    for on_col in on:
+        if on_col in common_columns:
+            common_columns.remove(on_col)
 
     # Perform the operation using lazy evaluation
     df_res = (
@@ -722,3 +726,40 @@ def align_op(df1, df2, op, on='index', how='left', fill_value=0):
         .collect()  # Execute the lazy computation
     )
     return df_res
+
+
+def _replace_json(expr, mapper):
+    if isinstance(expr, dict):
+        # Check if the current dict contains a 'Column' key to replace
+        if 'Column' in expr:
+            column_name = expr['Column']
+            if column_name in mapper:
+                # Replace the column name using the mapper
+                to_replace = mapper[column_name]
+                if isinstance(to_replace, str):
+                    expr['Column'] = to_replace
+                    return expr
+                else:
+                    return to_replace
+        else:
+            # Recurse into each key-value pair in the dictionary
+            for key, value in expr.items():
+                expr[key] = _replace_json(value, mapper)
+    elif isinstance(expr, list):
+        # Recurse into each element of the list
+        for i in range(len(expr)):
+            expr[i] = _replace_json(expr[i], mapper)
+    return expr
+
+def expression_replace(expr, mapper=None, **kw):
+    if mapper is None:
+        mapper = kw
+        
+    for key, val in mapper.items():
+        if isinstance(val, pl.Expr):
+            mapper[key] = json.loads(val.meta.serialize(format='json'))
+            
+    expr_json = json.loads(expr.meta.serialize(format='json'))
+    _replace_json(expr_json, mapper)
+    new_expr = pl.Expr.deserialize(StringIO(json.dumps(expr_json)), format='json')
+    return new_expr    
