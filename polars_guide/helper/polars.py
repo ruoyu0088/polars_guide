@@ -726,11 +726,13 @@ def align_op(df1, df2, op, on='index', how='left', fill_value=0):
         .collect()  # Execute the lazy computation
     )
     return df_res
+    
 
+def expression_replace(expr, mapper=None, **kw):          
+    if mapper is None:
+        mapper = kw
 
-def _replace_json(expr, mapper):
-    if isinstance(expr, dict):
-        # Check if the current dict contains a 'Column' key to replace
+    def convert_column(expr):
         if 'Column' in expr:
             column_name = expr['Column']
             if column_name in mapper:
@@ -738,28 +740,14 @@ def _replace_json(expr, mapper):
                 to_replace = mapper[column_name]
                 if isinstance(to_replace, str):
                     expr['Column'] = to_replace
-                    return expr
                 else:
-                    return to_replace
-        else:
-            # Recurse into each key-value pair in the dictionary
-            for key, value in expr.items():
-                expr[key] = _replace_json(value, mapper)
-    elif isinstance(expr, list):
-        # Recurse into each element of the list
-        for i in range(len(expr)):
-            expr[i] = _replace_json(expr[i], mapper)
-    return expr
-
-def expression_replace(expr, mapper=None, **kw):
-    if mapper is None:
-        mapper = kw
+                    expr = to_replace
+        return expr
         
     for key, val in mapper.items():
         if isinstance(val, pl.Expr):
             mapper[key] = json.loads(val.meta.serialize(format='json'))
             
-    expr_json = json.loads(expr.meta.serialize(format='json'))
-    _replace_json(expr_json, mapper)
+    expr_json = json.loads(expr.meta.serialize(format='json'), object_hook=convert_column)
     new_expr = pl.Expr.deserialize(StringIO(json.dumps(expr_json)), format='json')
     return new_expr    
