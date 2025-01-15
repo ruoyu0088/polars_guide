@@ -2,8 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Polarsガイド
-author: Zhang Ruoyu
-email: ruoyu0088@gmail.com
+author: <a href="https://www.feng.co.jp" target="_blank">株式会社フォン</a>
+email: zhangry@feng.co.jp
+copyright: "2024"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
