@@ -66,6 +66,28 @@ class DataCapturer:
         # Log the DataFrame under the current method name and return it for method chaining
         self._logs[self._current_name] = df
         return df
+    
+
+class ExprCapturer:
+    def __init__(self):
+        self._current_name = None
+        self._logs = {}            
+
+    def __getattr__(self, name):
+        if name in self._logs:
+            return self._logs[name]
+        else:
+            self._current_name = name
+            if self._current_name not in self._logs:
+                self._logs[self._current_name] = []
+            return self
+
+    def _log_data(self, data):
+        self._logs[self._current_name].append(data)
+        return data
+
+    def __call__(self, expr):
+        return expr.map_batches(self._log_data)
 
 
 markdown_css = """
