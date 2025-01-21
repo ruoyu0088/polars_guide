@@ -16,3 +16,6 @@ polars_guide/data/pandas_foo.parquet
 polars_guide/data/pandas_foo.xlsx
 polars_guide/data/no2_concentrations.html
 polars_guide/data/titanic.xlsx
+polars_guide/data/stock
+polars_guide/data/stock.arrow
+polars_guide/data/stream_test.arrow

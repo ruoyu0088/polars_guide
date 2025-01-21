@@ -3,3 +3,4 @@ matplotlib
 numpy
 ghp-import
 sphinxcontrib-mermaid
+sphinx-sitemap==0.3.1
