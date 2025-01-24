@@ -20,6 +20,7 @@ parts:
         - file: 045_polars_null
         - file: 048_polars_time
         - file: 050_polars_call_user_function
+        - file: 055_polars_lazy
         - file: 060_polars_tips
         - file: 090_polars_arrow_memory
     
