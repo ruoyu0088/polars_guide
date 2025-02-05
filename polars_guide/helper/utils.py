@@ -84,3 +84,31 @@ def download_folder_from_github(github_url, target_folder):
     except Exception as e:
         print(f"An error occurred: {e}")
         raise
+
+
+def plot_group_by_dynamic(index, every, offset=None, period=None, start_by='window'):
+    import polars as pl
+    from matplotlib import pyplot as plt
+    
+    df = pl.DataFrame(dict(index=index))
+    g = df.group_by_dynamic('index', every=every, offset=offset, period=period, start_by=start_by, include_boundaries=True)
+    df2 = g.agg(pl.col('index').alias('index_in_group'))
+    
+    fig, ax = plt.subplots(figsize=(12, 0.6))
+    ax.vlines(df['index'], 0, 1, lw=3, color='#0099FF')
+    
+    for v in df['index']:
+        ax.text(v + 0.1, 0.1, str(v), color='#0099FF')
+    
+    for s, e in df2.select(pl.col('_lower_boundary') - 0.05, pl.col('_upper_boundary') - 0.2).rows():
+        ax.axvspan(s, e, color='green', alpha=0.2)
+    
+    ax.vlines(df2['index'], 0, 1, color='red', ls='dashed')
+    
+    for v in df2['index']:
+        ax.text(v + 0.1, 0.5, str(v), color='red')
+    
+    ax.axis('off')
+    print(df2['index_in_group'].to_list())
+    fig.patch.set_alpha(0.2)
+    return fig        
