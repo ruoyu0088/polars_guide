@@ -772,4 +772,70 @@ def expression_replace(expr, mapper=None, **kw):
             
     expr_json = json.loads(expr.meta.serialize(format='json'), object_hook=convert_column)
     new_expr = pl.Expr.deserialize(StringIO(json.dumps(expr_json)), format='json')
-    return new_expr    
+    return new_expr
+
+def sympy_to_polars(expr, symbol_map={}):
+    import numbers
+    from functools import reduce
+    import operator    
+    import sympy as sp
+    
+    functions_map = {
+        sp.Abs: "abs",
+        sp.acos: "arccos",
+        sp.acosh: "arccosh",
+        sp.asin: "arcsin",
+        sp.asinh: "arcsinh", 
+        sp.atan: "arctan",
+        sp.atanh: "arctanh",
+        sp.cos: "cos",
+        sp.cosh: "cosh",
+        sp.cot: "cot",
+        sp.exp: "exp",
+        sp.log: "log",
+        sp.sign: "sign",
+        sp.sin: "sin",
+        sp.sinh: "sinh",
+        sp.tan: "tan",
+        sp.tanh: "tanh",
+    }
+    
+    def convert(expr):
+        match expr:
+            case sp.Symbol(name=name):
+                if expr in symbol_map:
+                    res = symbol_map[expr]
+                elif name in symbol_map:
+                    res = symbol_map[name]
+                else:
+                    res = name
+
+                if isinstance(res, str):
+                    res = pl.col(res)
+                elif isinstance(res, numbers.Real):
+                    res = pl.lit(float(res))
+                return res
+                
+            case sp.Number() | sp.NumberSymbol():
+                return pl.lit(float(expr))
+                
+            case sp.Add(args=args):
+                return reduce(operator.add, [convert(arg) for arg in args])
+                
+            case sp.Mul(args=args):
+                return reduce(operator.mul, [convert(arg) for arg in args])
+                
+            case sp.Pow(args=[base, exp]):
+                return convert(base) ** convert(exp)
+                
+            case sp.Function(args=[arg]):
+                func = type(expr)
+                if func in functions_map:
+                    return getattr(convert(arg), functions_map[func])()
+                else:
+                    raise NotImplementedError(f"unknown function: {expr}")        
+    
+            case _:
+                raise NotImplementedError(f"Unsupported operation: {expr}")
+                
+    return convert(expr)
