@@ -839,3 +839,43 @@ def sympy_to_polars(expr, symbol_map={}):
                 raise NotImplementedError(f"Unsupported operation: {expr}")
                 
     return convert(expr)
+
+
+def dtype_pretty_format(obj, level=0, indent_size=2):
+    indent = ' ' * (indent_size * level)
+
+    def is_primitive(dtype):
+        return not isinstance(dtype, (pl.List, pl.Struct))
+
+    if isinstance(obj, pl.Schema):
+        lines = [f"{indent}Schema("]
+        for name, dtype in obj.items():
+            if is_primitive(dtype):
+                lines.append(f"{' ' * (indent_size * (level + 1))}{name}: {dtype}")
+            else:
+                dtype_str = dtype_pretty_format(dtype, level + 2, indent_size)
+                lines.append(f"{' ' * (indent_size * (level + 1))}{name}:\n{dtype_str}")
+        lines.append(f"{indent})")
+        return "\n".join(lines)
+
+    elif isinstance(obj, pl.List):
+        inner = obj.inner
+        if is_primitive(inner):
+            return f"{indent}List({inner})"
+        inner_str = dtype_pretty_format(inner, level + 1, indent_size)
+        return f"{indent}List(\n{inner_str}\n{indent})"
+
+    elif isinstance(obj, pl.Struct):
+        lines = [f"{indent}Struct("]
+        for field in obj.fields:
+            name, dtype = field.name, field.dtype
+            if is_primitive(dtype):
+                lines.append(f"{' ' * (indent_size * (level + 1))}{name}: {dtype}")
+            else:
+                dtype_str = dtype_pretty_format(dtype, level + 2, indent_size)
+                lines.append(f"{' ' * (indent_size * (level + 1))}{name}:\n{dtype_str}")
+        lines.append(f"{indent})")
+        return "\n".join(lines)
+
+    else:
+        return f"{indent}{repr(obj)}"    
