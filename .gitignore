@@ -19,3 +19,4 @@ polars_guide/data/titanic.xlsx
 polars_guide/data/stock
 polars_guide/data/stock.arrow
 polars_guide/data/stream_test.arrow
+polars_guide/data/variables_dump.txt
