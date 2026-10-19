@@ -98,7 +98,7 @@ def main():
         raw = p.read_text(encoding="utf-8")
         crlf = "\r\n" in raw
         nb = json.loads(raw)
-        for step in range(14):
+        for step in range(60):
             ls = sentence_list(paragraphs(nb))
             long_ratio = sum(1 for x in ls if x >= 45) / len(ls)
             short_ratio = sum(1 for x in ls if x <= 12) / len(ls)
