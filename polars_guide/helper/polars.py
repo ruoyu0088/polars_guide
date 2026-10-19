@@ -203,7 +203,7 @@ def list_eval(df: pl.DataFrame, *exprs, **named_exprs):
 
     res = (
         df.lazy()
-        .with_row_count(name=row_nr)
+        .with_row_index(name=row_nr)
         .explode(list(names))
         .group_by(row_nr, maintain_order=True)
         .agg(*exprs, **named_exprs)

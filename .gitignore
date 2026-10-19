@@ -21,3 +21,7 @@ polars_guide/data/stock.arrow
 polars_guide/data/stream_test.arrow
 polars_guide/data/variables_dump.txt
 polars_guide/pyrightconfig.json
+polars_guide/data/csv_output_utf8.csv
+polars_guide/data/csv_output_shiftjis.csv
+polars_guide/data/streaming_test.csv
+polars_guide/data/xlsx_example_output.xlsx

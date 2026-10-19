@@ -37,7 +37,7 @@ def download_folder_from_github(github_url, target_folder):
     Raises:
         ValueError: If the URL is invalid or cannot be processed.
     """
-    if  Path(target_folder).exists:
+    if Path(target_folder).exists():
         print(f'{target_folder} exists, please delete and try again.')
         return
     

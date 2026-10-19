@@ -16,10 +16,6 @@ latex:
   latex_documents:
     targetname: book.tex
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
-
 repository:
   url: https://github.com/ruoyu0088/polars_guide
   branch: master
