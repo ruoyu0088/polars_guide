@@ -51,7 +51,7 @@ def sentence_list(paras):
     return rs
 
 
-def try_merge(nb):
+def try_merge(nb, want_short=False):
     """找一对相邻短句合并，成功返回 (cell_idx, 旧文本片段, 新文本片段)，否则 None。"""
     best = None
     for i, lines in paragraphs(nb):
@@ -60,12 +60,20 @@ def try_merge(nb):
         for k in range(len(parts) - 1):
             a, b = parts[k].strip(), parts[k + 1].strip()
             na, nb_ = len(CJK.findall(a)), len(CJK.findall(b))
-            if na < 6 or nb_ < 6 or na >= 45 or nb_ >= 45:
+            if na < 6 or nb_ < 6:
                 continue
             total = na + nb_
-            if total > 72 or total < 45:
-                continue
-            score = abs(total - 52)
+            if want_short:
+                # 优先消灭短句：至少一句是短句，合起来不超过 80 字
+                if na > 12 and nb_ > 12:
+                    continue
+                if total > 80:
+                    continue
+                score = min(na, nb_)
+            else:
+                if na >= 45 or nb_ >= 45 or total > 72 or total < 45:
+                    continue
+                score = abs(total - 52)
             if best is None or score < best[0]:
                 best = (score, i, a + b, a + "；" + b)
     if not best:
@@ -90,16 +98,23 @@ def main():
         raw = p.read_text(encoding="utf-8")
         crlf = "\r\n" in raw
         nb = json.loads(raw)
-        for step in range(12):
+        for step in range(14):
             ls = sentence_list(paragraphs(nb))
             long_ratio = sum(1 for x in ls if x >= 45) / len(ls)
+            short_ratio = sum(1 for x in ls if x <= 12) / len(ls)
             mean = sum(ls) / len(ls)
-            if long_ratio >= 0.11:
+            want_short = short_ratio > 0.10
+            if not want_short and long_ratio >= 0.11:
                 break
-            if mean > 32.5:
+            if mean > 32.0:
                 print(f"{name}: 停手，均值已达 {mean:.1f}")
                 break
-            got = try_merge(nb)
+            # 预估合并后的均值：句数减一、总字数不变
+            after = sum(ls) / (len(ls) - 1) if len(ls) > 1 else mean
+            if after > 32.6:
+                print(f"{name}: 停手，再合并均值会到 {after:.1f}")
+                break
+            got = try_merge(nb, want_short)
             if not got:
                 print(f"{name}: 找不到可合并的相邻句")
                 break
