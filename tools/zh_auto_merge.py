@@ -85,8 +85,9 @@ def try_merge(nb, want_short=False):
     pat = re.escape(old)
     pat = pat.replace(re.escape("。"), r"。\s*")
     m = re.search(pat, src)
-    if not m:
-        return None
+    if not m or "
+" in m.group(0):
+        return None   # 跨行的合并会把列表项压进正文，直接放弃
     merged = old.replace("。", "；", 1) if old.count("。") == 1 else old[: old.rfind("。")] + "；" + old[old.rfind("。") + 1 :]
     cell["source"] = src[: m.start()] + merged + src[m.end():]
     return i, old, merged

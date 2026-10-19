@@ -28,6 +28,25 @@ GROUPS = [
 WHITELIST = ["结合代码", "结合输出", "结合实例", "结合例子"]
 
 
+import re as _re
+_FLAT = _re.compile(r"[ 	]*[；。][ 	]*(?:\*|-|\d+\.)[ 	]+")
+
+
+def scan_flat():
+    """正文行内出现列表标记，说明列表被并成了一段。"""
+    out = []
+    for p in sorted(CN.glob("*.ipynb")):
+        if p.stem.startswith("2"):
+            continue
+        nb = json.loads(p.read_text(encoding="utf-8"))
+        for i, c in enumerate(nb["cells"]):
+            if c["cell_type"] != "markdown":
+                continue
+            if _FLAT.search("".join(c["source"])):
+                out.append((p.stem, i))
+    return out
+
+
 def scan(fix=False):
     hits = []
     for p in sorted(CN.glob("*.ipynb")):
@@ -69,8 +88,11 @@ def scan(fix=False):
 def main():
     fix = "--fix" in sys.argv
     hits = scan(fix)
-    if not hits:
-        print("术语一致：没有异形写法")
+    flat = scan_flat()
+    for ch, i in flat:
+        print(f"{ch:40} cell{i:3d}  列表被压平成一段")
+    if not hits and not flat:
+        print("术语一致，且没有压平的列表")
         return
     for ch, i, bad, good, n in hits:
         print(f"{ch:40} cell{i:3d}  {bad} x{n} -> {good}")
