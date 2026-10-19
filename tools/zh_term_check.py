@@ -47,6 +47,26 @@ def scan_flat():
     return out
 
 
+def scan_capture():
+    """%%capture_except 只该用在会报错的演示格；不报错还包着就是噪音。"""
+    out = []
+    for book in ("polars_guide_cn", "polars_guide"):
+        for p in sorted((CN.parent / book).glob("*.ipynb")):
+            if p.stem.startswith("2"):
+                continue
+            nb = json.loads(p.read_text(encoding="utf-8"))
+            for i, c in enumerate(nb["cells"]):
+                if not "".join(c["source"]).startswith("%%capture_except"):
+                    continue
+                txt = ""
+                for o in (c.get("outputs") or []):
+                    t = o.get("text")
+                    txt += "".join(t) if isinstance(t, list) else (t or "")
+                if not _re.match(r"\w*Error:", txt.strip()):
+                    out.append((book, p.stem, i))
+    return out
+
+
 def scan(fix=False):
     hits = []
     for p in sorted(CN.glob("*.ipynb")):
@@ -88,10 +108,13 @@ def scan(fix=False):
 def main():
     fix = "--fix" in sys.argv
     hits = scan(fix)
+    cap = scan_capture()
+    for book, ch, i in cap:
+        print(f"{ch:40} cell{i:3d}  %%capture_except 包着不报错的代码 ({book})")
     flat = scan_flat()
     for ch, i in flat:
         print(f"{ch:40} cell{i:3d}  列表被压平成一段")
-    if not hits and not flat:
+    if not hits and not flat and not cap:
         print("术语一致，且没有压平的列表")
         return
     for ch, i, bad, good, n in hits:
