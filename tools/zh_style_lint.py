@@ -95,12 +95,16 @@ def measure(path):
     }
 
 
-def verdict(m):
+SOFT_CHAPTERS = {"000_polars_install", "999_polars_unsolved"}   # 短文/清单型章节，同 scipybook 的 --soft
+
+
+def verdict(m, soft=False):
     fails = []
     for k, (lo, hi) in BAND.items():
         v = m[k]
         if v < lo or (hi is not None and v > hi):
-            fails.append(("NOTE" if k in ADVISORY else "FAIL", f"{k}={v} (band {lo}~{hi})"))
+            tag = "NOTE" if k in ADVISORY else ("WARN" if soft else "FAIL")
+            fails.append((tag, f"{k}={v} (band {lo}~{hi})"))
     return fails
 
 
@@ -123,6 +127,7 @@ def main():
     ap.add_argument("names", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--diff", action="store_true")
+    ap.add_argument("--soft", action="store_true", help="把 HARD 指标降级为 WARN（清单型章节）")
     a = ap.parse_args()
 
     if a.all or not a.names:
@@ -137,7 +142,7 @@ def main():
     for m in rows:
         print(f"{m['name']:40s}{m['chars']:7d}{m['sent_mean']:6.1f}{m['short']:6.2f}{m['long']:6.2f}"
               f"{m['para']:6.1f}{m['q_per_10k']:6.1f}{m['ni']:4d}{m['fw_paren_per_10k']:7.1f}{m['colloq']:5d}")
-        fails = verdict(m)
+        fails = verdict(m, soft=a.soft or m["name"] in SOFT_CHAPTERS)
         soft = soft_report(m)
         if fails:
             print("    " + "; ".join(f"{t} {msg}" for t, msg in fails))
