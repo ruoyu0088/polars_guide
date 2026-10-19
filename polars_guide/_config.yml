@@ -16,6 +16,18 @@ latex:
   latex_documents:
     targetname: book.tex
 
+# Files that are not in _toc.yml (Pandas comparison drafts, airline example)
+# are not part of the book and have no Chinese counterpart; keep them out of
+# the build so the /ja/ and /zh/ sites have exactly the same pages.
+exclude_patterns:
+  - "110_polars_example_airline.ipynb"
+  - "500_polars_pandas_getting_started.ipynb"
+  - "510_polars_pandas_10_minutes.ipynb"
+  - "515_polars_pandas_data.ipynb"
+  - "520_polars_pandas_basic.ipynb"
+  - "560_polars_pandas_multiIndex.ipynb"
+  - "tmp_inplace_update.ipynb"
+
 repository:
   url: https://github.com/ruoyu0088/polars_guide
   branch: main

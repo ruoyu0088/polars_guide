@@ -73,6 +73,14 @@ def code(nb: NB, idx: int, text: str) -> None:
     _set(c, text)
 
 
+def set_md(nb: NB, idx: int, text: str) -> None:
+    """markdown 格だけを置き換える（コード格を誤って潰さないための安全版）。"""
+    c = nb.cells[idx]
+    if c["cell_type"] != "markdown":
+        raise AssertionError(f"cell {idx} is {c['cell_type']}, not markdown")
+    _set(c, text)
+
+
 def set_any(nb: NB, idx: int, text: str) -> None:
     _set(nb.cells[idx], text)
 

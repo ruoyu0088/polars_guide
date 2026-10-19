@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 _build
+_site
 polars_guide*/data/csv_different_type.csv
 polars_guide*/data/csv_header.csv
 polars_guide*/data/csv_trailing_space.csv
