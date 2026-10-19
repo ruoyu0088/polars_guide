@@ -78,7 +78,7 @@ def check(raw: str, prev_han: int, prev2_han: int):
         hits.append("逗号过多")
     if s.count("、") >= 6:
         hits.append("顿号过多")
-    if ("join" in s or "连接" in s) and not (set(s) & set("表键列行")):
+    if ("join" in s or "连接" in s) and MASK not in s and not (set(s) & set("表键列行")):
         hits.append("连接无对象")
     if JARGON.search(s):
         hits.append("术语当动词")
