@@ -1,0 +1,43 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+
+parts:
+    - caption: 基础篇
+      chapters:
+        - file: 000_polars_install
+        - file: 001_polars_example_japanese_universities
+        - file: 005_polars_vs_pandas
+        - file: 006_polars_input_and_output
+        - file: 008_polars_dataframe_get_data
+        - file: 010_polars_expression
+        - file: 020_polars_datatype
+        - file: 030_polars_group
+        - file: 040_polars_combine_tables
+        - file: 043_polars_shape_change
+        - file: 045_polars_null
+        - file: 048_polars_time
+        - file: 050_polars_call_user_function
+        - file: 055_polars_lazy
+        - file: 060_polars_tips
+        - file: 090_polars_arrow_memory
+    
+    - caption: 应用篇
+      chapters:
+        - file: 100_polars_example_who
+        - file: 999_polars_unsolved
+    
+    - caption: 结构化数据处理
+      chapters:
+        - file: 200_polars_100knocks_1_10
+        - file: 201_polars_100knocks_11_20
+        - file: 202_polars_100knocks_21_30
+        - file: 203_polars_100knocks_31_40
+        - file: 204_polars_100knocks_41_50
+        - file: 205_polars_100knocks_51_60
+        - file: 206_polars_100knocks_61_70              
+        - file: 207_polars_100knocks_71_80             
+        - file: 208_polars_100knocks_81_90
+        - file: 209_polars_100knocks_91_100

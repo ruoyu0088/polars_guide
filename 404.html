@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>404 Not Found</title>
+<script>
+(function () {
+  // 旧 URL（/polars_guide/xxx.html）を日本語版（/ja/xxx.html）へ転送する
+  var parts = location.pathname.split("/").filter(Boolean);
+  var site = "/" + (parts[0] || "") + "/";
+  var rest = location.pathname.slice(site.length);
+  if (!/^(ja|zh)\//.test(rest)) {
+    location.replace(site + "ja/" + rest);
+  }
+})();
+</script>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         margin: 15vh auto; max-width: 40rem; padding: 0 1.5rem; line-height: 1.9; }
+  a { color: #0b6bcb; }
+</style>
+</head>
+<body>
+  <p>ページが見つかりません。<a href="/polars_guide/ja/">日本語版</a> ／
+     <a href="/polars_guide/zh/">中文版</a></p>
+  <p>页面不存在。<a href="/polars_guide/zh/">中文版</a> ／
+     <a href="/polars_guide/ja/">日本語版</a></p>
+</body>
+</html>

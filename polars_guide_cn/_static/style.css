@@ -1,0 +1,36 @@
+.bd-page-width{
+    max-width: 108rem !important;
+}
+
+pre {
+    padding: 0.3rem !important;    
+}
+
+div.cell_output th, div.cell_output td {
+    vertical-align: top !important;
+}
+
+.highlight pre {
+    line-height: 140% !important;
+}
+
+div.cell_output table {
+    color: unset !important;
+}
+
+div.text_html > table > tbody > tr {
+    background-color: unset !important;
+}
+
+:root {
+    --pst-font-family-base-system: 'Meiryo', sans-serif;
+}
+
+table{
+  margin-left: unset !important;
+  font-size:80% !important;
+}
+
+pre.mermaid{
+    background-color:#8b97a9 !important;
+}

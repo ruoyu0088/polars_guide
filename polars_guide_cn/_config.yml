@@ -1,0 +1,38 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Polars 指南
+author: <a href="https://www.feng.co.jp" target="_blank">株式会社フォン</a>
+email: zhangry@feng.co.jp
+copyright: "2024"
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: off
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url: https://github.com/ruoyu0088/polars_guide
+  branch: main
+  path_to_book: polars_guide_cn
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+
+sphinx:
+  config:
+    site_url: "https://ruoyu0088.github.io/polars_guide/zh/"
+    sitemap_url_scheme: "{link}"
+    language: zh
+    html_js_files:
+      - lang-switch.js
+
+  extra_extensions:
+   - sphinxcontrib.mermaid
+   - sphinx_sitemap

@@ -18,7 +18,7 @@ latex:
 
 repository:
   url: https://github.com/ruoyu0088/polars_guide
-  branch: master
+  branch: main
   path_to_book: polars_guide
 
 html:
@@ -27,7 +27,11 @@ html:
 
 sphinx:
   config:
-    site_url: "https://ruoyu0088.github.io/polars_guide/"
+    site_url: "https://ruoyu0088.github.io/polars_guide/ja/"
+    sitemap_url_scheme: "{link}"
+    language: ja
+    html_js_files:
+      - lang-switch.js
 
   extra_extensions:
    - sphinxcontrib.mermaid

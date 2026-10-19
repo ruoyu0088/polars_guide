@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
@@ -23,35 +24,48 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      # Install dependencies
       - name: Set up Python 3.11
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # Build the book
-      - name: Build the book
+      # 日本語版 → site/ja/
+      - name: Build Japanese book
         run: |
           jupyter-book build polars_guide
 
-      # Copy a custom HTML file to the build folder
-      - name: Copy custom HTML to the build folder
+      # 中文版 → site/zh/（_toc.yml が無い場合はスキップ）
+      - name: Build Chinese book
+        if: ${{ hashFiles('polars_guide_cn/_toc.yml') != '' }}
         run: |
-          cp google608cb34058acb7c0.html polars_guide/_build/html/          
+          jupyter-book build polars_guide_cn
 
-      # Upload the book's HTML as an artifact
+      # 1つのサイトにまとめる：/ に言語振り分け、/ja/ と /zh/ に各言語版
+      - name: Assemble site
+        run: |
+          set -e
+          rm -rf site
+          mkdir -p site/ja site/zh
+          cp -r polars_guide/_build/html/. site/ja/
+          if [ -d polars_guide_cn/_build/html ]; then
+            cp -r polars_guide_cn/_build/html/. site/zh/
+          fi
+          cp index_redirect.html site/index.html
+          cp 404.html site/404.html
+          cp google608cb34058acb7c0.html site/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "polars_guide/_build/html"
+          path: "site"
 
-      # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
