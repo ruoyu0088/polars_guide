@@ -42,6 +42,19 @@ sphinx:
     site_url: "https://ruoyu0088.github.io/polars_guide/ja/"
     sitemap_url_scheme: "{link}"
     language: ja
+    # Jupyter Book 会用自己的那套 html_theme_options 覆盖这里，所以下面把 JB
+    # 本来会自动填的几项一并写出，不能只写 navbar_persistent。
+    # navbar_persistent: [] 用来关掉 pydata-sphinx-theme 0.17 默认注入的顶部
+    # 搜索按钮：一旦它被注入，主题会多渲染一条顶部栏，其中的 primary-toggle
+    # 又会抢走侧栏开关的 click 事件（页面上因此有两个同 class 的按钮）。
+    html_theme_options:
+      search_bar_text: "Search this book..."
+      path_to_docs: polars_guide
+      repository_url: "https://github.com/ruoyu0088/polars_guide"
+      repository_branch: main
+      use_repository_button: true
+      use_issues_button: true
+      navbar_persistent: []
     html_js_files:
       - lang-switch.js
 

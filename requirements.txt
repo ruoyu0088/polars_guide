@@ -4,3 +4,6 @@ numpy
 ghp-import
 sphinxcontrib-mermaid
 sphinx-sitemap==0.3.1
+# 钉死主题版本：sphinx-book-theme 1.3.0 自带 pydata-sphinx-theme==0.17.1。
+# 再往上升（1.4.0）需要 Sphinx 8，与 jupyter-book 的 sphinx~=7.0 冲突。
+sphinx-book-theme==1.3.0

@@ -34,3 +34,8 @@ table{
 pre.mermaid{
     background-color:#8b97a9 !important;
 }
+
+/* 语言切换按钮：和 github / download 图标同一排，窄屏下不要把文字折成两行 */
+.article-header-buttons .lang-switch {
+    white-space: nowrap;
+}
