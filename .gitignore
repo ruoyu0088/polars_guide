@@ -26,3 +26,5 @@ polars_guide*/data/csv_output_utf8.csv
 polars_guide*/data/csv_output_shiftjis.csv
 polars_guide*/data/streaming_test.csv
 polars_guide*/data/xlsx_example_output.xlsx
+AGENTS.md
+STYLE_HANDOFF.md
